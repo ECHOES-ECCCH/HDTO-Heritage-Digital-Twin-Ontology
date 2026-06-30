@@ -671,17 +671,17 @@ function copyToClipboard(targetId) {
 	else if (window.location.href.indexOf("echoes-eccch.github.io")  !== -1){
 		let path = window.location.pathname;
 
-		  // Remove trailing slash if present
-		  if (path.endsWith('/')) {
-			path = path.slice(0, -1);
-		  }
-		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '#';	
+		 // Remove trailing slash if present
+		if (path.endsWith('/')) {
+		  path = path.slice(0, -1);
+		}
+		linkBase = window.location.origin + path + '#';	
 		targetName = targetId;
 	}		
 	
 	
 		
-	if (targetName !== ""){
+	if (!targetName){
 		var fns = $(xmlFile).find("class, property").filter("[id='" + targetId + "']").map(function () { return $.trim($(this).find("fullName").text()); }).get();
 		if (Array.isArray(fns) && fns.length) {
 			targetName = fns[0];
