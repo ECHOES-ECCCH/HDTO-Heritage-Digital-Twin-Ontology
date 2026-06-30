@@ -1,0 +1,404 @@
+﻿/*
+CIDOC CRM XML/HTML CSS Styles
+
+This CSS file contains all the styles used in order to display the xml/html representation of each cidoc - crm version.
+It contains an array of entities per version in order to create the links to other versions.
+
+Created by FORTH - ICS  Thursday, February 29, 2024
+*/
+summary{
+   cursor: pointer;
+}
+
+img{
+    max-width: 70%;
+}
+body {
+    font-family: Lucida Grande, Verdana, Arial, sans-serif;
+}
+p.pageIntro, ul.pageIntro li {
+    padding: 2px;
+    line-height: 1.4em;
+    font-size: 100%;
+}
+.entitiesTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+.entitiesTable td,th {
+    border: 1px solid #999;
+    padding: 4px;
+}
+
+.entitiesTable tr {
+    padding: 4px;
+    text-align: left;    
+}
+
+.entitiesTable th {
+    background-color: #999;
+    color: white;
+}
+
+.entitiesTable > tbody > tr:nth-child(even) {
+    background-color: rgb(250 250 250);
+}
+
+table.declarationsTable {
+    border-spacing: 0px;
+}
+
+tr.entity > td {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;    
+    padding-bottom: 10px;
+}
+
+tr.entity:nth-child(even) {
+    background-color: rgb(250 250 250);
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h1 {
+    margin-bottom: 15px;
+    line-height: 1.2em;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    font-weight: bold;
+}
+
+td.col1 {
+    width: 50px;
+    text-align: right;
+}
+
+hr.dashedline {
+    border-top: 1px dashed #555;
+}
+
+td.col2 {
+    text-align: left;
+    vertical-align: top;
+    padding-right: 15px;
+    word-break: break-word;
+}
+
+
+th.col3, td.col3 {
+    text-align: left;
+    vertical-align: top;
+    display: none;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.declarationsTable .col3 {
+    width: 50%;
+}
+
+.versionDisplay, .versionLabelColumn, .versionTextColumn {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.versionLabelColumn {
+    padding-left: 30px;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.versionTextColumn {
+    padding-left: 10px;
+}
+
+.versionDisplayPopUpInfo {
+    /*font-size: 0.9em;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: normal;*/
+}
+
+h3 .versionDisplay {
+    font-size: 0.7em;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+}
+
+.errorText {
+    font-weight: bold;
+}
+
+#translationsDiv {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #eee;
+    opacity: 0.9;
+    padding: 5px;
+	display: flex;
+    transition: width 2s ease;
+}
+
+#translationsDiv.collapsed {
+  width: 30px;
+}
+
+#translationsDiv.expanded {
+  width: auto; /* Adjust the width as needed */
+}
+.expandIcon {
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+ .collapsed .expandIcon {
+     transform: rotate(180deg); /* Rotate the icon when expanded */
+ }
+	
+#translationsDiv button {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#selectEntity {
+  display: none;
+  padding: 10px;
+}
+
+#translationsDiv.expanded #selectEntity {
+  display: block;
+}
+
+#translationsDiv.collapsed #selectEntity {
+  display: none;
+}
+
+#translationsDiv.collapsed #closeSelectionBox {
+  display: none;
+}
+.sinceVersion, .sinceVersionInline, .previousValueVersion, .missingTranslation, .updateTranslationNeeded {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.sinceVersionInline {
+    margin-left: 30px;
+}
+
+
+.matchingInfo {
+    font-weight: bold;
+}
+
+.entity-first-cell {
+    vertical-align: top;
+}
+
+.missingTranslation, .updateTranslationNeeded {
+    font-size: 0.8em;
+    font-style: normal;
+}
+.missingTranslation {
+    color: red;
+}
+.updateTranslationNeeded  {
+    color: darkorange;
+    font-weight: bold;
+}
+.missingTranslationInline {
+    color: red;
+}
+.updateTranslationNeededInline {
+    color: darkorange;
+}
+
+
+
+.currentLang {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.TranslationStats {
+    font-weight: bold;
+    display: none;
+    float: right;
+    border: none;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 0, 0, 0, .6 ) url(./images/FhHRx.gif) 50% 50% no-repeat;
+}
+
+#graphcontainer, #propertiesContainer {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: none;
+    background-color: #fff;
+    clear: both;
+    float: none;
+    overflow: auto;
+}
+
+#graphcontainer {
+    height: 90%;
+}
+
+#propertiesContainer {
+    overflow: auto;
+    max-height: 90%;
+    min-height: 50%;
+}
+
+#graphlegend {
+    display: none;
+    border-bottom: 1px dashed #ccc;
+}
+
+#graph {
+    height: 85%;
+    width: 100%;
+    display: none;
+}
+
+.disabledGraphLink {
+    margin-left: 15px;
+    color: #aaa;
+}
+
+.langLink {
+    display: none;
+    color: #000;
+    font-size: 1.4em;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+
+.refLink {
+    position: relative;
+    color: #000;
+}
+
+.referenceUriTooltip {
+    position: absolute;
+    color: #000;
+    z-index: 1000;
+    display: none;
+    top: 20px;
+    left: 20px;
+    background: white;
+    text-align: left;
+    border: 2px solid black;
+    font-weight: normal;
+    font-size: 0.7em;
+    max-width: auto;
+    min-width: 600px;
+}
+.referenceUriTooltip:hover {
+    color: #000;
+}
+.graphLink, .langLink, .refLink {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.graphLink:hover, .langLink:hover, .refLink:hover {
+    color: orange;
+}
+
+.inheretedLink {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible_content {
+    padding: 18px;
+    /*display: none;*/
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.col2 p, .col3 p {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0.7em;
+}
+
+.col2 ul, .col3 ul {
+    margin-top: 0.5em;
+    padding-inline-start: 20px;
+    margin-bottom: 0.5em;
+}
+
+.cardLabel {
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+.emptyline {
+    line-height: 0.5em;
+}
+
+.cls, .prop, .tableReference {
+    font-weight: bold;
+    display: block;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 400px) {
+    #selectEntity {
+        width: 350px;
+    }
+}
+
+.draft-status .cls:after, .draft-status .prop:after{
+	font-style:italic ;
+	color: red;
+	font-size: 0.8rem;
+	content: " [Draft - This document is not meant to support implementations, referencing or other official activities.]";	
+}
