@@ -654,21 +654,7 @@ function copyToClipboard(targetId) {
 	let linkBase = $(xmlFile).find("root").attr("namespace");
 	let modelVersion = $(xmlFile).find("root").attr("version");
 	
-	if(linkBase.indexOf("/lrmoo/") !== -1 && window.location.href.indexOf("/html/") !== -1){
-		linkBase = window.location.href.split("/html/")[0] + "/";
-	}
-	
-	if(window.location.href.indexOf("/echoes") !== -1  && window.location.href.indexOf("/html/") !== -1){
-		let path = window.location.pathname;
-
-		  // Remove trailing slash if present
-		  if (path.endsWith('/')) {
-			path = path.slice(0, -1);
-		  }
-		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '#';
-		
-	}
-	else if (window.location.href.indexOf("echoes-eccch.github.io")  !== -1){
+	if (window.location.href.indexOf("echoes-eccch.github.io")  !== -1){
 		let path = window.location.pathname;
 
 		 // Remove trailing slash if present
@@ -677,10 +663,17 @@ function copyToClipboard(targetId) {
 		}
 		linkBase = window.location.origin + path + '#';	
 		targetName = targetId;
-	}		
+	}
+	else if(window.location.href.indexOf("/echoes") !== -1  && window.location.href.indexOf("/html/") !== -1){
+		let path = window.location.pathname;
+
+		  // Remove trailing slash if present
+		  if (path.endsWith('/')) {
+			path = path.slice(0, -1);
+		  }
+		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '#';		
+	}
 	
-	
-		
 	if (!targetName){
 		var fns = $(xmlFile).find("class, property").filter("[id='" + targetId + "']").map(function () { return $.trim($(this).find("fullName").text()); }).get();
 		if (Array.isArray(fns) && fns.length) {
