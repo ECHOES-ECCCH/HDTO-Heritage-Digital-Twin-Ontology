@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root status="Stable" modelIdentifier="HDT" version="1.1" releaseDate="May, 2026" classes="20" properties="37" modelDescriptionLink="https://zenodo.org/records/20445938" rdfLink="./HDT_v1.1.rdf" namespace="http://isl.ics.forth.gr/ontology/echoes/" lang="en">
+<root status="Stable" modelIdentifier="HDT" version="1.1" releaseDate="May, 2026" classes="20" properties="37" modelDescriptionLink="https://zenodo.org/records/20445938" rdfLink="../rdfs/HDT_v1.1.rdf" namespace="http://isl.ics.forth.gr/ontology/echoes/" lang="en">
   <!--
 XML encoding of the Classes and Properties declarations of HDT v1.1 May, 2026 (https://zenodo.org/records/20445938).
 
