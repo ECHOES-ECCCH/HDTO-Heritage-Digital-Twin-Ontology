@@ -668,6 +668,16 @@ function copyToClipboard(targetId) {
 		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '/';
 		linkBase = window.location.href.split("/html/")[0] + "/";
 	}
+	else if (window.location.href.indexOf("echoes-eccch.github.io")  !== -1){
+		let path = window.location.pathname;
+
+		  // Remove trailing slash if present
+		  if (path.endsWith('/')) {
+			path = path.slice(0, -1);
+		  }
+		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '/';
+		linkBase = window.location.href.split("/html/")[0] + "/";
+	}		
 	
 	if (linkBase && modelVersion && modelVersion!=='' && (linkBase.includes('cidoc-crm.org/extensions/') || linkBase.includes('echoes/'))){
 		if(!linkBase.endsWith("/")){

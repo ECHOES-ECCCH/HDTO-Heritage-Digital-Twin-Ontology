@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root status="Stable" modelIdentifier="HDT" version="1.1" releaseDate="May, 2026" classes="20" properties="37" modelDescriptionLink="https://zenodo.org/records/20445938" rdfLink="./HDT_v1.1.rdf" namespace="http://isl.ics.forth.gr/ontology/echoes/" lang="en">
+  <!--
+XML encoding of the Classes and Properties declarations of HDT v1.1 May, 2026 (https://zenodo.org/records/20445938).
+
+Created by FORTH-ICS - June, 2026
+CC BY 4.0 https://creativecommons.org/licenses/by/4.0/legalcode
+
+-->
+  <modelDependencies>
+    <model modelName="Cidoc-CRM v7.1.3" modelSpecificationLink="https://cidoc-crm.org/Version/version-7.1.3" namespace="http://www.cidoc-crm.org/cidoc-crm/"/>
+    <model modelName="CRMdig v5.0" modelSpecificationLink="https://cidoc-crm.org/crmdig/fm_releases" namespace="http://www.cidoc-crm.org/extensions/crmdig/"/>
+    <model modelName="CRMsci v3.2" modelSpecificationLink="https://cidoc-crm.org/crmsci/ModelVersion/crmsci-v3.2" namespace="http://www.cidoc-crm.org/extensions/crmsci/"/>
+    <model modelName="CRMinf v1.2.1" modelSpecificationLink="https://cidoc-crm.org/crminf/ModelVersion/crminf-1.2.1" namespace="http://www.cidoc-crm.org/extensions/crminf/"/>
+    <model modelName="Narrative Ontology v2.0" modelSpecificationLink="https://dlnarratives.eu/ontology/" namespace="https://dlnarratives.eu/ontology#"/>
+  </modelDependencies>
+  <classes>
+    <class id="HC1">
+      <fullName>HC1 Heritage Entity</fullName>
+      <className>Heritage Entity</className>
+      <superClassOf id="HC3"/>
+      <superClassOf id="HC4"/>
+      <subClassOf id="E70"/>
+      <scopeNote>&lt;p&gt;The class comprises tangible and intangible CH entities of the real world declared as valuable because of their contribution to society, knowledge and/or culture. The value that a heritage entity acquires is relative to the society and culture that assigns it each time. Instances of HC1 Heritage Entity constitute real assets of any nature: physical, movable and immovable, immaterial, or born digital. They may also constitute types or patterns of specific cultural events, traditions and practices, typical of the intangible heritage that should be documented with their features and their extent in space and time. Individual events can be associated to specific instances of HC1 Heritage Entity and be related via their types or patterns to an instance of HC1 Heritage Entity. An instance of HC1 can be considered as the focal item for aggregating the content of its corresponding HC2 Digital Twin instance.&lt;/p&gt;&lt;p&gt;Parts of an instance of HC1 Heritage Entity may constitute Heritage Entities in their own right, such as a temple within an archaeological site.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Knossos Palace (HC1), part of the Knossos WH archaeological site (HC1)&lt;/p&gt;&lt;p&gt;The “Palio di Siena”&lt;/p&gt;&lt;p&gt;The Stonehenge Complex, a WH site (WH denoting is “world heritage” value)&lt;/p&gt;&lt;p&gt;The Dresden Elbe Valley&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP1 has digital twin (is digital twin of): HC2 Heritage Digital Twin&lt;/p&gt;&lt;p&gt;HP2 has story (is story about): nont:Narrative&lt;/p&gt;&lt;p&gt;HP15 is heritage of (has original heritage): crm:E74 Group&lt;/p&gt;</properties>
+    </class>
+    <class id="HC2">
+      <fullName>HC2 Heritage Digital Twin</fullName>
+      <className>Heritage Digital Twin</className>
+      <subClassOf id="HC14"/>
+      <scopeNote>&lt;p&gt;The class comprises aggregates of sets of formal propositions related to an instance of HC1 Heritage Entity documented as single units and serve a specific purpose (formally declared) about the latter. Characteristically, the collected sets of propositions may relate information available in a given system including digital visual representations (e.g. 3D models, images, videos), textual descriptions (e.g. digital documents, narrations or stories), information of the effects or images of events that influenced or/and are related to the state of the Heritage Entity (e.g. earthquakes, floods) and of activities (e.g. restorations, conservations etc.) carried out on it. In other words, it is the aggregation of all (or a selected set of) named graphs that contain formal assertions about or related to the HC1 Heritage Entity. It is the corpus of all (or a set of) named graphs (instances of E73) that contain statements related to the heritage entity.&lt;/p&gt;&lt;p&gt;In the context of a defining project or authority, every instance of HC2 Heritage Digital Twin should be linked to one instance of HC1 Heritage Entity and is valid for a specific timespan. It aims to provide an archive of the documented history, traits and social relationships of the corresponding HC1 Heritage Entity. However, there may be multiple instances of HC2, created by different projects, that may overlap or include each other as they are related to the same HC1.  The creation of an instance of HC2 depends on the valuation of a heritage entity, since the classification of an item as heritage entity itself primarily depends on the valuation.&lt;/p&gt;&lt;p&gt;An instance HC2 Heritage Digital Twin is composed of one or more (persistent) instances of HC16 Heritage Proposition Set, which may be added to, deleted from, or replaced in the Digital Twin at any point in time via distinct actions that are each an instance of HC11 Digital Twin Maintenance. HC2 is thus a subclass of HC14 Volatile Digital Object &lt;strong&gt;(&lt;/strong&gt;as per the &lt;strong&gt;Parthenos Entity Model&lt;sup&gt;&lt;a href="#footnote-1" id="footnote-ref-1"&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/strong&gt;. All information referred to in the content units having constituted a Digital Twin at any point in time should be traceable back to persistent (“fixed”), &lt;strong&gt;citable&lt;/strong&gt; or at least permanently accessible documents, which the respective studies should anyhow independently have provided according to scientific practice.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The HDT of the Pisa Leaning Tower, containing a 3D survey project done by CNR&lt;/p&gt;&lt;p&gt;The HDT of the Knossos Palace, aimed for its conservation&lt;/p&gt;&lt;p&gt;The HDT of the Florence Historical Centre, to delineate specific historic neighborhoods&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP3 is digital twin component of (has digital twin component): HC2 Heritage Digital Twin&lt;/p&gt;&lt;p&gt;HP33 contains (is proposition set of): HC16 Heritage Proposition Set&lt;/p&gt;&lt;p&gt;HP34 contained (is former proposition set of): HC16 Heritage Proposition Set&lt;/p&gt;</properties>
+    </class>
+    <class id="HC3">
+      <fullName>HC3 Tangible Heritage Entity</fullName>
+      <className>Tangible Heritage Entity</className>
+      <subClassOf id="HC1"/>
+      <subClassOf id="E18"/>
+      <scopeNote>&lt;p&gt;This class comprises tangible, material entities of the real world, movable objects (&lt;em&gt;e.g&lt;/em&gt;. artistic, archaeological, or cultural) and immovable (built heritage e.g. buildings monuments, cities etc.), regarded as valuable because of their contribution to society, knowledge and/or culture. The “tangible” term here does not exclude that its instances can be associated with an intangible heritage entity, specified through the HP5 has intangible heritage entity property.&lt;/p&gt;&lt;p&gt;The digitization of an HC3 is represented by crmdig:L1i was digitized by crmdig:D2 Digitization Process inherited by CRMdig.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Neptune Fountain in Bologna (Italy)&lt;/p&gt;&lt;p&gt;The Pisa Leaning Tower&lt;/p&gt;&lt;p&gt;The Nike of Samothrace of the Louvre Museum in Paris (France)&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP5 has intangible heritage entity (is intangible heritage entity of): HC4 Intangible Heritage Entity&lt;/p&gt;&lt;p&gt;HP7 is manifestation of (is manifested by): HC4 Intangible Heritage Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC4">
+      <fullName>HC4 Intangible Heritage Entity</fullName>
+      <className>Intangible Heritage Entity</className>
+      <subClassOf id="HC1"/>
+      <subClassOf id="E89"/>
+      <scopeNote>&lt;p&gt;This class comprises expressions and declarations of cultural events, specific communication means, traditions and practices having particular social, historical and cultural significance, including practices and expressions, memories and oral traditions about events, things, people. An Intangible Heritage Entity is identified by a society or by evidence or other kind of manifestations. The identity of an Intangible Heritage Entity results from an agreement and a validation made by a group of people for a specific timespan.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Mediterranean diet&lt;/p&gt;&lt;p&gt;The whistle language of mountain communities in Turkey&lt;/p&gt;&lt;p&gt;The Rebetiko music tradition&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP6 has manifestation event (event is manifestation of): crm:E5 Event&lt;/p&gt;</properties>
+    </class>
+    <class id="HC5">
+      <fullName>HC5 Digital Representation</fullName>
+      <className>Digital Representation</className>
+      <superClassOf id="HC6"/>
+      <superClassOf id="HC7"/>
+      <superClassOf id="HC8"/>
+      <subClassOf id="D9"/>
+      <scopeNote>&lt;p&gt;This class comprises the digital representations of an crmsci:S15 Observable Entity, representing the HC3 Tangible Aspect of an HC1 Heritage Entity or tangible parts of the latter, such as images, 3D models audio or video items of objects, sites, scenes or paper documents. Instances of HC5 Digital Representation constitute documents in the sense of crm:E31 Document and inherit its properties.&lt;/p&gt;&lt;p&gt;To document pieces or collections of digital, non-visual documents, born-digital or digitized physical, real-world ones, typically containing textual or information regarding an HC1 Heritage Entity and intended to be referred to or to become part of the related HC2 Heritage Digital Twin, use the more general class of crm:E31 Document.&lt;/p&gt;&lt;p&gt;For scientific data or audio-visual documents, including video and digital 3D models, use the more specific classes of this model - HC7 Digital Audiovisual Object and HC8 3D Model.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The digital version of Vasari’s “Vite”&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=P1Uv4Zf5xKk"&gt;https://www.youtube.com/watch?v=P1Uv4Zf5xKk&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Pafos Gate laser scanning 3D model&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP22 represents (has digital representation):  crmsci:S15 Observable Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC6">
+      <fullName>HC6 Sensor Data</fullName>
+      <className>Sensor Data</className>
+      <subClassOf id="HC5"/>
+      <scopeNote>&lt;p&gt;This class comprises sensor-based digital representations of a crmsci:S15 Observable Entity. Primarily, this class is used for documenting various sensor data types, gathered in real-time or in processing stages, associated with HC1 Heritage Entities. Typical examples include temperature readings, air quality indices from environment sensors, or real-time heritage site monitoring data acquired via IoT applications or imported from tabular data sources. This class provides a format-agnostic abstraction layer that accommodates both standardized API-based sensor data (per OGC SensorThings API) and legacy tabular formats (CSV). Instances of this class often contribute to HC2 Heritage Digital Twins and inherit properties from crm:E31 Document.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;Knossos site temperature data collected via DS18B20 temperature sensor&lt;/p&gt;&lt;p&gt;Environmental sensor data of 2025 about air quality surrounding Pisa Leaning Tower UNESCO monument.&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP38 is sensor representation of (has sensor representation): crmsci:S15 Observable Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC7">
+      <fullName>HC7 Digital Audiovisual Object</fullName>
+      <className>Digital Audiovisual Object</className>
+      <subClassOf id="HC5"/>
+      <scopeNote>&lt;p&gt;This class comprises digital visual objects, such as photos, videos, special imagery (&lt;em&gt;e.g. &lt;/em&gt; hyper spectral, X-ray images, chemical-physical spectra, etc.), intended to become part of the HC2 Heritage Digital Twin of an HC1 Heritage Entity. Digital documentation of this kind can be born digital or digitised from physical objects (such as paper photographs, drawings and so on). Other examples are Virtual Reality (VR), Augmented Reality (AR) models, other types of visual digital artefacts pertaining to a HC1 Heritage Entity. Both VR and AR products rely on 3D models of the related heritage entity, but may content additional information, unrelated to the current state of the heritage entity, hence their differentiation from 3D models.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The digitized photo of the Tower of Pisa, taken by Paolo Monti in 1960 and &lt;a href="https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fatena.beic.it%2Fwebclient%2FDeliveryManager%3Fpid%3D6363979%26custom_att_2%3Ddeeplink&amp;amp;type=IMAGE"&gt;published in Europeana&lt;/a&gt;.&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP9 is visual representation of (has visual representation): crmsci:S15 Observable Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC8">
+      <fullName>HC8 3D Model</fullName>
+      <className>3D Model</className>
+      <subClassOf id="HC5"/>
+      <scopeNote>&lt;p&gt;This class is used to describe in detail the 3D model of HC1 Heritage Entity and is intended as a particular crmdig:D1 Digital Object having its definite identity and resulting from operations such as digitization, acquisition, processing and other actions typical of the three dimensional modelling world (e.g., 3D scanning, wireframe modelling, etc.). The particular features of a 3D model (e.g., its type, format, resolution, size) and its relationships with the series of activities carried out for its creation and manipulation are modelled through the properties inherited from its superclass HC5, which in turn inherits from crmdig:D1 Digital Object, and through the other classes and properties of CRMdig.&lt;/p&gt;&lt;p&gt;Specifically, the information regarding the creation of a 3D model as a result output of a digitisation process can be documented using the property path from crmdig crmdig:D2 Digitization Process &lt;em&gt;crmdig:L20 has created&lt;/em&gt; HC8 3D Model and respectively information regarding the digitisation of the material object is represented by crm:E18 Physical Thing &lt;em&gt;crmdig:L1i was digitized by&lt;/em&gt; crmdig:D2 Digitization Process.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The 3D model of the Neptune Fountain produced by ISTI-CNR as part of the documentation used for the restoration of the Fountain in Bologna (Italy). &lt;a href="https://www.cnr.it/en/focus/074-43/3d-supported-restoration-the-neptune-fountain-inbologna"&gt;https://www.cnr.it/en/focus/074-43/3d-supported-restoration-the-neptune-fountain-inbologna&lt;/a&gt;&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP21 is 3D representation output of (has 3D representation): HC1 Heritage Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC9">
+      <fullName>HC9 Study</fullName>
+      <className>Study</className>
+      <subClassOf id="E65"/>
+      <scopeNote>&lt;p&gt;This class comprises activities of analysing heritage entities or other material and immaterial items or events related to heritage entities and studying their relevant contexts throughout the past, with the purpose of revealing and documenting their nature and significance for past, current and future societies, as well as preserving themselves and the knowledge about them. The results of an instance of HC9 Study may be in the form of a scientific or scholarly publication or a dataset.&lt;/p&gt;&lt;p&gt;Characteristically, instances of HC9 study occur in units given by specific scientific domain aspects or skills, such as history of art, conservation history, isotope dating, and so forth. Ideally, the study of the different discipline aspects should inform and provide arguments for each other. For instance, techniques or materials identified by conservation science may allow to narrow down time and area of production for an art history study, or historical knowledge may help excluding certain materials during the interpretation of chemical analysis.&lt;/p&gt;&lt;p&gt;Instances of HC9 Study may directly relate to the execution of a particular scholarly workflow aiming at systematically planning, finding or initiating studies and collecting their results until they cover all disciplinary aspects intended by a respective project. The progress of such a workflow, constituting an intentional sequence of activities and a coherence of outcomes of the involved activities, can be documented by the inherited crm property “&lt;em&gt;P134 continued (was continued by)” &lt;/em&gt;between instances of HC9 Study.&lt;/p&gt;&lt;p&gt;The results of an instance of HC9 Study should be documented in a persistent, citable or at permanently accessible form according to scholarly and scientific practice, independently from being represented partially or completely in an instance of HC2 Digital Twin.&lt;/p&gt;&lt;p&gt;If an instance of HC9 Study occurs in the framework of an instance of &lt;strong&gt;HC13 Project&lt;/strong&gt;, the relationship should be documented with the property &lt;em&gt;crm:P9 consists of (forms part of)&lt;/em&gt;, such as “The creation of the 3D reconstitution of the Tour de Choeur of Notre-Dame de Chartres cathedral (HC9) &lt;em&gt;forms part of&lt;/em&gt; The ChArtRes project (HC13)” or with the property crm:&lt;em&gt;P17 was motivated by (motivated), &lt;/em&gt;if the HC13 Project is seen as reason for carrying out the study.&lt;/p&gt;&lt;p&gt;The realization of a HC9 Study on an object should trigger a HC10 Heritage Valuation Event if no valuation from institutions or communities was previously documented. The interest from the community and the results of the study are proof of valuation of the object as an HC1 Heritage Entity, which may lead to a proper declaration (HC12 Heritage Declaration Event). A different HC9 Study may terminate the declaration of the object as an HC1 Heritage Entity due of its results.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Heritage Science research on the Portrait of Caterina Cornaro.&lt;/p&gt;&lt;p&gt;The multi-dimensional documentation of the restoration of the Notre-Dame cathedral.&lt;/p&gt;&lt;p&gt;The filming of archaeological excavations at the Sobibor extermination camp&lt;/p&gt;&lt;p&gt;The study of ornaments on the Tour de Choeur of Notre-Dame de Chartres cathedral&lt;/p&gt;&lt;p&gt;The studying of neurological effects of the sound of Aztec death whistles on the human brain&lt;/p&gt;&lt;p&gt;The analysis and measurement made to produce the 3D reconstitution of the Tour de Choeur of Notre-Dame de Chartres cathedral&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP23 was about (was subject of):  HC1 Heritage Entity&lt;/p&gt;&lt;p&gt;HP24 has disciplinary focus (is aspect of): crm:E55 Type&lt;/p&gt;&lt;p&gt;HP25 has created (was created by):  crm:E31 Document&lt;/p&gt;&lt;p&gt;HP26 studied specifically (was studied by): crm:E1 CRM Entity&lt;/p&gt;&lt;p&gt;&lt;img src="./xml-html/images_1.1/htd_img_001.png"&gt;&lt;/p&gt;&lt;p&gt;Figure 18. The HDT ontology&lt;/p&gt;&lt;p&gt;&lt;img src="./xml-html/images_1.1/htd_img_002.png"&gt;&lt;/p&gt;&lt;p&gt;Figure 19. HDT ontology - details&lt;/p&gt;&lt;p&gt;&lt;img src="./xml-html/images_1.1/htd_img_003.png"&gt;&lt;/p&gt;&lt;p&gt;Figure 20. HDTO example (cont.)&lt;/p&gt;</properties>
+    </class>
+    <class id="HC10">
+      <fullName>HC10 Heritage Valuation</fullName>
+      <className>Heritage Valuation</className>
+      <subClassOf id="E2"/>
+      <scopeNote>&lt;p&gt;The class comprises the characterizations of instances of E70 Thing as instances of HC1 Heritage Entity. An Instance of HC10 constitutes an institutional fact, i.e., it comes into being by declaration of a competent authority and a related community respecting it. It ends with the loss of the heritage entity value, termination of its status by the declaring authority or loss of respect of the declaration or declaring authority by the related communities.&lt;/p&gt;&lt;p&gt;An instance of Heritage Valuation will characterize the Heritage Entity as being heritage in the narrower sense of a local community which created it and/or for which it constitutes its active tradition, object of tradition or believe system.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The valuation of the Dresden Elbe Valley in Germany in March 2004 by ICOMOS (2003)&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP12 regards as origin (is regarded as origin by): crm:E74 Group&lt;/p&gt;&lt;p&gt;HP13 had target (was community for): crm:E74 Group&lt;/p&gt;&lt;p&gt;HP14 values (is valued by): HC1 Heritage Entity&lt;/p&gt;</properties>
+    </class>
+    <class id="HC11">
+      <fullName>HC11 Digital Twin Maintenance</fullName>
+      <className>Digital Twin Maintenance</className>
+      <subClassOf id="E65"/>
+      <scopeNote>&lt;p&gt;The class comprises the documentation of information about a heritage entity in the form of knowledge representation statements, to create or to maintain an instance of HC2 Heritage Digital Twin, that aims to represent or to link to the knowledge on this entity from related studies and their provenance. Such knowledge is typically the result of an instance of HC9 Study. The collection as a Digital Twin is carried out on behalf of a project which maintains a consistent and coherent knowledge base contributed by such studies.&lt;/p&gt;&lt;p&gt;Since instances of HC2 Heritage Digital Twin are volatile objects in the sense of the &lt;strong&gt;Parthenos Entity Model, &lt;/strong&gt;care should be&lt;strong&gt; &lt;/strong&gt;taken that all information in the Digital Twin can be traced back to persistent (“fixed”), citable or permanently accessible documents, which the respective studies should anyhow independently have provided as per scientific practice.&lt;/p&gt;&lt;p&gt;Instances of HC11 Digital Twin Maintenance should directly relate to the execution of a specific scholarly workflow aiming to systematically plan, find or initiate studies and collect their results until they cover all disciplinary aspects intended by a respective project.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin Creation by CyI&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP18 has documented: HC1 Heritage Entity&lt;/p&gt;&lt;p&gt;HP19 has composed (was composed by): HC2 Heritage Digital Twin&lt;/p&gt;&lt;p&gt;HP20 was carried out under (had contribution): HC13 Project&lt;/p&gt;&lt;p&gt;HP27 used content of (content was used by): crm:E31 Document&lt;/p&gt;&lt;p&gt;HP30 added content (content was added by): HC16 Heritage Proposition Set&lt;/p&gt;&lt;p&gt;HP31 deleted content (content was deleted by): HC16 Heritage Proposition Set&lt;/p&gt;</properties>
+    </class>
+    <class id="HC12">
+      <fullName>HC12 Heritage Declaration Event</fullName>
+      <className>Heritage Declaration Event</className>
+      <subClassOf id="E13"/>
+      <scopeNote>&lt;p&gt;The class comprises statement activities that lead to the identification and declaration of instances of E70 Thing as instances of HC1 Heritage Entity heritage entity because of their accepted value and contribution to society, knowledge and/or culture. They are activities carried out by legal committees and authorities that decide, report and designate heritage entities following a guideline and specific criteria.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The UNESCO listing of the Dresden Elbe Valley in 2004 (Decision 28 COM 14B.40 &lt;a href="https://whc.unesco.org/en/decisions/123"&gt;- Nominations of Cultural Properties to the World Heritage List (Dresden Elbe Valley 2004)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The UNESCO de-listing of the Dresden Elbe Valley in 2009 (&lt;a href="https://whc.unesco.org/en/list/1156"&gt;https://whc.unesco.org/en/list/1156&lt;/a&gt;, UNESCO World Heritage News 2009).&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP16 initiated (was initiated by): HC10 Heritage Valuation&lt;/p&gt;&lt;p&gt;HP17 terminated (was terminated by): HC10 Heritage Valuation&lt;/p&gt;</properties>
+    </class>
+    <class id="HC13">
+      <fullName>HC13 Project</fullName>
+      <className>Project</className>
+      <subClassOf id="E7"/>
+      <scopeNote>&lt;p&gt;The class comprises instances of collaborative enterprise activities over a time period intended to produce outcomes by to a plan defined by a consortium or a responsible organization/group.&lt;/p&gt;&lt;p&gt;An instance of a Project comes into being with the formation of an instance of a Group acting as a team whose aim it is to carry out and maintain the project.&lt;/p&gt;&lt;p&gt;An instance of this class may be documented partially already at initiating time, i.e., the activity is expected to continue in the future. As work continues, the instance will accumulate more property instances until it is finished. Note that the future evolution may cause ambiguous identity conditions from some time on. At this point in time, the activity should be declared finished and be reinitiated unambiguously. (Therefore, activities expected to continue in the future are not in the scope of the CIDOC CRM in the narrower sense).&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The ECHOES project 2024-2029&lt;/p&gt;&lt;p&gt;Project Notre-Dame&lt;/p&gt;&lt;p&gt;Project ESPADON&lt;/p&gt;&lt;p&gt;SilkNow&lt;/p&gt;</examples>
+    </class>
+    <class id="HC14">
+      <fullName>HC14 Volatile Digital Object</fullName>
+      <className>Volatile Digital Object</className>
+      <superClassOf id="HC2"/>
+      <subClassOf id="D1"/>
+      <equivalentTo>crmpem:PE20 Volatile Digital Object&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This class comprises instances of a digital object whose content is subject to continuous change, not requiring specific notification or archiving of intermediate state, but which can be considered as one and the same with regards to its provenance, curating authority and the curation plan that determines its information, goal and subject coverage. The curating authority is responsible for assigning a unique identifier of an instance of HC14 Volatile Digital Object and a link to its current content.&lt;/p&gt;&lt;p&gt;The content of an instance of HC14 Volatile Digital Object can be anytime identified with a snapshot of the current state of the content, an instance of HC15&lt;strong&gt; &lt;/strong&gt;Persistent Digital Object taken by the responsible curating authority. This forms a version of previous snapshots taken from the same instance of HC14 Volatile Digital Object. The curator may assign a persistent identifier to a snapshot and is the only one who can identify a true representative snapshot. Reference to content of an instance of PE20 Volatile Digital Object is by official snapshots.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin&lt;/p&gt;&lt;p&gt;The Archive of Archaeological Data Service UK Archaeology Data Service: Archives, n.d.&lt;/p&gt;&lt;p&gt;The source code of development of X3ML&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP28 has snapshot (is snapshot of): HC15 Persistent Digital Object&lt;/p&gt;&lt;p&gt;HP29 has digital object part: crmdig:D1 Digital Object&lt;/p&gt;</properties>
+    </class>
+    <class id="HC15">
+      <fullName>HC15 Persistent Digital Object</fullName>
+      <className>Persistent Digital Object</className>
+      <superClassOf id="HC16"/>
+      <subClassOf id="D1"/>
+      <equivalentTo>crmpem:PE19 Persistent Digital Object&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This class comprises instances of digital objects that are the result of a distinct creation moment in which the entirety of the digital object’s content was established and encoded at bit level, whether the creation moment is known or not. Persistent digital objects are identified by their content, bit level encoding and moment of production as a whole unit of information.&lt;/p&gt;&lt;p&gt;An instance of persistent digital object continues to exist as long as one copy of it remains on one carrier which has been maintained without change to its internal content, thus propagating the original condition of the instance.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;Submitted copy of ECHOES deliverable 7.1 in Microsoft Word format&lt;/p&gt;&lt;p&gt;Themas version 1.1 (ICS - THEMAS - Thesaurus Management System, n.d.)&lt;/p&gt;</examples>
+    </class>
+    <class id="HC16">
+      <fullName>HC16 Heritage Proposition Set</fullName>
+      <className>Heritage Proposition Set</className>
+      <superClassOf id="HC18"/>
+      <subClassOf id="I4"/>
+      <subClassOf id="HC15"/>
+      <scopeNote>&lt;p&gt;The class comprises content units defined as sets of propositions that are formally encoded in a knowledge representation language. The identity of an instance of HC16 Heritage Proposition Set depends on the total of contained propositions, regardless of equivalent encodings. In a Knowledge Base implementation, an instance of HC16 Heritage Proposition Set may be represented by the URI of a Named Graph comprising its propositions and/or by an external file with a representative encoding of its content.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The proposition set (Namegraph URI) with content:{'The Derynia Icon of Nativity' (HC3)&lt;/p&gt;&lt;p&gt;P2 has type: 'religious icon' (E55 Type) P108 was produced by: 'Painting of the Nativity' (E12 Production) P50 has current keeper:'Bishopcry of Constantia  and Amochostos '(E74 Group) P1 is identified by: 'Nativity' (E41 Appellation).}&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP32 replaced (was replaced by): HC16 Heritage Proposition Set&lt;/p&gt;</properties>
+    </class>
+    <class id="HC17">
+      <fullName>HC17 Observation with Inference</fullName>
+      <className>Observation with Inference</className>
+      <subClassOf id="S27"/>
+      <subClassOf id="I5"/>
+      <scopeNote>&lt;p&gt;This class comprises propositions making activities and statements on material states of affairs of reality through directly related inference from the primary result of an observation. This class is designed as a modelling convenience for the frequent case when the primary result of an observation is used in the same context of activity by the same Actor for an inference on the purpose of the observation providing the most relevant conclusion. The primary result and the conclusions should be expressed as sets of formal propositions regarded as true.&lt;/p&gt;&lt;p&gt;Besides all properties of I5 Inference Making being applicable to instances of this class, one of the premises implicitly links to the range of the instance of the property HP35 made primary observation: S28 Observable Situation as being true. Thereby, a complex connection between the observation and the inference is a shortcut, without losing the distinction between primary observation and direct interpretation.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The observation of low energy Pb-M lines (2.3 keV) which relate to surface lead emission with conclusion on that lead white was used to tint flesh and clothing folds in 2025.&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP35 made primary observation (was observation of): crmsci:S28 Observable Situation&lt;/p&gt;</properties>
+    </class>
+    <class id="HC18">
+      <fullName>HC18 Provenance Statement</fullName>
+      <className>Provenance Statement</className>
+      <subClassOf id="HC16"/>
+      <equivalentTo>crminf:I10 Provenance Statement&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This class comprises statements about the provenance of instances of E70 Thing existing at the time of making the provenance statements. An instance of HC18 Provenance Statement must contain propositions about the presence of the respective instances of E70 Thing in an event or spatiotemporal context of reference.&lt;/p&gt;&lt;p&gt;The class comprises statements on the distinctive meaning of provenance as the declared object’s pedigree, that is, the chain of custody, ownership and display of a cultural object.&lt;/p&gt;&lt;p&gt;In case that only information objects exist describing the proper thing of interest, such as a photo of a lost archaeological object, or a photo of a photo thereof, an instance of HC18 Provenance Statement should contain the relevant chain of intermediate events transferring the information from the proper thing of interest up to the extant information objects considered, or they, at least, should refer to said chain of intermediate events.&lt;/p&gt;&lt;p&gt;The property &lt;em&gt;HP36&lt;/em&gt; &lt;em&gt;is about the provenance of (has provenance claim)&lt;/em&gt; can be used to link the instance of Provenance Statement with the proper thing of interest. It is a constraint to the provenance statement that it must contain the description of the relevant context of reference, and, if applicable, to the relevant chain of intermediate events transferring the information.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The provenance statement that “the Chariot of Eretum originates from the chamber tomb XI of Colle del Forno” can be represented with by a set of CRM-compatible propositions: {“The Chariot of Eretum’ (HC3) is embedding of ‘Funeral Deposits’ (A7) is embedding of ‘Chamber tomb XI of Colle del Forno necropolis’ (E24) was object encountered through ‘Tomb Discovery in 1970’ (S19)..}.&lt;/p&gt;&lt;p&gt;The reported museum catalogue’s provenance statement that “The painting YY is documented in XZ family collection until early ‘20s. Gallery XX in 1982; acquired by the museum, Bonhams 1990.” (HC18).&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP36 is about the provenance of (has provenance claim): crm:E70 Thing&lt;/p&gt;</properties>
+    </class>
+    <class id="HC19">
+      <fullName>HC19 Provenance Assessment</fullName>
+      <className>Provenance Assessment</className>
+      <subClassOf id="I1"/>
+      <equivalentTo>crminf:I15 Provenance Assessment&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This class comprises activities of making arguments and concluding on the likely provenance of instances of E70 Thing existing at the time of the assessment, or about provenance of things referred to or represented by existing information objects, and subsequent references.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The assessment by Glyptotek in 1979 about the provenance of the Chariot of Eretum.&lt;/p&gt;&lt;p&gt;The assessment in the year of the catalogue publication by the museum’s collection manger about the provenance of the “painting YY”.&lt;/p&gt;</examples>
+      <properties>&lt;p&gt;HP37 concluded provenance (was assessed by): HC18 Provenance Statement.&lt;/p&gt;</properties>
+    </class>
+    <class id="HC20">
+      <fullName>HC20 Illicit Removal</fullName>
+      <className>Illicit Removal</className>
+      <subClassOf id="E10"/>
+      <scopeNote>&lt;p&gt;The class comprises activities that involve illegal actions related to CH objects, such as theft, damaging removal, illicit excavation and looting. An instance of HC20 Illicit Removal  documents the criminal event, its typology, and any other relevant details that may be associated with the affected heritage object. The class is intended to support the identification of objects subject to illicit trafficking, promote interoperability with existing police registries/databases (e.g., Interpol Works of Art database, Italian Carabinieri TPC Leonardo database, French OCBC Treima database), and provide a basis for legal provenance assessment.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The theft of a painting from a museum (e.g. as reported in the museum registry under the specific artwork entry).&lt;/p&gt;&lt;p&gt;The illicit excavation or looting of an archaeological site (e.g. as reported in archaeological excavations records).&lt;/p&gt;&lt;p&gt;The theft of archaeological findings from an excavation site (e.g. as reported in archaeological excavations records).&lt;/p&gt;</examples>
+    </class>
+  </classes>
+  <properties>
+    <property id="HP1">
+      <fullName>HP1 has digital twin (is digital twin of)</fullName>
+      <directName>has digital twin</directName>
+      <inverseName>is digital twin of</inverseName>
+      <domain id="HC1"/>
+      <range id="HC2"/>
+      <quantification>one to one (1,1:1,1)[2]</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC1 Heritage Entity with an instance of its related HC2 Heritage Digital Twin in a given system. If a part of a Heritage Entity is described by an instance of Heritage Digital Twin, it implies that this instance of the Heritage Digital Twin is also part of the instance of the Heritage Digital Twin of the composite Heritage Entity.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Pafos Gate in Nicosia, Cyprus (HC1) &lt;em&gt;has digital twin &lt;/em&gt;the Pafos Gate digital twin (HC2) created by Cyprus Institute.&lt;/p&gt;</examples>
+    </property>
+    <property id="HP2">
+      <fullName>HP2 has story (is story about)</fullName>
+      <directName>has story</directName>
+      <inverseName>is story about</inverseName>
+      <domain id="HC1"/>
+      <range id="Narrative"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC1 Heritage Entity with an instance of a nont:Narrative that refers to it.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;Falconry (HC1) &lt;em&gt;has story &lt;/em&gt;the history of Falconry over the centuries (nont:Narrative).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP3">
+      <fullName>HP3 is digital twin component of (has digital twin component)</fullName>
+      <directName>is digital twin component of</directName>
+      <inverseName>has digital twin component</inverseName>
+      <domain id="HC2"/>
+      <range id="HC2"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC2 Heritage Digital Twin with another HC2 of which is component. The term ‘component’ here is not limited to physical or geographical relationships (see examples) but encompasses any kind of main-associated relationship.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The HC2 Digital Twin of Pafos Gate in Nicosia (Cyprus) &lt;em&gt;is a digital twin component of &lt;/em&gt;the HC2 Digital Twin of Nicosia’ City Walls.&lt;/p&gt;&lt;p&gt;The HC2 Digital Twin of Vichy is digital&lt;em&gt; twin component of&lt;/em&gt; the HC2 Digital Twin of the UNESCO WHS The Great Spa Towns of Europe.&lt;/p&gt;&lt;p&gt;The HC2 Digital Twin of the “Basilica of San Salvatore in Spoleto, Italy” is &lt;em&gt;digital twin component of&lt;/em&gt; the HC2 Digital Twin of “Spoleto”, which &lt;em&gt;is digital twin component of&lt;/em&gt; the UNESCO WHS “Longobards in Italy. Places of Power”.&lt;/p&gt;</examples>
+    </property>
+    <property id="HP4">
+      <fullName>HP4 narrates (is narrated through)</fullName>
+      <directName>narrates</directName>
+      <inverseName>is narrated through</inverseName>
+      <domain id="Narration"/>
+      <range id="Narrative"/>
+      <subPropertyOf id="P148"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <equivalentTo>nont:hasNarrative&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property links an instance of nont:Narration, a subclass of Work in the sense of the FRBR model, with an instance of a nont:Narrative that constitutes a particular expression of it, in the sense of the FRBR model. It is equivalent to the nont:hasNarrative property.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The “De Arte Venandi Cum Avibus” treatise by the Holy Roman Emperor Frederick II (nont:Narration) &lt;em&gt;narrates &lt;/em&gt;the history of Falconry (nont:Narrative).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP5">
+      <fullName>HP5 has intangible heritage entity (is intangible heritage entity of)</fullName>
+      <directName>has intangible heritage entity</directName>
+      <inverseName>is intangible heritage entity of</inverseName>
+      <domain id="HC3"/>
+      <range id="HC4"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC3 Tangible Heritage Entity with its intangible heritage entities (HC4), i.e. the cultural, social and historical value it incorporates.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The “Theotokos of Vladimir” (HC3) icon &lt;em&gt;has intangible heritage entity &lt;/em&gt;the secular veneration that is addressed to it (HC4).&lt;/p&gt;&lt;p&gt;The UNESCO WHS site “Routes of Santiago de Compostela” (HC3) &lt;em&gt;has intangible heritage entity &lt;/em&gt;pilgrimage to Santiago (HC4).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP6">
+      <fullName>HP6 has manifestation event (event is manifestation of)</fullName>
+      <directName>has manifestation event</directName>
+      <inverseName>event is manifestation of</inverseName>
+      <domain id="HC4"/>
+      <range id="E5"/>
+      <subPropertyOf id="P129"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC4 Intangible Heritage Entity with the instances of the crm:E5 Event (or of the unique and specific crm:E5 Event) through which the intangible entity manifests itself in the physical world.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Palio di Siena (HC4) &lt;em&gt;has manifestation event &lt;/em&gt;the historical horse race held in Siena on 17/8/2022 (E5).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP7">
+      <fullName>HP7 is manifestation of (is manifested by)</fullName>
+      <directName>is manifestation of</directName>
+      <inverseName>is manifested by</inverseName>
+      <domain id="HC3"/>
+      <range id="HC4"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates instances of HC3 Tangible Heritage Entity with the HC4 Intangible Heritage Entity of which they are the manifestation in the physical world.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The set of graffiti engraved on the walls of the Church of the Holy Sepulchre in Jerusalem (HC3) &lt;em&gt;is manifestation of &lt;/em&gt;the pilgrimage of which the church is the destination (HC4).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP8">
+      <fullName>HP8 is narrated in document (document used for narration)</fullName>
+      <directName>is narrated in document</directName>
+      <inverseName>document used for narration</inverseName>
+      <domain id="Narrative"/>
+      <range id="E90"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <equivalentTo>nont:hasText&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of nont:Narrative with instances of E90 Symbolic Object that constitutes a particular version of it.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The “De Arte Venandi Cum Avibus” treatise by the Holy Roman Emperor Frederick II (nont:Narrative) &lt;em&gt;is narrated in document &lt;/em&gt;the “MS. Lat. 419” manuscript, now in the library of the University of Bologna (crm:E31).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP9">
+      <fullName>HP9 is visual representation of (has visual representation)</fullName>
+      <directName>is visual representation of</directName>
+      <inverseName>has visual representation</inverseName>
+      <domain id="HC7"/>
+      <range id="S15"/>
+      <subPropertyOf id="HP22"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of crmsci:S15 Observable Entity with instances of HC7 Digital Audiovisual Object in which it is visually represented.&lt;/p&gt;&lt;p&gt;This property expresses the digitisation of the heritage entity by the use of techniques such as digital photography, flatbed or infrared scanning.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Pisa Leaning Tower (S15) &lt;em&gt;has visual representation &lt;/em&gt;the Europeana digital version of the paper picture of the Pisa Leaning Tower taken by Paolo Monti in 1960 (HC7)&lt;/p&gt;&lt;p&gt;(&lt;a href="https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_c%20ustom_att_2_simple_viewer"&gt;https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_c ustom_att_2_simple_viewer&lt;/a&gt;).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP10">
+      <fullName>HP10 tells about (is told by)</fullName>
+      <directName>tells about</directName>
+      <inverseName>is told by</inverseName>
+      <domain id="Narrative"/>
+      <range id="E5"/>
+      <subPropertyOf id="P129"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <equivalentTo>nont:hasEvent (inverse of nont:partOfNarrative)&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of nont:Narrative with a specific, real or potentially real event that is reported in it. Mythical events constitute instances of crm:E89 Propositional Objects that have no well-defined identity in all their parts, but rather are represented by individual versions, according to each narrative, around a core of common propositions.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;“The history of Falconry (nont:Narrative) &lt;em&gt;tells about &lt;/em&gt;the writing of “De Arte Venandi Cum Avibus” treatise by the Holy Roman Emperor Frederick II (E5).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP12">
+      <fullName>HP12 regards as origin (is regarded as origin by)</fullName>
+      <directName>regards as origin</directName>
+      <inverseName>is regarded as origin by</inverseName>
+      <domain id="HC10"/>
+      <range id="E74"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC10 Heritage Valuation with an instance of E74 Group for which the valued Heritage Entity is regarded to constitute direct heritage, by originating, being created, valued and/or maintained in this Group.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The valuation of the Al Aksa Mosque (HC10) &lt;em&gt;regards as origin &lt;/em&gt;Muslim worshippers (crm:E74 Group).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP13">
+      <fullName>HP13 had target (was community for)</fullName>
+      <directName>had target</directName>
+      <inverseName>was community for</inverseName>
+      <domain id="HC10"/>
+      <range id="E74"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC10 Heritage Valuation with an instance of E74 Group which is expected to value the respective entity as Heritage Entity following the declaration, in the case of UNESCO the nations under the UNO.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The valuation of the Icon of The Nativity by the Department of Antiquities in Cyprus (HC10) &lt;em&gt;had target &lt;/em&gt;the Cyprus and Greek Population (E74).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP14">
+      <fullName>HP14 values (is valued by)</fullName>
+      <directName>values</directName>
+      <inverseName>is valued by</inverseName>
+      <domain id="HC10"/>
+      <range id="HC1"/>
+      <quantification>many to one (1,1:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC10 Heritage Valuation with an instance of a Heritage Entity the valuation is about.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The valuation of the Dresden Elbe Valley in March 2004 by ICOMOS (HC10) &lt;em&gt;values &lt;/em&gt;the Dresden Elbe Valley (HC1) (ICOMOS, 2003).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP15">
+      <fullName>HP15 is heritage of (has original heritage)</fullName>
+      <directName>is heritage of</directName>
+      <inverseName>has original heritage</inverseName>
+      <domain id="HC1"/>
+      <range id="E74"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC1 Heritage Entity with an instance of E74 Group for which the valued Heritage Entity is regarded to constitute heritage, by originating, being created, valued and/or maintained in this Group.&lt;/p&gt;&lt;p&gt;This property is a shortcut for the full path from HC1 Heritage Entity&lt;em&gt; &lt;/em&gt;through&lt;em&gt; HP14i is valued by,&lt;/em&gt; HC10 Heritage Valuation, &lt;em&gt;HP12i is regarded as origin by &lt;/em&gt;to crm:E74 Group.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Dresden Elbe Valley (HC1) &lt;em&gt;is heritage of  &lt;/em&gt;the population of Dresden (E74).&lt;/p&gt;&lt;p&gt;The Pisa Leaning Tower (HC1) &lt;em&gt;is heritage of  &lt;/em&gt;UNESCO World Heritage Listing.&lt;/p&gt;</examples>
+    </property>
+    <property id="HP16">
+      <fullName>HP16 initiated (was initiated by)</fullName>
+      <directName>initiated</directName>
+      <inverseName>was initiated by</inverseName>
+      <domain id="HC12"/>
+      <range id="HC10"/>
+      <quantification>one to one (1,1:1,1)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC12 Heritage Declaration Event with an instance of HC10 Heritage Valuation that thereby begins the treatment of the valued entity as being of with heritage value.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The UNESCO listing of the Dresden Elbe Valley in 2004 (HC12) &lt;em&gt;initiated &lt;/em&gt;the valuation of the Dresden Elbe Valley in March 2004 (HC10) (Decision 28 COM 14B.40 - Nominations of Cultural Properties to the World Heritage List (Dresden Elbe Valley 2004).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP17">
+      <fullName>HP17 terminated (was terminated by)</fullName>
+      <directName>terminated</directName>
+      <inverseName>was terminated by</inverseName>
+      <domain id="HC12"/>
+      <range id="HC10"/>
+      <quantification>one to one (1,1:1,1)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC12 Heritage Declaration Event with an instance of HC10 Heritage Valuation that thereby ends the treatment of the valued entity with a heritage value.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The UNESCO de-listing of the Dresden Elbe Valley in 2009 (HC12) &lt;em&gt;terminated &lt;/em&gt;the valuation of the Dresden Elbe Valley in 2004 (HC10) (https://whc.unesco.org/en/list/1156, UNESCO World Heritage News 2009).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP18">
+      <fullName>HP18 has documented (was documented by)</fullName>
+      <directName>has documented</directName>
+      <inverseName>was documented by</inverseName>
+      <domain id="HC11"/>
+      <range id="HC1"/>
+      <subPropertyOf id="P16"/>
+      <quantification>many to one, necessary (1,1:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC11 Digital Twin Maintenance with an instance of a Heritage Entity that refers to.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The ECHOES Project team CNRS Digital Twin Maintenance (HC11) &lt;em&gt;has documented&lt;/em&gt; the Pafos Gate in Nicosia (HC1).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP19">
+      <fullName>HP19 has composed (was composed by)</fullName>
+      <directName>has composed</directName>
+      <inverseName>was composed by</inverseName>
+      <domain id="HC11"/>
+      <range id="HC2"/>
+      <subPropertyOf id="P94"/>
+      <quantification>many to one, necessary, dependent (1,1:1,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC11 Digital Twin Maintenance with an instance of HC2 Digital Twin it has composed or complemented.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The ECHOES Project team CyI Maintenance (HC11) &lt;em&gt;has composed&lt;/em&gt; the HDT of the Pafos Gate in Nicosia (HC2).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP20">
+      <fullName>HP20 was carried out under (had contribution)</fullName>
+      <directName>was carried out under</directName>
+      <inverseName>had contribution</inverseName>
+      <domain id="HC11"/>
+      <range id="HC13"/>
+      <subPropertyOf id="P9i"/>
+      <quantification>many to one, necessary (1,1:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links an instance of HC11 Digital Twin Maintenance with an instance of HC13 Project on behalf of which the documentation and maintenance was carried out.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The ECHOES Project team CNRS Maintenance (HC11) &lt;em&gt;was carried out under&lt;/em&gt;&lt;strong&gt; &lt;/strong&gt;the ECHOES project 2024-2029 (HC13).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP21">
+      <fullName>HP21 is 3D representation output of (has 3D representation)</fullName>
+      <directName>is 3D representation output of</directName>
+      <inverseName>has 3D representation</inverseName>
+      <domain id="HC8"/>
+      <range id="HC1"/>
+      <subPropertyOf id="HP22"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC1 Heritage Entity with instances of HC8 3D Model in which it is digitised and represented.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The 3D model of the Neptune Fountain (HC8) &lt;em&gt;is 3D representation output of&lt;/em&gt; the Neptune Fountain in Bologna (HC1).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP22">
+      <fullName>HP22 represents (has digital representation)</fullName>
+      <directName>represents</directName>
+      <inverseName>has digital representation</inverseName>
+      <domain id="HC5"/>
+      <range id="S15"/>
+      <superPropertyOf id="HP9"/>
+      <superPropertyOf id="HP21"/>
+      <subPropertyOf id="P138"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of crmsci:S15 Observable Entity with instances of HC5 Digital Representation in which it is digitally represented.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The digital version of Vasari’s “Vite” (HC5) &lt;em&gt;represents &lt;/em&gt;the 'Vite' of Giorgio Vasari work (S15).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP23">
+      <fullName>HP23 was about (was subject of)</fullName>
+      <directName>was about</directName>
+      <inverseName>was subject of</inverseName>
+      <domain id="HC9"/>
+      <range id="HC1"/>
+      <subPropertyOf id="P16"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC9 Study with instances of HC1 Heritage Entity (their HC3 Tangible Heritage Entity and HC4 Intangible Heritage Entity) which were studied or related in relevant ways to a more specific item the study was actually about.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The multi-dimensional analysis and the memorization made during the restoration of Notre-Dame cathedral (HC9) &lt;em&gt;was about&lt;/em&gt; the Notre-Dame cathedral (HC1).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP24">
+      <fullName>HP24 has disciplinary focus (is aspect of)</fullName>
+      <directName>has disciplinary focus</directName>
+      <inverseName>is aspect of</inverseName>
+      <domain id="HC9"/>
+      <range id="E55"/>
+      <subPropertyOf id="P2"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC9 Study with the disciplinary aspect under which it investigated the respective heritage entities or related items, such as art conservation, history of art, C14 dating or anthropology.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Heritage Science based Art historical Investigation of the Derynia Icon (HC9) &lt;em&gt;has disciplinary focus &lt;/em&gt;Painting Techniques (E55).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP25">
+      <fullName>HP25 has created (was created by)</fullName>
+      <directName>has created</directName>
+      <inverseName>was created by</inverseName>
+      <domain id="HC9"/>
+      <range id="E31"/>
+      <subPropertyOf id="P94"/>
+      <quantification>one to many, necessary, dependent (1,n:1,1)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC9 Study with the resulting instance of crm:E31 Document in a persistent (“fixed”), citable or at least permanently accessible form according to scholarly and scientific practice, independently from being represented partially or completely within an instance of HC2 Digital Twin.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The filming of archaeological activities (HC9) on the remains of the Sobibor extermination camp (HC9) &lt;em&gt;has created&lt;/em&gt; the documentary film " Sheol " (HC7 or E31).&lt;/p&gt;&lt;p&gt;The Heritage Science based Art historical Investigation of the Derynia Icon (HC9) &lt;em&gt;has created &lt;/em&gt;the scientific report&lt;em&gt; &lt;/em&gt;&lt;a href="https://dx.doi.org/10.2139/ssrn.5247574"&gt;http://dx.doi.org/10.2139/ssrn.5247574&lt;/a&gt; (E31)&lt;/p&gt;</examples>
+    </property>
+    <property id="HP26">
+      <fullName>HP26 studied specifically (was studied by)</fullName>
+      <directName>studied specifically</directName>
+      <inverseName>was studied by</inverseName>
+      <domain id="HC9"/>
+      <range id="E1"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC9 Study with an item that was specifically investigated in this study and related in some way to the instances of HC1 Heritage Entity the study was about, such as instances of crm:E39 Actor or crm:E5 Event. This property should only be used, if the instance of HC1 Heritage Entity documented by the property HP23 was about (was subject of) was not the direct object of investigation.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The multi-dimensional analysis and the memorization made during the restoration of Notre-Dame cathedral (HC9) &lt;em&gt;studied&lt;/em&gt; &lt;em&gt;specifically &lt;/em&gt;the Notre-Dame cathedral (HC1).&lt;/p&gt;&lt;p&gt;The Heritage Science based Art historical Investigation of the Derynia Icon (HC9) &lt;em&gt;studied specifically&lt;/em&gt; the icon material composition (E1).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP27">
+      <fullName>HP27 used content of (content was used by)</fullName>
+      <directName>used content of</directName>
+      <inverseName>content was used by</inverseName>
+      <domain id="HC11"/>
+      <range id="E31"/>
+      <subPropertyOf id="P16"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC11 Digital Twin Maintenance with an instance of crm:E31 Document, typically results of an instance of HC9 Study, that were used for composing or complementing an instance of HC2 Heritage Digital Twin.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The creation of the HDT of the Tour de Coeur of Chartres cathedral (HC11), through the production of a resource page (HC6) and digital photographs (HC7) &lt;em&gt;used content of &lt;/em&gt;the study of the ornaments of the Tour de Coeur of Notre-Dame de Chartres cathedral realised during the ROSER project (E31).&lt;/p&gt;&lt;p&gt;The Deryneia icon Digital Twin Creation by CyI (HC11) &lt;em&gt;used content of &lt;/em&gt;the scientific report&lt;em&gt; &lt;/em&gt;&lt;a href="https://dx.doi.org/10.2139/ssrn.5247574"&gt;http://dx.doi.org/10.2139/ssrn.5247574&lt;/a&gt; (crm:E31).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP28">
+      <fullName>HP28 has snapshot (is snapshot of)</fullName>
+      <directName>has snapshot</directName>
+      <inverseName>is snapshot of</inverseName>
+      <domain id="HC14"/>
+      <range id="HC15"/>
+      <subPropertyOf id="P130"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <equivalentTo>crmpem:PP17 has snapshot (is snapshot of)&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC14 Volatile Digital Object with an instance of HC15 Persistent Digital Object that captured the official content version of the volatile object at a given point in time, which is equal to the time of creation of the associated persistent object (as to be documented via an instance of crm:E65 Creation or a subclass of it and its properties).&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The submitted copy of ECHOES deliverable 7.1 in Microsoft Word format (HC15) is snapshot of the ECHOES deliverable doc (HC14), before its 1st release.&lt;/p&gt;</examples>
+    </property>
+    <property id="HP29">
+      <fullName>HP29 has digital object part</fullName>
+      <directName>has digital object part</directName>
+      <domain id="HC14"/>
+      <range id="D1"/>
+      <subPropertyOf id="P106"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <equivalentTo>crmpem:PP18 has digital object part (is digital object part of)&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC14 Volatile Digital Object with a structural part of that instance. This structural part may be another instance of crmdig:D1 Digital object, be it also a HC14 Volatile Digital Object or in fact be an instance of HC15 Persistent Digital Object.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The HDT of the Pisa Leaning Tower (HC2) &lt;em&gt;has digital part&lt;/em&gt; a 3D survey project database (crmdig:D1).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP30">
+      <fullName>HP30 added content (content was added by)</fullName>
+      <directName>added content</directName>
+      <inverseName>content was added by</inverseName>
+      <domain id="HC11"/>
+      <range id="HC16"/>
+      <subPropertyOf id="P16"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC11 Digital Twin Maintenance with an instance of HC16 Heritage Proposition Set that it has added to an instance of HC2 Digital Twin. In this way it composes or complements an instance of HC2 Heritage Digital Twin.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin Creation by CyI (HC11) &lt;em&gt;added content&lt;/em&gt; the proposition set (Namegraph URI) with content:{'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'religious icon' (crm:E55 Type) crm:P108 was produced by: 'Painting of the Nativity' (crm:E12 Production) P50 has current keeper:'Bishopcry of Constantia  and Amochostos '(crm:E74 Group) crm:P1 is identified by:  'Nativity' (crm:E41 Appellation)} (HC16).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP31">
+      <fullName>HP31 deleted content (content was deleted by)</fullName>
+      <directName>deleted content</directName>
+      <inverseName>content was deleted by</inverseName>
+      <domain id="HC11"/>
+      <range id="HC16"/>
+      <subPropertyOf id="P16"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC11 Digital Twin Maintenance with an instance of HC16 Heritage Proposition Set that it has deleted from. Typically, this is done in a single action with adding one or more proposition sets that supersedes the deleted one. In this way it composes or complements an instance of HC2 Heritage Digital Twin.&lt;/p&gt;&lt;p&gt;Note that the deletion only means to replace the property &lt;em&gt;HP33 contains (is proposition set of)&lt;/em&gt; between the respective instance of HC2 Heritage Digital Twin and the “deleted” &lt;em&gt;proposition set&lt;/em&gt;  by the property &lt;em&gt;HP34 contained (if former proposition set of), &lt;/em&gt;and not that the content unit has been purged from the archives.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin Creation by CyI (HC11) &lt;em&gt;deleted content&lt;/em&gt; the proposition set (Namegraph URI) with content:{'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'religious icon' (crm:E55 Type) P108 was produced by: 'Painting of the Nativity' (crm:E12 Production) crm:P50 has current keeper:'Bishopcry of Constantia '(E74 Group)} (HC16).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP32">
+      <fullName>HP32 replaced (was replaced by)</fullName>
+      <directName>replaced</directName>
+      <inverseName>was replaced by</inverseName>
+      <domain id="HC16"/>
+      <range id="HC16"/>
+      <quantification>one to one (1,1:1,1)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC16 Heritage Proposition Set with an instance of HC16 Heritage Proposition Set, that was replaced by it in some instance of HC2 Heritage Digital Twin. In detail, if an instance of HC11 Digital Twin Maintenance added a &lt;em&gt;proposition set&lt;/em&gt; via &lt;em&gt;HP30 added content (content was added&lt;/em&gt;) and deleted another one via &lt;em&gt;HP31 deleted content (content was deleted by)&lt;/em&gt; from a Digital Twin, this property allows to document that the deleted one is replaced by the former, i.e., it constitutes a no more valid version.&lt;/p&gt;&lt;p&gt;This property allows documenting directly a chain of previous versions of some&lt;em&gt; proposition sets&lt;/em&gt;, starting from the most recent one.  The latter should be associated with the property &lt;em&gt;HP33 contains (is proposition set of)&lt;/em&gt; to the respective instance of HC2 Heritage Digital Twin for which it is currently valid. All other &lt;em&gt;proposition set&lt;/em&gt; in the same chain of versions should be associated with the property &lt;em&gt;HP34 contained (if former proposition set of)&lt;/em&gt; to the respective instance of HC2 Heritage Digital Twin for which they had been previously valid.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The proposition set with content:{'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'religious icon' (crm:E55 Type) crm:P108 was produced by: 'Painting of the Nativity' (crm:E12 Production) crm:P50 has current keeper:'Bishopcry of Constantia  and Amochostos '(crm:E74 Group) P1 is identified by:  'Nativity' (crm:E41 Appellation)} (HC16) &lt;em&gt;replaced &lt;/em&gt;the proposition set with content:{'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'icon' (crm:E55 Type) crm:P1 is identified by:  'The Nativity' (crm:E41 Appellation)} (HC16)&lt;/p&gt;</examples>
+    </property>
+    <property id="HP33">
+      <fullName>HP33 contains (is proposition set of)</fullName>
+      <directName>contains</directName>
+      <inverseName>is proposition set of</inverseName>
+      <domain id="HC2"/>
+      <range id="HC16"/>
+      <quantification>one to many, necessary (1,n:0,1)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC2 Heritage Digital Twin with an instance of HC16 Heritage Proposition Set that constitutes a currently valid part of its content.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin (HC2) &lt;em&gt;contains&lt;/em&gt; the proposition set with content:{'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'religious icon' (crm:E55 Type) crm:P108 was produced by: 'Painting of the Nativity' (crm:E12 Production) crm:P50 has current keeper:'Bishopcry of Constantia  and Amochostos '(crm:E74 Group) crm:P1 is identified by:  'Nativity' (crm:E41 Appellation)} (HC16).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP34">
+      <fullName>HP34 contained (is former proposition set of)</fullName>
+      <directName>contained</directName>
+      <inverseName>is former proposition set of</inverseName>
+      <domain id="HC2"/>
+      <range id="HC16"/>
+      <quantification>one to many (0,n:0,1)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC2 Heritage Digital Twin with an instance of HC16 Heritage Proposition Set that constituted a former, now no more valid part of its content. This property is necessary to maintain referential integrity for scholarly references to previous content of this instance of HC2 Heritage Digital Twin.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The Deryneia icon Digital Twin (HC2) &lt;em&gt;contained&lt;/em&gt; the proposition set with content: {'The Derynia Icon of Nativity' (HC3) crm:P2 has type: 'icon' (crm:E55 Type) crm:P1 is identified by: 'The Nativity' (crm:E41 Appellation)} (HC16).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP35">
+      <fullName>HP35 made primary observation (was observation of)</fullName>
+      <directName>made primary observation</directName>
+      <inverseName>was observation of</inverseName>
+      <domain id="HC17"/>
+      <range id="S28"/>
+      <subPropertyOf id="O36"/>
+      <quantification>many to one, necessary (1,1:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC17 Observation with Inference with an instance of crmsci:S28 Observable Situation that constitutes the expression of the primary observation and premise for the following implicit inference by the actors carrying out the respective activity.&lt;/p&gt;&lt;p&gt;The alleged timespan of validity of the observed situation must be equal or within the overall timespan of the domain instance used for this property. A narrower timespan of validity for the observed situation can be documented via the property crmsci:S28 Observable Situation. crminf:J24&lt;sup&gt;&lt;a href="#footnote-3" id="footnote-ref-3"&gt;[3]&lt;/a&gt;&lt;/sup&gt; held at least for (is at least validity of): crm:E52 Timespan.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The observation of low energy Pb-M lines (2.3 keV) with conclusions on pigments identifications (HC17) &lt;em&gt;made primary observation&lt;/em&gt; the situation stated that “Lead white was used to tint flesh and clothing folds. The cave, the star rays, Mary’s mattress edges, have several layers of lead white (blue areas), magenta - a single surface layer” (crmsci:S28). [&lt;em&gt;This statement can be represented by containing a set of CRM-compatible propositions].&lt;/em&gt;&lt;/p&gt;</examples>
+    </property>
+    <property id="HP36">
+      <fullName>HP36 is about the provenance of (has provenance claim)</fullName>
+      <directName>is about the provenance of</directName>
+      <inverseName>has provenance claim</inverseName>
+      <domain id="HC18"/>
+      <range id="E70"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <equivalentTo>crminf:J20 is about the provenance of (has provenance claim)&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC18 Provenance Statement with an instance of crm:E70 Thing, the provenance of which the statement describes.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The provenance statement that “the Chariot of Eretum originates from the chamber tomb XI of Colle del Forno” (HC18) &lt;em&gt;is about the provenance of &lt;/em&gt;“the Chariot of Eretum (crm:E70).&lt;/p&gt;&lt;p&gt;The provenance statement by the museum collection manager within the museum catalogue about the provenance of the painting YY (HC19) &lt;em&gt;concluded provenance&lt;/em&gt; that “The painting YY is documented in XZ family collection until early ‘20s. Gallery XX in 1982; acquired by the museum, Bonhams 1990.” (HC18).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP37">
+      <fullName>HP37 concluded provenance (was assessed by)</fullName>
+      <directName>concluded provenance</directName>
+      <inverseName>was assessed by</inverseName>
+      <domain id="HC19"/>
+      <range id="HC18"/>
+      <quantification>many to many, necessary (1,n:0,n)</quantification>
+      <equivalentTo>crminf:J21 concluded provenance (was assessed by)&lt;/p&gt;</equivalentTo>
+      <scopeNote>&lt;p&gt;This property associates an instance of HC18 Provenance Statement that constitutes the conclusion of the provenance.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The assessment by Glyptotek in 1979 about the provenance of the Chariot of Eretum (HC19) &lt;em&gt;concluded provenance&lt;/em&gt; the provenance statement that “the Chariot of Eretum originates from the chamber tomb XI of Colle del Forno” (HC18).&lt;/p&gt;</examples>
+    </property>
+    <property id="HP38">
+      <fullName>HP38 is sensor representation of (has sensor representation)</fullName>
+      <directName>is sensor representation of</directName>
+      <inverseName>has sensor representation</inverseName>
+      <domain id="HC6"/>
+      <range id="S15"/>
+      <quantification>many to many (0,n:0,n)</quantification>
+      <scopeNote>&lt;p&gt;This property links a SensorThings API representation with a Thing that is being monitored within the SensorThings data model. It establishes the association between a digital sensor representation and the real-world entity (cultural heritage site, object, or system) it observes.&lt;/p&gt;</scopeNote>
+      <examples>&lt;p&gt;The data of the Knossos Palace monitoring system (HC6) is sensor representation of the Knossos Palace (S15).&lt;/p&gt;&lt;ol&gt;&lt;li id="footnote-1"&gt;&lt;p&gt;&lt;strong&gt;PE24 Volatile Dataset&lt;/strong&gt; are datasets changed without notice or archiving of intermediate states maintained by an instance of PE12 Data Curating Service. The identity of a volatile dataset is enabled by the unity given to it by curation programme that operates on it, that bequeaths the volatile dataset common information goal and subject coverage. For an instance of PE24 Volatile Dataset to be referenceable, the official curator must take snapshots creating instances of PE22 Persistent Data Set and assigned and referenced official an identifier. These are whole databases or mashups with active data feeds. &lt;a href="#footnote-ref-1"&gt;↑&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li id="footnote-2"&gt;&lt;p&gt;A digital twin is considered singular in the scope of a particular project or digital infrastructure. Different digital twins describing the same CH belong to different projects and may overlap in content, partially share information, or represent different modelling choices. &lt;a href="#footnote-ref-2"&gt;↑&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li id="footnote-3"&gt;&lt;p&gt;&lt;a href="https://cidoc-crm.org/Issue/ID-691-examples-for-the-property-j24-held-at-least-for"&gt;https://cidoc-crm.org/Issue/ID-691-examples-for-the-property-j24-held-at-least-for&lt;/a&gt;  &lt;a href="#footnote-ref-3"&gt;↑&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</examples>
+    </property>
+  </properties>
+  <externalReferences>
+    <extRef id="D1" uri="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object" label="Digital Object" modelName="CRMdig v5.0" fullName="D1 Digital Object"/>
+    <extRef id="D9" uri="http://www.cidoc-crm.org/extensions/crmdig/D9_Data_Object" label="Data Object" modelName="CRMdig v5.0" fullName="D9 Data Object"/>
+    <extRef id="E1" uri="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity" label="CRM Entity" modelName="Cidoc-CRM v7.1.3" fullName="E1 CRM Entity"/>
+    <extRef id="E2" uri="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity" label="Temporal Entity" modelName="Cidoc-CRM v7.1.3" fullName="E2 Temporal Entity"/>
+    <extRef id="E4" uri="http://www.cidoc-crm.org/cidoc-crm/E4_Period" label="Period" modelName="Cidoc-CRM v7.1.3" fullName="E4 Period"/>
+    <extRef id="E5" uri="http://www.cidoc-crm.org/cidoc-crm/E5_Event" label="Event" modelName="Cidoc-CRM v7.1.3" fullName="E5 Event"/>
+    <extRef id="E7" uri="http://www.cidoc-crm.org/cidoc-crm/E7_Activity" label="Activity" modelName="Cidoc-CRM v7.1.3" fullName="E7 Activity"/>
+    <extRef id="E10" uri="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody" label="Transfer of Custody" modelName="Cidoc-CRM v7.1.3" fullName="E10 Transfer of Custody"/>
+    <extRef id="E13" uri="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment" label="Attribute Assignment" modelName="Cidoc-CRM v7.1.3" fullName="E13 Attribute Assignment"/>
+    <extRef id="E18" uri="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing" label="Physical Thing" modelName="Cidoc-CRM v7.1.3" fullName="E18 Physical Thing"/>
+    <extRef id="E28" uri="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object" label="Conceptual Object" modelName="Cidoc-CRM v7.1.3" fullName="E28 Conceptual Object"/>
+    <extRef id="E31" uri="http://www.cidoc-crm.org/cidoc-crm/E31_Document" label="Document" modelName="Cidoc-CRM v7.1.3" fullName="E31 Document"/>
+    <extRef id="E36" uri="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item" label="Visual Item" modelName="Cidoc-CRM v7.1.3" fullName="E36 Visual Item"/>
+    <extRef id="E55" uri="http://www.cidoc-crm.org/cidoc-crm/E55_Type" label="Type" modelName="Cidoc-CRM v7.1.3" fullName="E55 Type"/>
+    <extRef id="E65" uri="http://www.cidoc-crm.org/cidoc-crm/E65_Creation" label="Creation" modelName="Cidoc-CRM v7.1.3" fullName="E65 Creation"/>
+    <extRef id="E70" uri="http://www.cidoc-crm.org/cidoc-crm/E70_Thing" label="Thing" modelName="Cidoc-CRM v7.1.3" fullName="E70 Thing"/>
+    <extRef id="E74" uri="http://www.cidoc-crm.org/cidoc-crm/E74_Group" label="Group" modelName="Cidoc-CRM v7.1.3" fullName="E74 Group"/>
+    <extRef id="E89" uri="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object" label="Propositional Object" modelName="Cidoc-CRM v7.1.3" fullName="E89 Propositional Object"/>
+    <extRef id="E90" uri="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object" label="Symbolic Object" modelName="Cidoc-CRM v7.1.3" fullName="E90 Symbolic Object"/>
+    <extRef id="I1" uri="http://www.cidoc-crm.org/extensions/crminf/I1_Argumentation" label="Argumentation" modelName="CRMinf v1.2.1" fullName="I1 Argumentation"/>
+    <extRef id="I4" uri="http://www.cidoc-crm.org/extensions/crminf/I4_Proposition_Set" label="Proposition Set" modelName="CRMinf v1.2.1" fullName="I4 Proposition Set"/>
+    <extRef id="I5" uri="http://www.cidoc-crm.org/extensions/crminf/I5_Inference_Making" label="Inference Making" modelName="CRMinf v1.2.1" fullName="I5 Inference Making"/>
+    <extRef id="Narrative" uri="https://dlnarratives.eu/ontology#Narrative" label="Narrative" modelName="Narrative Ontology v2.0" fullName="Narrative"/>
+    <extRef id="Narration" uri="https://dlnarratives.eu/ontology#Narration" label="Narration" modelName="Narrative Ontology v2.0" fullName="Narration"/>
+    <extRef id="O36" domainID="S27" rangeID="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/O36_expressed_the_observed_as" label="expressed the observed as" modelName="CRMsci v3.2" fullName="O36 expressed the observed as (was the expression of)"/>
+    <extRef id="P2" domainID="E1" rangeID="E55" uri="http://www.cidoc-crm.org/cidoc-crm/P2_has_type" label="has type" modelName="Cidoc-CRM v7.1.3" fullName="P2 has type (is type of)"/>
+    <extRef id="P9i" domainID="E4" rangeID="E4" uri="http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of" label="forms part of" modelName="Cidoc-CRM v7.1.3" fullName="P9i forms part of (consists of)"/>
+    <extRef id="P16" domainID="E7" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object" label="used specific object" modelName="Cidoc-CRM v7.1.3" fullName="P16 used specific object (was used for)"/>
+    <extRef id="P94" domainID="E65" rangeID="E28" uri="http://www.cidoc-crm.org/cidoc-crm/P94_has_created" label="has created" modelName="Cidoc-CRM v7.1.3" fullName="P94 has created (was created by)"/>
+    <extRef id="P106" domainID="E90" rangeID="E90" uri="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of" label="is composed of" modelName="Cidoc-CRM v7.1.3" fullName="P106 is composed of (forms part of)"/>
+    <extRef id="P129" domainID="E89" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/P129_is_about" label="is about" modelName="Cidoc-CRM v7.1.3" fullName="P129 is about (is subject of)"/>
+    <extRef id="P130" domainID="E70" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of" label="shows features of" modelName="Cidoc-CRM v7.1.3" fullName="P130 shows features of (features are also found on)"/>
+    <extRef id="P138" domainID="E36" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/P138_represents" label="represents" modelName="Cidoc-CRM v7.1.3" fullName="P138 represents (has representation)"/>
+    <extRef id="P148" domainID="E89" rangeID="E89" uri="http://www.cidoc-crm.org/cidoc-crm/P148_has_component" label="has component" modelName="Cidoc-CRM v7.1.3" fullName="P148 has component (is component of)"/>
+    <extRef id="S15" uri="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity" label="Observable Entity" modelName="CRMsci v3.2" fullName="S15 Observable Entity"/>
+    <extRef id="S27" uri="http://www.cidoc-crm.org/extensions/crmsci/S27_Observation" label="Observation" modelName="CRMsci v3.2" fullName="S27 Observation"/>
+    <extRef id="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation" label="Observable Situation" modelName="CRMsci v3.2" fullName="S28 Observable Situation"/>
+  </externalReferences>
+</root>
