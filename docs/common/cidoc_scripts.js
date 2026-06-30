@@ -650,7 +650,7 @@ function copyURIToClipboard(prefixText, uriToCopy, targetId){
 
 function copyToClipboard(targetId) {
     el = document.createElement('textarea');
-	
+	let targetName = "";
 	let linkBase = $(xmlFile).find("root").attr("namespace");
 	let modelVersion = $(xmlFile).find("root").attr("version");
 	
@@ -665,8 +665,8 @@ function copyToClipboard(targetId) {
 		  if (path.endsWith('/')) {
 			path = path.slice(0, -1);
 		  }
-		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '/';
-		linkBase = window.location.href.split("/html/")[0] + "/";
+		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '#';
+		
 	}
 	else if (window.location.href.indexOf("echoes-eccch.github.io")  !== -1){
 		let path = window.location.pathname;
@@ -675,39 +675,24 @@ function copyToClipboard(targetId) {
 		  if (path.endsWith('/')) {
 			path = path.slice(0, -1);
 		  }
-		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '/';
-		linkBase = window.location.href.split("/html/")[0] + "/";
+		linkBase = window.location.origin + path.substring(0, path.lastIndexOf('/')) + '#';	
+		targetName = targetId;
 	}		
-	
-	if (linkBase && modelVersion && modelVersion!=='' && (linkBase.includes('cidoc-crm.org/extensions/') || linkBase.includes('echoes/'))){
-		if(!linkBase.endsWith("/")){
-			linkBase = linkBase + "/";
-		}
-		if(linkBase.indexOf("extensions/crmsci/") !== -1 ||
-		   linkBase.indexOf("extensions/crminf/") !== -1 ||
-		   linkBase.indexOf("extensions/lrmoo/") !== -1  ||
-		   linkBase.indexOf("echoes/") !== -1){
-			linkBase = linkBase +modelVersion+"/";
-		}
-		else{
-		    linkBase = linkBase + "versions/"+modelVersion+"/";
-		}
-
-	}
 	
 	
 		
-	let targetName = "";
-	var fns = $(xmlFile).find("class, property").filter("[id='" + targetId + "']").map(function () { return $.trim($(this).find("fullName").text()); }).get();
-	if (Array.isArray(fns) && fns.length) {
-		targetName = fns[0];
-	}
-	if( targetName.indexOf('(')>0){
-	  targetName = targetName.slice(0, targetName.indexOf('(')).trim();
-	}
-	if (targetName !== '')
-	{
-		targetName = targetName.trim().replaceAll(' ', '_');
+	if (targetName !== ""){
+		var fns = $(xmlFile).find("class, property").filter("[id='" + targetId + "']").map(function () { return $.trim($(this).find("fullName").text()); }).get();
+		if (Array.isArray(fns) && fns.length) {
+			targetName = fns[0];
+		}
+		if( targetName.indexOf('(')>0){
+		  targetName = targetName.slice(0, targetName.indexOf('(')).trim();
+		}
+		if (targetName !== '')
+		{
+			targetName = targetName.trim().replaceAll(' ', '_');
+		}
 	}
     let linkVal = linkBase + targetName; //getRefLink(false, targetId);/*getLinkBase(false) + '.html#' + targetId;*/
     el.value = linkVal;
