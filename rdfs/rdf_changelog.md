@@ -2,7 +2,7 @@
 
 This file has been manually created in order to provide a summary of the rdf encoding changes between HDTO versions.
 
-## HDTO v1.2 changes compared to HDTO v1.1
+## [HDTO v1.2](http://isl.ics.forth.gr/ontology/echoes/1.2/) changes compared to [HDTO v1.1](http://isl.ics.forth.gr/ontology/echoes/1.1/)
 
 1. `HP21_is_3D_representation_output_of`
     * Range: `HC1_Heritage_Entity` changed to `S15_Observable_Entity`
