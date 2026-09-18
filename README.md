@@ -10,3 +10,4 @@ This repository includes:
 - folder `rdfs` includes the rdf implentation of the HDTO ontology.
 - folder `documents\ontology` includes copies of all the released specification documents for the HDTO ontology
 - folder `documents\resources` includes other documents and presentations released for describing and using the HDTO ontology
+- folder `UseCases` includes workflows of selected use cases 
