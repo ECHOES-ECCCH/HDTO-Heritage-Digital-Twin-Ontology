@@ -1,7 +1,7 @@
 # The Deryneia icon workflow to populate the KB
 # Prepare the input data
 We started with the [xmind representation of Deryneia] (Deryneia-xmind.xmind) provided by S. Hermon, CyI.
-Available also as [pdf file] (Deryneia-xmind.pdf)) 
+Available also as [pdf file] (Deryneia-xmind.pdf) 
 
 We used a local installation of SYNTHESIS, a cultural information management system (https://www.ics.forth.gr/isl/synthesis-core) developed by FORTH, to input as much information as possible from the xmind representation.
 
