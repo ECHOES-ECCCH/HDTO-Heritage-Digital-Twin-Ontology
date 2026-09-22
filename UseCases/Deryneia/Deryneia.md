@@ -21,8 +21,8 @@ HRID: 486597 ECHOES OFFICIAL Derynia A.296
 This mapping uses the official HDTO definition HDT v1.1 and its RDFS implementation [HDT_v1.1.rdf](../../rdfs/HDT_v1.1.rdf) 
 
 Mapping HRID: 486597 ECHOES OFFICIAL Derynia A.296 consists of 10 mappings. 
-1. Select Mappings 1-5 (Physical properties) only and produce rdf. The result is available in [Derynia-PhysProperties.rdf](ingest/Derynia-PhysProperties.rdf)
-2. Select Mapping 6 (Examinations) only and produce rdf. Split this rdf into two files, with the two examinations. The results are available in [Derynia-FTIR.rdf](ingest/Derynia-FTIR.rdf) and [Derynia-MA-XRF.rdf](ingest/Derynia-MA-XRF.rdf)
-3. Select Mapping 7 (Conservations) only and produce rdf. The result is available in [Derynia-Conservation.rdf](ingest/Derynia-Conservation.rdf)
-4. Select Mapping 9 and 10 (Valuation, Heritage Declaration Event) only and produce rdf. The result is available in [Derynia-Valuation.rdf](ingest/Derynia-Valuation.rdf)
+1. Select Mappings 1-5 (Physical properties) only and produce rdf. The result is available in [Deryneia-PhysProperties.rdf](ingest/Deryneia-PhysProperties.rdf)
+2. Select Mapping 6 (Examinations) only and produce rdf. Split this rdf into two files, with the two examinations. The results are available in [Deryneia-FTIR.rdf](ingest/Deryneia-FTIR.rdf) and [Deryneia-MA-XRF.rdf](ingest/Deryneia-MA-XRF.rdf)
+3. Select Mapping 7 (Conservations) only and produce rdf. The result is available in [Deryneia-Conservation.rdf](ingest/Deryneia-Conservation.rdf)
+4. Select Mapping 9 and 10 (Valuation, Heritage Declaration Event) only and produce rdf. The result is available in [Deryneia-Valuation.rdf](ingest/Deryneia-Valuation.rdf)
 
