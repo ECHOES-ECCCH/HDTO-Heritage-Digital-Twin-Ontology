@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Object>
+		<ObjectIdentification>
+			<IdentificationNumber sps_fixed="">Object/1</IdentificationNumber>
+			<ObjectCodeNumber>
+				<Value>A.296</Value>
+				<Category sps_id="" sps_vocabulary=""/>
+				<AttributedBy sps_id="" sps_type=""/>
+				<AttributionDate sps_addreport="" sps_datepick="" x="" y=""/>
+				<ExpirationDate sps_addreport="" sps_datepick="" x="" y=""/>
+			</ObjectCodeNumber>
+			<OtherNumber>
+				<Code>ГФ-93</Code>
+				<Category sps_id="" sps_vocabulary=""/>
+				<AttributedBy sps_id="" sps_type=""/>
+				<AttributionDate sps_addreport="" sps_datepick="" x="" y=""/>
+				<ExpirationDate sps_addreport="" sps_datepick="" x="" y=""/>
+			</OtherNumber>
+			<OriginatorOfReference sps_id="2" sps_type="Organization">Bishopric of Constantia and Ammochostos, Cyprus</OriginatorOfReference>
+			<Department sps_id="" sps_vocabulary=""/>
+			<ObjectKind sps_id="1" sps_vocabulary="ObjectKind.xml">Religious icon</ObjectKind>
+			<MainObjectName>Icon of Nativity of Church of Virgin Mary, Derynia, Cyprus</MainObjectName>
+			<MainMaterial sps_id="" sps_vocabulary=""/>
+			<MainColor sps_id="" sps_vocabulary=""/>
+			<Description>Tempera and gold on wooden panel</Description>
+			<MonumentOfOrigin>
+				<DatabaseMonument sps_id="" sps_type=""/>
+				<OtherMonument>
+					<MonumentName>Virgin Mary Church, Derynia</MonumentName>
+					<MonumentKind sps_id="" sps_vocabulary=""/>
+				</OtherMonument>
+				<PositionOfMonument sps_id="1" sps_vocabulary="PositionOfMonument.xml">Iconostasis</PositionOfMonument>
+			</MonumentOfOrigin>
+			<RepresentativeImage sps_browse="">Object__1__nativity___03-02-2025151949___1528.png</RepresentativeImage>
+			<Condition>
+				<GeneralCondition sps_id="1" sps_vocabulary="GeneralCondition.xml">Craqueleurs</GeneralCondition>
+				<GeneralCondition sps_id="2" sps_vocabulary="GeneralCondition.xml">Yellowish varnish aging</GeneralCondition>
+				<GeneralCondition sps_id="3" sps_vocabulary="GeneralCondition.xml">Deteriorated (mild)</GeneralCondition>
+				<ObjectIntegrity>
+					<Integrity sps_id="" sps_vocabulary=""/>
+					<NumberOfSherds/>
+				</ObjectIntegrity>
+				<PreviousConservations sps_id="" sps_vocabulary=""/>
+				<ConservationPriority sps_id="" sps_vocabulary=""/>
+				<Description/>
+				<ConditionRecordingDate sps_datepick="" x="" y=""/>
+			</Condition>
+			<ObjectDimensions>
+				<Dimensions>
+					<Dimension sps_id="1" sps_vocabulary="Dimension.xml">Length</Dimension>
+					<Value>34</Value>
+					<MeasurementUnit sps_id="1" sps_vocabulary="MeasurementUnit.xml">cm</MeasurementUnit>
+					<MeasurementInstrument sps_id="" sps_vocabulary=""/>
+				</Dimensions>
+				<Dimensions>
+					<Dimension sps_id="2" sps_vocabulary="Dimension.xml">Width</Dimension>
+					<Value>23</Value>
+					<MeasurementUnit sps_id="1" sps_vocabulary="MeasurementUnit.xml">cm</MeasurementUnit>
+					<MeasurementInstrument sps_id="" sps_vocabulary=""/>
+				</Dimensions>
+				<Dimensions>
+					<Dimension sps_id="3" sps_vocabulary="Dimension.xml">Thickness</Dimension>
+					<Value>6</Value>
+					<MeasurementUnit sps_id="1" sps_vocabulary="MeasurementUnit.xml">cm</MeasurementUnit>
+					<MeasurementInstrument sps_id="" sps_vocabulary=""/>
+				</Dimensions>
+				<PersonResponsible sps_id="" sps_type=""/>
+				<Date sps_datepick="" x="" y=""/>
+				<Comment/>
+			</ObjectDimensions>
+		</ObjectIdentification>
+		<ObjectDetailedDocumentation>
+			<ObjectDescription>
+				<ObjectSides>
+					<NumberOfObjectSides/>
+					<ObjectSide>
+						<ObjectSideName sps_id="" sps_vocabulary=""/>
+						<ObjectPart/>
+						<CharacteristicPhoto sps_id="" sps_type=""/>
+						<Photograph sps_browse="" sps_multiple=""/>
+						<ObjectSideMeasurements>
+							<Dimensions>
+								<Dimension sps_id="" sps_vocabulary=""/>
+								<Value/>
+								<MeasurementUnit sps_id="" sps_vocabulary=""/>
+								<MeasurementInstrument sps_id="" sps_vocabulary=""/>
+							</Dimensions>
+							<PersonResponsible sps_id="" sps_type=""/>
+							<Date sps_datepick="" x="" y=""/>
+							<Comment/>
+						</ObjectSideMeasurements>
+						<ObjectSideDecoration>
+							<Decoration>
+								<DecorationPosition sps_id="" sps_vocabulary=""/>
+								<DecorationType sps_id="" sps_vocabulary=""/>
+								<DecorationTechnique sps_id="" sps_vocabulary=""/>
+								<PaintingSurface>
+									<Materials sps_id="" sps_vocabulary=""/>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+							<Decoration>
+								<DecorationPosition sps_id="4" sps_vocabulary="DecorationPosition.xml">Pictorial - original layer</DecorationPosition>
+								<DecorationType sps_id="1" sps_vocabulary="DecorationType.xml">Painting</DecorationType>
+								<DecorationTechnique sps_id="2" sps_vocabulary="DecorationTechnique.xml">Tempera</DecorationTechnique>
+								<PaintingSurface>
+									<Materials sps_id="1" sps_vocabulary="Materials.xml">Vermillion / cinnabar</Materials>
+									<Materials sps_id="2" sps_vocabulary="Materials.xml">Red ochre</Materials>
+									<Materials sps_id="3" sps_vocabulary="Materials.xml">Yellow ochre</Materials>
+									<Materials sps_id="4" sps_vocabulary="Materials.xml">Lead white</Materials>
+									<Materials sps_id="5" sps_vocabulary="Materials.xml">Copper-based</Materials>
+									<Materials sps_id="6" sps_vocabulary="Materials.xml">Brown ochre</Materials>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+							<Decoration>
+								<DecorationPosition sps_id="3" sps_vocabulary="DecorationPosition.xml">Pictorial - inpaint layer</DecorationPosition>
+								<DecorationType sps_id="1" sps_vocabulary="DecorationType.xml">Painting</DecorationType>
+								<DecorationTechnique sps_id="2" sps_vocabulary="DecorationTechnique.xml">Tempera</DecorationTechnique>
+								<PaintingSurface>
+									<Materials sps_id="7" sps_vocabulary="Materials.xml">Barium white</Materials>
+									<Materials sps_id="8" sps_vocabulary="Materials.xml">Cadmium red</Materials>
+									<Materials sps_id="9" sps_vocabulary="Materials.xml">Chromium brown</Materials>
+									<Materials sps_id="10" sps_vocabulary="Materials.xml">Chromium red</Materials>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+							<Decoration>
+								<DecorationPosition sps_id="7" sps_vocabulary="DecorationPosition.xml">Gilding</DecorationPosition>
+								<DecorationType sps_id="2" sps_vocabulary="DecorationType.xml">Gilding</DecorationType>
+								<DecorationTechnique sps_id="1" sps_vocabulary="DecorationTechnique.xml">Water gilding</DecorationTechnique>
+								<PaintingSurface>
+									<Materials sps_id="11" sps_vocabulary="Materials.xml">Gold leaves</Materials>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description>Gold leaves on red preparation layer - water gilding</Description>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+							<Decoration>
+								<DecorationPosition sps_id="5" sps_vocabulary="DecorationPosition.xml">Preparation - upper layer</DecorationPosition>
+								<DecorationType sps_id="" sps_vocabulary=""/>
+								<DecorationTechnique sps_id="" sps_vocabulary=""/>
+								<PaintingSurface>
+									<Materials sps_id="4" sps_vocabulary="Materials.xml">Lead white</Materials>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+							<Decoration>
+								<DecorationPosition sps_id="6" sps_vocabulary="DecorationPosition.xml">Preparation - lower layer</DecorationPosition>
+								<DecorationType sps_id="" sps_vocabulary=""/>
+								<DecorationTechnique sps_id="" sps_vocabulary=""/>
+								<PaintingSurface>
+									<Materials sps_id="13" sps_vocabulary="Materials.xml">Gypsum</Materials>
+									<Colors sps_id="" sps_vocabulary=""/>
+								</PaintingSurface>
+								<Description/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Decoration>
+						</ObjectSideDecoration>
+						<ObjectSideMarkings>
+							<Marking>
+								<MarkingPosition sps_id="" sps_vocabulary=""/>
+								<MarkingType sps_id="" sps_vocabulary=""/>
+								<InscriptionStampContent>Maria</InscriptionStampContent>
+								<Description>Cinnabar red</Description>
+								<Technique sps_id="" sps_vocabulary=""/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Marking>
+							<Marking>
+								<MarkingPosition sps_id="" sps_vocabulary=""/>
+								<MarkingType sps_id="" sps_vocabulary=""/>
+								<InscriptionStampContent/>
+								<Description>Illegible</Description>
+								<Technique sps_id="" sps_vocabulary=""/>
+								<Photos sps_browse="" sps_multiple=""/>
+								<Drawings sps_browse="" sps_multiple=""/>
+							</Marking>
+						</ObjectSideMarkings>
+					</ObjectSide>
+				</ObjectSides>
+			</ObjectDescription>
+			<ObjectHistory>
+				<ObjectCreation>
+					<CreationPhase>
+						<Creator>
+							<Person sps_id="" sps_type=""/>
+							<Organisation sps_id="1" sps_type="Organization">Cretan</Organisation>
+						</Creator>
+						<CreationDate x="104861840" y="111398864">17th century</CreationDate>
+						<CreationPlace sps_id="1" sps_type="Location">Cyprus</CreationPlace>
+						<CreationMaterials sps_id="" sps_vocabulary=""/>
+						<CreationTechnique sps_id="" sps_vocabulary=""/>
+						<Description/>
+					</CreationPhase>
+				</ObjectCreation>
+				<FindingFieldCollection>
+					<Event>
+						<CreationDate x="" y=""/>
+						<PersonInvolved>
+							<Person sps_id="" sps_type=""/>
+							<Role sps_id="" sps_vocabulary=""/>
+						</PersonInvolved>
+						<Description/>
+						<Place sps_id="" sps_type=""/>
+						<Field/>
+					</Event>
+				</FindingFieldCollection>
+				<ObjectConservations>
+					<ObjectConservation sps_id="2" sps_linked_values="" sps_reverse_link="" sps_type="http://echoes-eccch.eu/KB/Derynia/Conservation/2">Derynia conservation</ObjectConservation>
+				</ObjectConservations>
+				<ObjectExaminations>
+					<ObjectExamination sps_id="2" sps_linked_values="" sps_reverse_link="" sps_type="Examination">FTIR</ObjectExamination>
+					<ObjectExamination sps_id="3" sps_linked_values="" sps_reverse_link="" sps_type="Examination">MA-XRF</ObjectExamination>
+				</ObjectExaminations>
+				<Projects>
+					<Project sps_id="" sps_linked_values="" sps_reverse_link="" sps_type=""/>
+				</Projects>
+			</ObjectHistory>
+			<ObjectManagment>
+				<StorageLocations>
+					<StorageLocation>
+						<LocationType sps_id="" sps_vocabulary=""/>
+						<Location>Archive</Location>
+						<Date x="" y=""/>
+						<Comment/>
+					</StorageLocation>
+				</StorageLocations>
+				<LoansOut>
+					<LoanOut>
+						<LoanPeriod>
+							<From sps_datepick="" x="" y=""/>
+							<To sps_datepick="" x="" y=""/>
+						</LoanPeriod>
+						<Purpose sps_id="" sps_vocabulary=""/>
+						<LendersAuthorizer>
+							<Person sps_id="" sps_type=""/>
+							<Organisation sps_id="" sps_type=""/>
+						</LendersAuthorizer>
+						<BorowersAuthorizer>
+							<Person sps_id="" sps_type=""/>
+							<Organisation sps_id="" sps_type=""/>
+						</BorowersAuthorizer>
+						<Note/>
+						<AdministrativeDocuments>
+							<AdministrativeDocument sps_id="" sps_type=""/>
+						</AdministrativeDocuments>
+					</LoanOut>
+				</LoansOut>
+				<Exhibitions>
+					<Exhibition>
+						<Title/>
+						<Place sps_id="" sps_type=""/>
+						<Duration>
+							<From sps_datepick="" x="" y=""/>
+							<To sps_datepick="" x="" y=""/>
+						</Duration>
+						<Organizer sps_id="" sps_type=""/>
+						<AdministrativeDocuments>
+							<AdministrativeDocument sps_id="" sps_type=""/>
+						</AdministrativeDocuments>
+						<Documents>
+							<BibliographicReference>
+								<Link sps_id="" sps_type=""/>
+								<Note/>
+							</BibliographicReference>
+							<Texts>
+								<Title/>
+								<Purpose sps_id="" sps_vocabulary=""/>
+								<Text sps_html=""/>
+								<File sps_browse=""/>
+								<Language sps_id="" sps_vocabulary=""/>
+								<CreationDate x="" y=""/>
+								<Author sps_id="" sps_type=""/>
+							</Texts>
+						</Documents>
+					</Exhibition>
+				</Exhibitions>
+			</ObjectManagment>
+			<Bibliography>
+				<BibliographicReference>
+					<Link sps_id="" sps_type=""/>
+					<Note/>
+				</BibliographicReference>
+			</Bibliography>
+			<AdministrativeDocuments>
+				<AdministrativeDocument>
+					<Link sps_id="" sps_type=""/>
+				</AdministrativeDocument>
+			</AdministrativeDocuments>
+		</ObjectDetailedDocumentation>
+	</Object>
+</root>

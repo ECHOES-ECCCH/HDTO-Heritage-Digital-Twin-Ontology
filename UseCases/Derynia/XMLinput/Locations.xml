@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><root><Location>
+<IdentificationNumber sps_fixed="">http://echoes/Location/1</IdentificationNumber>
+<Name sps_id="1" sps_vocabulary="LocationName.xml">Cyprus</Name>
+<Category sps_id="" sps_vocabulary=""/>
+<OtherNames>
+<Name sps_id="" sps_vocabulary=""/>
+<Comment/>
+</OtherNames>
+<GeopoliticalHierarchy sps_id="" sps_vocabulary=""/>
+<Description/>
+<Topography/>
+<GeotechnicalCharacteristics/>
+<Coordinates>
+<Value sps_map="point"/>
+<Category sps_id="" sps_vocabulary=""/>
+</Coordinates>
+<CodeNumber>
+<Value/>
+<Category sps_id="" sps_vocabulary=""/>
+<AttributionDate x="" y=""/>
+<ExpiryDate x="" y=""/>
+<AttributedBy sps_id="" sps_type=""/>
+</CodeNumber>
+
+</Location>
+</root>
