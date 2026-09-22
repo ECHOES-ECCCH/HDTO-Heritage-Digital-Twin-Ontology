@@ -1,0 +1,207 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crminf="http://www.cidoc-crm.org/extensions/crminf/"
+    xmlns:hdto="http://isl.ics.forth.gr/ontology/echoes/"
+    xmlns:crmdig="http://www.cidoc-crm.org/extensions/crmdig/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:hdtex="http://echoes-eccch.eu/KB/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <hdto:HC3_Tangible_Heritage_Entity rdf:about="http://echoes-eccch.eu/KB/ECHOES/Object/Derynia/A972C98D-E17D-3D80-935B-BD4041C2E901">
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="urn:uuid:07dab3bc-8347-4ced-babb-0759e40d96b3">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/identifiers/other%20id">
+            <rdfs:label>other id</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label>ГФ-93</rdfs:label>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="urn:uuid:bf20a339-9656-4612-a734-fb1fb554ca5e">
+        <rdfs:label>Object/1</rdfs:label>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:86fc3524-3894-40b8-b8b5-e6442f1db8a4">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/decorations/painted%20decoration">
+            <rdfs:label>painted decoration</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label>Decoration on Preparation - lower layer</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="urn:uuid:b647580b-0215-4818-919c-6d30320ebcd9">
+        <rdfs:label>Creation on 17th century</rdfs:label>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P44_has_condition>
+      <crm:E3_Condition_State rdf:about="http://echoes-eccch.eu/KB/Concept/2/GeneralCondition.xml">
+        <rdfs:label>Yellowish varnish aging</rdfs:label>
+      </crm:E3_Condition_State>
+    </crm:P44_has_condition>
+    <crm:P39i_was_measured_by>
+      <crm:E16_Measurement rdf:about="urn:uuid:a6486c1e-6859-47c3-a964-eec2d7d76e9e">
+        <crm:P40_observed_dimension>
+          <crm:E54_Dimension rdf:about="http://echoes-eccch.eu/KB/Dimension/Derynia/Width">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/DimensionType/Width">
+                <skos:prefLabel xml:lang="en">Width</skos:prefLabel>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P91_has_unit>
+              <crm:E58_Measurement_Unit rdf:about="http://echoes-eccch.eu/KB/Concept/MeasurementUnits/cm">
+                <skos:prefLabel xml:lang="en">cm</skos:prefLabel>
+              </crm:E58_Measurement_Unit>
+            </crm:P91_has_unit>
+            <crm:P90_has_value rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"
+            >23</crm:P90_has_value>
+            <rdfs:label xml:lang="en">Width</rdfs:label>
+          </crm:E54_Dimension>
+        </crm:P40_observed_dimension>
+        <rdfs:label xml:lang="en">Measurement of  A.296</rdfs:label>
+      </crm:E16_Measurement>
+    </crm:P39i_was_measured_by>
+    <crm:P59_has_section>
+      <crm:E53_Place rdf:about="http://echoes-eccch.eu/KB/Concept/Iconostasis"/>
+    </crm:P59_has_section>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:7e30755c-1c42-4bdb-97ca-b9876a4f61c9">
+        <crm:P2_has_type rdf:resource="http://echoes-eccch.eu/KB/Concept/decorations/painted%20decoration"/>
+        <rdfs:label>Decoration on Preparation - upper layer</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P44_has_condition>
+      <crm:E3_Condition_State rdf:about="http://echoes-eccch.eu/KB/Concept/3/GeneralCondition.xml">
+        <rdfs:label>Deteriorated (mild)</rdfs:label>
+      </crm:E3_Condition_State>
+    </crm:P44_has_condition>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:82eed82e-e0e9-46ec-9ca5-c0a5cbc7a680">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/Markings/Marking">
+            <rdfs:label>Marking</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <rdfs:label>Inscription Illegible</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P44_has_condition>
+      <crm:E3_Condition_State rdf:about="http://echoes-eccch.eu/KB/Concept/1/GeneralCondition.xml">
+        <rdfs:label>Craqueleurs</rdfs:label>
+      </crm:E3_Condition_State>
+    </crm:P44_has_condition>
+    <crm:P102_has_title>
+      <crm:E35_Title rdf:about="urn:uuid:a1622775-549a-41bf-be85-b2b11d94e0e1">
+        <rdfs:label>Icon of Nativity of Church of Virgin Mary, Derynia, Cyprus</rdfs:label>
+      </crm:E35_Title>
+    </crm:P102_has_title>
+    <crm:P53_has_former_or_current_location>
+      <crm:E27_Site rdf:about="http://echoes-eccch.eu/KB/monument/Virgin%20Mary%20Church%2C%20Derynia">
+        <crm:P1_is_identified_by>
+          <crm:E41_Appellation rdf:about="urn:uuid:3b0fc518-5dd5-4574-8443-9dddc5c45a49">
+            <rdfs:label>Virgin Mary Church, Derynia</rdfs:label>
+          </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <rdfs:label>Virgin Mary Church, Derynia</rdfs:label>
+      </crm:E27_Site>
+    </crm:P53_has_former_or_current_location>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="urn:uuid:237e15b8-5c85-46c2-82d0-518ac07b2c42">
+        <rdfs:label>A.296</rdfs:label>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P138i_has_representation>
+      <crm:E36_Visual_Item rdf:about="urn:uuid:b3be3ad8-f6b8-414e-89a0-30769bfd911c">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/images/representative%20image"/>
+        </crm:P2_has_type>
+        <rdfs:label>Object__1__nativity___03-02-2025151949___1528.png</rdfs:label>
+      </crm:E36_Visual_Item>
+    </crm:P138i_has_representation>
+    <rdfs:label xml:lang="en">Icon of Nativity of Church of Virgin Mary, Derynia, Cyprus</rdfs:label>
+    <crm:P39i_was_measured_by>
+      <crm:E16_Measurement rdf:about="urn:uuid:3555eb6a-ad80-490b-8d12-663dc152c8b1">
+        <crm:P40_observed_dimension>
+          <crm:E54_Dimension rdf:about="http://echoes-eccch.eu/KB/Dimension/Derynia/Thickness">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/DimensionType/Thickness">
+                <skos:prefLabel xml:lang="en">Thickness</skos:prefLabel>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P91_has_unit rdf:resource="http://echoes-eccch.eu/KB/Concept/MeasurementUnits/cm"/>
+            <crm:P90_has_value rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"
+            >6</crm:P90_has_value>
+            <rdfs:label xml:lang="en">Thickness</rdfs:label>
+          </crm:E54_Dimension>
+        </crm:P40_observed_dimension>
+        <rdfs:label xml:lang="en">Measurement of  A.296</rdfs:label>
+      </crm:E16_Measurement>
+    </crm:P39i_was_measured_by>
+    <crm:P39i_was_measured_by>
+      <crm:E16_Measurement rdf:about="urn:uuid:41bc231f-5e96-4307-9a8c-9422eaec057c">
+        <crm:P40_observed_dimension>
+          <crm:E54_Dimension rdf:about="http://echoes-eccch.eu/KB/Dimension/Derynia/Length">
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/DimensionType/Length">
+                <skos:prefLabel xml:lang="en">Length</skos:prefLabel>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P91_has_unit rdf:resource="http://echoes-eccch.eu/KB/Concept/MeasurementUnits/cm"/>
+            <crm:P90_has_value rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"
+            >34</crm:P90_has_value>
+            <rdfs:label xml:lang="en">Length</rdfs:label>
+          </crm:E54_Dimension>
+        </crm:P40_observed_dimension>
+        <rdfs:label xml:lang="en">Measurement of  A.296</rdfs:label>
+      </crm:E16_Measurement>
+    </crm:P39i_was_measured_by>
+    <crm:P50_has_current_keeper>
+      <crm:E39_Actor rdf:about="http://echoes-eccch.eu/KB/ECHOES/Object/2/D6B25879-2FF0-3F82-933C-74EEB8AEF591">
+        <rdfs:label>Bishopric of Constantia and Ammochostos, Cyprus</rdfs:label>
+      </crm:E39_Actor>
+    </crm:P50_has_current_keeper>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:58512155-88f4-470e-89ec-380fbf80d86a">
+        <crm:P2_has_type rdf:resource="http://echoes-eccch.eu/KB/Concept/Markings/Marking"/>
+        <rdfs:label>Inscription Cinnabar red</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:17576b0a-b7e1-424b-ae2b-90ca0ab5ae50">
+        <crm:P2_has_type rdf:resource="http://echoes-eccch.eu/KB/Concept/decorations/painted%20decoration"/>
+        <rdfs:label>Decoration on Gilding</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P31i_was_modified_by>
+      <crm:E11_Modification rdf:about="http://echoes-eccch.eu/KB/Derynia/Conservation/2">
+        <rdfs:label xml:lang="en">Derynia conservation</rdfs:label>
+      </crm:E11_Modification>
+    </crm:P31i_was_modified_by>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:a9cafa97-920f-42e0-ba03-45a1718ca572">
+        <crm:P2_has_type rdf:resource="http://echoes-eccch.eu/KB/Concept/decorations/painted%20decoration"/>
+        <rdfs:label>Decoration on Pictorial - original layer</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P56_bears_feature>
+      <crm:E25_Human-Made_Feature rdf:about="urn:uuid:ca2c4e24-fa3a-4558-b8a0-735599cddd82">
+        <crm:P2_has_type rdf:resource="http://echoes-eccch.eu/KB/Concept/decorations/painted%20decoration"/>
+        <rdfs:label>Decoration on Pictorial - inpaint layer</rdfs:label>
+      </crm:E25_Human-Made_Feature>
+    </crm:P56_bears_feature>
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="http://echoes-eccch.eu/KB/Concept/1/687484A7-75D6-3605-8884-C96CFAB2833E">
+        <rdfs:label>Religious icon</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"/>
+    <crm:P3_has_note>Tempera and gold on wooden panel</crm:P3_has_note>
+  </hdto:HC3_Tangible_Heritage_Entity>
+</rdf:RDF>

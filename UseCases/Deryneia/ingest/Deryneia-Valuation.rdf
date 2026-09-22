@@ -1,0 +1,45 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crminf="http://www.cidoc-crm.org/extensions/crminf/"
+    xmlns:hdto="http://isl.ics.forth.gr/ontology/echoes/"
+    xmlns:crmdig="http://www.cidoc-crm.org/extensions/crmdig/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:hdtex="http://echoes-eccch.eu/KB/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <hdto:HC10_Heritage_Valuation rdf:about="http://echoes-eccch.eu/KB/Event/Valuation/A.296">
+    <hdto:HP16i_was_initiated_by>
+      <hdto:HC12_Heritage_Declaration_Event rdf:about="http://echoes-eccch.eu/KB/Event/Declaration/A.296">
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="http://echoes-eccch.eu/KB/Agent/Department%20of%20Antiquities%20in%20Cyprus">
+            <rdfs:label xml:lang="en">Department of Antiquities in Cyprus</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="http://echoes-eccch.eu/KB/Agent/Republic%20of%20Cyprus">
+            <rdfs:label xml:lang="en">Republic of Cyprus</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+        <crm:P3_has_note xml:lang="en">The declaration by the Antiquities Law (Cap. 31) of the Republic of Cyprus in 1935</crm:P3_has_note>
+        <rdfs:label xml:lang="en">Heritage Declaration Event for  A.296</rdfs:label>
+      </hdto:HC12_Heritage_Declaration_Event>
+    </hdto:HP16i_was_initiated_by>
+    <hdto:HP14_values>
+      <hdto:HC3_Tangible_Heritage_Entity rdf:about="http://echoes-eccch.eu/KB/ECHOES/Object/Derynia/A972C98D-E17D-3D80-935B-BD4041C2E901">
+        <rdfs:label xml:lang="en">Icon of Nativity of Church of Virgin Mary, Derynia, Cyprus</rdfs:label>
+      </hdto:HC3_Tangible_Heritage_Entity>
+    </hdto:HP14_values>
+    <crm:P4_has_time-span>
+      <crm:E52_Time-Span rdf:about="urn:uuid:c61a5127-99b9-404a-babc-32033e3abb66">
+        <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"
+        >1935</crm:P82a_begin_of_the_begin>
+        <rdfs:label xml:lang="en">Valuation Timespan</rdfs:label>
+      </crm:E52_Time-Span>
+    </crm:P4_has_time-span>
+    <crm:P3_has_note xml:lang="en">The Valuation of the Icon of Nativity by the Department of Antiquities in Cyprus</crm:P3_has_note>
+    <rdfs:label xml:lang="en">Valuation of A.296</rdfs:label>
+  </hdto:HC10_Heritage_Valuation>
+</rdf:RDF>

@@ -1,0 +1,36 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crminf="http://www.cidoc-crm.org/extensions/crminf/"
+    xmlns:hdto="http://isl.ics.forth.gr/ontology/echoes/"
+    xmlns:crmdig="http://www.cidoc-crm.org/extensions/crmdig/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:hdtex="http://echoes-eccch.eu/KB/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crmsci:S4_Single_Observation rdf:about="http://echoes-eccch.eu/KB/Event/Derynia-Examination/3">
+    <crm:P16_used_specific_object>
+      <crm:E29_Design_or_Procedure rdf:about="urn:uuid:5b0afcad-fc31-4cab-ab4c-97a9a74dcb85">
+        <crm:P3_has_note>
+          <rdfs:Literal rdf:about="urn:uuid:3c993949-583d-4c24-af5a-6b942317c631">
+            <rdfs:label>40 kV, 500µA, air, no filter, 0.5 mm spot size; resolution  500 µm and 80 ms dwell time, 4 h scan, three datasets of 500 x 340 points (XRF, RIS, LIS)</rdfs:label>
+          </rdfs:Literal>
+        </crm:P3_has_note>
+        <rdfs:label>setting</rdfs:label>
+      </crm:E29_Design_or_Procedure>
+    </crm:P16_used_specific_object>
+    <crm:P32_used_general_technique>
+      <crm:E55_Type rdf:about="http://vocab.getty.edu/page/aat/300438508">
+        <skos:prefLabel xml:lang="en">macro x-ray fluorescence</skos:prefLabel>
+      </crm:E55_Type>
+    </crm:P32_used_general_technique>
+    <crm:P1_is_identified_by>
+      <crm:E41_Appellation rdf:about="urn:uuid:5c5950a0-bdda-496b-befc-d2640eeb09fb">
+        <rdfs:label>MA-XRF</rdfs:label>
+      </crm:E41_Appellation>
+    </crm:P1_is_identified_by>
+    <rdfs:label>MA-XRF</rdfs:label>
+  </crmsci:S4_Single_Observation>
+</rdf:RDF>

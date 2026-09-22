@@ -1,0 +1,24 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crminf="http://www.cidoc-crm.org/extensions/crminf/"
+    xmlns:hdto="http://isl.ics.forth.gr/ontology/echoes/"
+    xmlns:crmdig="http://www.cidoc-crm.org/extensions/crmdig/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:hdtex="http://echoes-eccch.eu/KB/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E11_Modification rdf:about="http://echoes-eccch.eu/KB/Derynia/Conservation/2">
+    <crm:P9_consists_of>
+      <crm:E11_Modification rdf:about="http://echoes-eccch.eu/KB/Event/RestorationWork/2">
+        <crm:P3_has_note xml:lang="en">The originally cinnabar-painted inscription on the top of the icon was restored with a Cr-based red (chromium),
+the Virgin Mary’s brown dress, originally painted with a mixture of iron red/brown with cinnabar, was
+restored with a mixture of barium white, chromium red and cadmium red</crm:P3_has_note>
+        <rdfs:label xml:lang="en">RestorationWork</rdfs:label>
+      </crm:E11_Modification>
+    </crm:P9_consists_of>
+    <rdfs:label xml:lang="en">Derynia icon conservation</rdfs:label>
+  </crm:E11_Modification>
+</rdf:RDF>
