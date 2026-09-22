@@ -1,1 +1,0 @@
-The Deryneia xmind representation
