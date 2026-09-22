@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Valuation>
+		<Description>The Valuation of the Icon of Nativity by the Department of Antiquities in Cyprus</Description> 
+		
+		<Date>
+			<StartingDate>1935</StartingDate>
+			<EndingDate/>
+		</Date>
+		<HeritageEntity>
+			<ID>A.296</ID>
+			<Name>Icon of Nativity of Church of Virgin Mary, Derynia, Cyprus</Name>
+		</HeritageEntity>	
+		<HeritageDeclarationEvent>
+		<Description>The declaration by the Antiquities Law (Cap. 31) of the Republic of Cyprus in 1935</Description> 
+		<Actors>
+			<Name>Republic of Cyprus</Name>
+			<Name>Department of Antiquities in Cyprus</Name>
+		</Actors>
+		<Date>
+			<StartingDate>1935</StartingDate>
+			<EndingDate/>
+		</Date>
+		</HeritageDeclarationEvent>
+	</Valuation>
+</root>

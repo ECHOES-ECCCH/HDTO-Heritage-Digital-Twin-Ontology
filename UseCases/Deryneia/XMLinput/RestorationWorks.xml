@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<RestorationWork>
+		<IdentificationNumber sps_fixed="">http://echoes-eccch.eu/KB/Event/RestorationWork/2</IdentificationNumber>
+		<ConservationName sps_id="2" sps_linked_values="" sps_reverse_link="" sps_type="Conservation">.../Conservation/2, Nativity icon conservation</ConservationName>
+		<WorkName>Resoration of the nativity icon</WorkName>
+		<Object sps_id="1" sps_type="Object">.../Object/1, Nativity</Object>
+		<Annotation sps_anno="" sps_id="" sps_type=""/>
+		<Work>
+			<AnnotationId/>
+			<ObjectSideName sps_id="" sps_vocabulary=""/>
+			<ConservationWorkPosition sps_id="1" sps_vocabulary="ConservationWorkPosition.xml">Red inscription</ConservationWorkPosition>
+			<Date>
+				<StartingDate sps_addreport="" sps_datepick="" x="" y=""/>
+				<EndingDate sps_addreport="" sps_datepick="" x="" y=""/>
+			</Date>
+			<Supervisor sps_id="" sps_type=""/>
+			<Conservator sps_id="" sps_type=""/>
+			<ConservationWorkType sps_id="1" sps_vocabulary="ConservationWorkType.xml">Inpainting</ConservationWorkType>
+			<Description/>
+			<Technique sps_id="" sps_vocabulary=""/>
+			<ConservationMaterial>
+				<Material sps_id="5" sps_vocabulary="Material.xml">Chromium red</Material>
+				<Quantity/>
+				<MaterialApplicationTechnique sps_id="" sps_vocabulary=""/>
+			</ConservationMaterial>
+			<Devices>
+				<Device>
+					<Link sps_id="" sps_type=""/>
+					<Parameter>
+						<Type sps_id="" sps_vocabulary=""/>
+						<Value/>
+						<Unit sps_id="" sps_vocabulary=""/>
+					</Parameter>
+				</Device>
+			</Devices>
+			<DocumentationOfWork sps_browse="" sps_multiple=""/>
+			<PhotographicDocumentation sps_browse="" sps_multiple=""/>
+			<Drawings sps_browse="" sps_multiple=""/>
+		</Work>
+		<Work>
+			<AnnotationId/>
+			<ObjectSideName sps_id="" sps_vocabulary=""/>
+			<ConservationWorkPosition sps_id="2" sps_vocabulary="ConservationWorkPosition.xml">Mary red dress</ConservationWorkPosition>
+			<Date>
+				<StartingDate sps_addreport="" sps_datepick="" x="" y=""/>
+				<EndingDate sps_addreport="" sps_datepick="" x="" y=""/>
+			</Date>
+			<Supervisor sps_id="" sps_type=""/>
+			<Conservator sps_id="" sps_type=""/>
+			<ConservationWorkType sps_id="1" sps_vocabulary="ConservationWorkType.xml">Inpainting</ConservationWorkType>
+			<Description/>
+			<Technique sps_id="" sps_vocabulary=""/>
+			<ConservationMaterial>
+				<Material sps_id="5" sps_vocabulary="Material.xml">Chromium red</Material>
+				<Quantity/>
+				<MaterialApplicationTechnique sps_id="" sps_vocabulary=""/>
+			</ConservationMaterial>
+			<ConservationMaterial>
+				<Material sps_id="6" sps_vocabulary="Material.xml">Cadmium red</Material>
+				<Quantity/>
+				<MaterialApplicationTechnique sps_id="" sps_vocabulary=""/>
+			</ConservationMaterial>
+			<ConservationMaterial>
+				<Material sps_id="7" sps_vocabulary="Material.xml">Barium white</Material>
+				<Quantity/>
+				<MaterialApplicationTechnique sps_id="" sps_vocabulary=""/>
+			</ConservationMaterial>
+			<Devices>
+				<Device>
+					<Link sps_id="" sps_type=""/>
+					<Parameter>
+						<Type sps_id="" sps_vocabulary=""/>
+						<Value/>
+						<Unit sps_id="" sps_vocabulary=""/>
+					</Parameter>
+				</Device>
+			</Devices>
+			<DocumentationOfWork sps_browse="" sps_multiple=""/>
+			<PhotographicDocumentation sps_browse="" sps_multiple=""/>
+			<Drawings sps_browse="" sps_multiple=""/>
+		</Work>
+		<Work>
+			<AnnotationId/>
+			<ObjectSideName sps_id="" sps_vocabulary=""/>
+			<ConservationWorkPosition sps_id="3" sps_vocabulary="ConservationWorkPosition.xml">Brown areas</ConservationWorkPosition>
+			<Date>
+				<StartingDate sps_addreport="" sps_datepick="" x="" y=""/>
+				<EndingDate sps_addreport="" sps_datepick="" x="" y=""/>
+			</Date>
+			<Supervisor sps_id="" sps_type=""/>
+			<Conservator sps_id="" sps_type=""/>
+			<ConservationWorkType sps_id="1" sps_vocabulary="ConservationWorkType.xml">Inpainting</ConservationWorkType>
+			<Description/>
+			<Technique sps_id="" sps_vocabulary=""/>
+			<ConservationMaterial>
+				<Material sps_id="8" sps_vocabulary="Material.xml">Chromium brown</Material>
+				<Quantity/>
+				<MaterialApplicationTechnique sps_id="" sps_vocabulary=""/>
+			</ConservationMaterial>
+			<Devices>
+				<Device>
+					<Link sps_id="" sps_type=""/>
+					<Parameter>
+						<Type sps_id="" sps_vocabulary=""/>
+						<Value/>
+						<Unit sps_id="" sps_vocabulary=""/>
+					</Parameter>
+				</Device>
+			</Devices>
+			<DocumentationOfWork sps_browse="" sps_multiple=""/>
+			<PhotographicDocumentation sps_browse="" sps_multiple=""/>
+			<Drawings sps_browse="" sps_multiple=""/>
+		</Work>
+	</RestorationWork>
+</root>

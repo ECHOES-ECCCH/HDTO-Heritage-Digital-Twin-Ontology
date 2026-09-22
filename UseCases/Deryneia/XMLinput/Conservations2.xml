@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<ObjectConservation>
+		<IdentificationNumber sps_fixed="">http://echoes-eccch.eu/KB/Derynia/Conservation/2</IdentificationNumber>
+		<Type sps_id="2" sps_type="Conservation">Derynia icon conservation</Type>
+		<ConservationName>Derynia icon conservation</ConservationName>
+		<LaboratoryEntry>
+			<OriginatorOfReference sps_id="" sps_type=""/>
+			<Object sps_id="1" sps_type="Object">.../Object/1, Nativity, A.296, ГФ-93</Object>
+			<EntryDate sps_addreport="" sps_datepick="" x="" y=""/>
+			<PersonDeliveringTheObject sps_id="" sps_type=""/>
+			<PersonAdmittingTheObject sps_id="" sps_type=""/>
+			<Photograph sps_browse=""/>
+		</LaboratoryEntry>
+		<ExitFromLaboratory>
+			<ExitDate sps_addreport="" sps_datepick="" x="" y=""/>
+			<PersonAuthorizingTheExit sps_id="" sps_type=""/>
+			<PersonReceivingTheObject sps_id="" sps_type=""/>
+			<JobReport sps_browse="" sps_multiple=""/>
+		</ExitFromLaboratory>
+		<RelatedObjectExaminations>
+			<MacroscopicExaminations>
+				<MacroscopicExamination sps_id="" sps_type=""/>
+			</MacroscopicExaminations>
+			<DiganosticExaminations>
+				<DiagnosticExamination sps_id="2" sps_type="Examination">.../Examination/2, FTIR for nativity icon</DiagnosticExamination>
+				<DiagnosticExamination sps_id="3" sps_type="Examination">.../Examination/3, MA-XRF for the nativity icon</DiagnosticExamination>
+			</DiganosticExaminations>
+		</RelatedObjectExaminations>
+		<ConservationProposals>
+			<ConservationProposal>
+				<Description/>
+				<ReferenceVocabulary sps_id="" sps_vocabulary=""/>
+				<Files sps_browse="" sps_multiple=""/>
+			</ConservationProposal>
+		</ConservationProposals>
+		<ConservationWorks>
+			<ConservationWork sps_id="2" sps_type="RestorationWork">The originally cinnabar-painted inscription on the top of the icon was restored with a Cr-based red (chromium),
+the Virgin Mary’s brown dress, originally painted with a mixture of iron red/brown with cinnabar, was
+restored with a mixture of barium white, chromium red and cadmium red</ConservationWork>
+			<PreventativeCOnservationWork sps_id="" sps_type=""/>
+			<LaserCleaning sps_id="" sps_type=""/>
+		</ConservationWorks>
+		<ConservationDocumentation>
+			<ConservationRecord sps_browse="" sps_multiple=""/>
+			<PhotographicDicumentationAfterTreatment sps_browse="" sps_multiple=""/>
+			<BibliographicReferences>
+				<BibliographicReference>
+					<LinkToBibliography sps_id="" sps_type=""/>
+					<BibliographicNote/>
+				</BibliographicReference>
+			</BibliographicReferences>
+			<AdministrativeDocuments>
+				<AdministrativeDocument sps_id="" sps_type=""/>
+			</AdministrativeDocuments>
+		</ConservationDocumentation>
+	</ObjectConservation>
+</root>

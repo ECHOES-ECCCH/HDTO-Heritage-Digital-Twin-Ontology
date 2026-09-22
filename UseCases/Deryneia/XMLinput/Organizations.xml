@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><root><Organization>
+<IdentificationNumber sps_fixed="">http://echoes/Organization/1</IdentificationNumber>
+<Appellation>Cretan</Appellation>
+<Type sps_id="" sps_vocabulary=""/>
+<Pursuit/>
+<HeadquartersLocation sps_id="" sps_type=""/>
+<Location sps_id="" sps_type=""/>
+<BeMemberOf sps_id="" sps_type=""/>
+<ContactInfo>
+<Address/>
+<Telephone/>
+<Fax/>
+<Email/>
+</ContactInfo>
+<Description>Artistic context, school, cretan</Description>
+
+</Organization><Organization>
+<IdentificationNumber sps_fixed="">http://echoes/Organization/2</IdentificationNumber>
+<Appellation>Bishopcry of Constantia and Ammochostos, Cyprus</Appellation>
+<Type sps_id="" sps_vocabulary=""/>
+<Pursuit/>
+<HeadquartersLocation sps_id="" sps_type=""/>
+<Location sps_id="" sps_type=""/>
+<BeMemberOf sps_id="" sps_type=""/>
+<ContactInfo>
+<Address/>
+<Telephone/>
+<Fax/>
+<Email/>
+</ContactInfo>
+<Description/>
+
+</Organization>
+</root>
