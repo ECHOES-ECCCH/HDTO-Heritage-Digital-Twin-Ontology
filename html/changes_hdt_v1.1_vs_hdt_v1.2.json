@@ -1,0 +1,73 @@
+{
+  "version1": "1.1",
+  "version2": "1.2",
+  "summary": "Comparison of: '1.1' (referenced as 'version1') and '1.2' (referenced as 'version2'). The comparison detected: ['1 Renames', '1 Hierarchical changes', '3 Scope note changes', '3 Examples changes', '1 Range changes', '2 Quantification changes']",
+  "differences": {
+    "Additions": [],
+    "Deletions": [],
+    "Renames": {
+      "HP29 has digital object part": {
+        "version1Value": "HP29 has digital object part",
+        "version2Value": "HP29 has digital object part (is digital object part of)"
+      }
+    },
+    "Hierarchical changes": {
+      "HP22 represents (has digital representation)": {
+        "version1Value": "subPropertyOf: ['P138']",
+        "version2Value": "subPropertyOf: ['P70']"
+      }
+    },
+    "Scope note changes": {
+      "HC18 Provenance Statement": {
+        "version1Value": "<p>This class comprises statements about the provenance of instances of E70 Thing existing at the time of making the provenance statements. An instance of HC18 Provenance Statement must contain propositions about the presence of the respective instances of E70 Thing in an event or spatiotemporal context of reference.</p><p>The class comprises statements on the distinctive meaning of provenance as the declared object’s pedigree, that is, the chain of custody, ownership and display of a cultural object.</p><p>In case that only information objects exist describing the proper thing of interest, such as a photo of a lost archaeological object, or a photo of a photo thereof, an instance of HC18 Provenance Statement should contain the relevant chain of intermediate events transferring the information from the proper thing of interest up to the extant information objects considered, or they, at least, should refer to said chain of intermediate events.</p><p>The property <em>HP36 is about the provenance of (has provenance claim) </em>can be used to link the instance of Provenance Statement with the proper thing of interest. It is a constraint to the provenance statement that it must contain the description of the relevant context of reference, and, if applicable, to the relevant chain of intermediate events transferring the information.</p>",
+        "version2Value": "<p>This class comprises statements about the provenance of instances of E70 Thing existing at the time of making the provenance statements. An instance of HC18 Provenance Statement must contain propositions about the presence of the respective instances of E70 Thing in an event or spatiotemporal context of reference.</p><p>The class comprises statements on the distinctive meaning of provenance as the declared object’s pedigree, that is, the chain of custody, ownership and display of a cultural object.</p><p>In case that only information objects exist describing the proper thing of interest, such as a photo of a lost archaeological object, or a photo of a photo thereof, an instance of HC18 Provenance Statement should contain the relevant chain of intermediate events transferring the information from the proper thing of interest up to the extant information objects considered, or they, at least, should refer to said chain of intermediate events.</p><p>The property <em>HP36 is about the provenance of (has provenance claim)</em> can be used to link the instance of Provenance Statement with the proper thing of interest. It is a constraint to the provenance statement that it must contain the description of the relevant context of reference, and, if applicable, to the relevant chain of intermediate events transferring the information.</p>"
+      },
+      "HP15 is heritage of (has original heritage)": {
+        "version1Value": "<p>This property links an instance of HC1 Heritage Entity with an instance of E74 Group for which the valued Heritage Entity is regarded to constitute heritage, by originating, being created, valued and/or maintained in this Group.</p><p>This property is a shortcut for the full path from HC1 Heritage Entity through <em>HP14i is valued by, </em>HC10 Heritage Valuation, <em>HP12i is regarded as origin by </em>to crm:E74 Group.</p>",
+        "version2Value": "<p>This property links an instance of HC1 Heritage Entity with an instance of E74 Group for which the valued Heritage Entity is regarded to constitute heritage, by originating, being created, valued and/or maintained in this Group.</p><p>This property is a shortcut for the full path from HC1 Heritage Entity through<em> HP14i is valued by, </em>HC10 Heritage Valuation, <em>HP12i is regarded as origin by </em>to crm:E74 Group.</p>"
+      },
+      "HP21 is 3D representation output of (has 3D representation)": {
+        "version1Value": "<p>This property associates an instance of HC1 Heritage Entity with instances of HC8 3D Model in which it is digitised and represented.</p>",
+        "version2Value": "<p>This property associates an instance of HC1 Heritage Entity defined as S15 Observable Entity with instances of HC8 3D Model in which it is digitised and represented.</p>"
+      }
+    },
+    "Full Path changes": {},
+    "Examples changes": {
+      "HP9 is visual representation of (has visual representation)": {
+        "version1Value": "<p>The Pisa Leaning Tower (S15) <em>has visual representation </em>the Europeana digital version of the paper picture of the Pisa Leaning Tower taken by Paolo Monti in 1960 (HC7)</p><p>(<a href=\"https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_custom_att_2_simple_viewer\">https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_custom_att_2_simple_viewer</a>).</p>",
+        "version2Value": "<p>The Pisa Leaning Tower (S15) <em>has visual representation </em>the Europeana digital version of the paper picture of the Pisa Leaning Tower taken by Paolo Monti in 1960 (HC7)</p><p>(<a href=\"https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_custom_att_2_simple_viewer\">https://www.europeana.eu/it/item/9200369/webclient_DeliveryManager_pid_6363979_c ustom_att_2_simple_viewer</a>).</p>"
+      },
+      "HP20 was carried out under (had contribution)": {
+        "version1Value": "<p>The ECHOES Project team CNRS Maintenance (HC11) <em>was carried out under </em>the ECHOES project 2024-2029 (HC13).</p>",
+        "version2Value": "<p>The ECHOES Project team CNRS Maintenance (HC11) <em>was carried out under</em> the ECHOES project 2024-2029 (HC13).</p>"
+      },
+      "HP26 studied specifically (was studied by)": {
+        "version1Value": "<p>The multi-dimensional analysis and the memorization made during the restoration of Notre-Dame cathedral (HC9) <em>studied specifically </em>the Notre-Dame cathedral (HC1).</p><p>The Heritage Science based Art historical Investigation of the Derynia Icon (HC9) <em>studied specifically </em>the icon material composition (E1).</p>",
+        "version2Value": "<p>The multi-dimensional analysis and the memorization made during the restoration of Notre-Dame cathedral (HC9) <em>studied specifically </em>the Notre-Dame cathedral (HC1).</p><p>The Heritage Science based Art historical Investigation of the Derynia Icon (HC9) <em>studied specifically</em> the icon material composition (E1).</p>"
+      }
+    },
+    "First Order Logic changes": {},
+    "Domain changes": {},
+    "Range changes": {
+      "HP21 is 3D representation output of (has 3D representation)": {
+        "version1Value": [
+          "HC1 Heritage Entity"
+        ],
+        "version2Value": [
+          "S15"
+        ]
+      }
+    },
+    "Quantification changes": {
+      "HP30 added content (content was added by)": {
+        "version1Value": "many to many, necessary (1,n:0,n)",
+        "version2Value": "many to many (0,n:0,n)"
+      },
+      "HP33 contains (is proposition set of)": {
+        "version1Value": "one to many, necessary (1,n:0,1)",
+        "version2Value": "one to many (0,n:0,1)"
+      }
+    },
+    "PC (.1) property changes": {}
+  }
+}
