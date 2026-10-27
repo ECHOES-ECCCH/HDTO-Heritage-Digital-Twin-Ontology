@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<root status="Stable" modelIdentifier="HDT" version="1.1" releaseDate="May, 2026" classes="20" properties="37" modelDescriptionLink="https://zenodo.org/records/20445938" repository="https://github.com/ECHOES-ECCCH/HDTO-Heritage-Digital-Twin-Ontology" rdfLink="../rdfs/HDT_v1.1.rdf" namespace="http://culturalheritagecloud.eu/ontology/hdto/" lang="en">
+<root status="Stable" modelIdentifier="HDT" version="1.1" releaseDate="May, 2026" classes="20" properties="37" modelDescriptionLink="https://zenodo.org/records/20445938" rdfLink="../rdfs/HDT_v1.1.rdf" namespace="http://isl.ics.forth.gr/ontology/echoes/" lang="en">
   <!--
 XML encoding of the Classes and Properties declarations of HDT v1.1 May, 2026 (https://zenodo.org/records/20445938).
 
-Created by FORTH-ICS - October, 2026
+Created by FORTH-ICS - July, 2026
 CC BY 4.0 https://creativecommons.org/licenses/by/4.0/legalcode
 
 -->
   <modelDependencies>
-    <model modelName="Cidoc-CRM v7.1.3" modelSpecificationLink="https://cidoc-crm.org/Version/version-7.1.3" namespace="http://www.cidoc-crm.org/cidoc-crm/" versionIRI="http://www.cidoc-crm.org/cidoc-crm/7.1.3/"/>
-    <model modelName="CRMdig v5.0" modelSpecificationLink="https://cidoc-crm.org/crmdig/fm_releases" namespace="http://www.cidoc-crm.org/extensions/crmdig/" versionIRI="http://www.cidoc-crm.org/extensions/crmdig/5.0/"/>
-    <model modelName="CRMsci v3.2" modelSpecificationLink="https://cidoc-crm.org/crmsci/ModelVersion/crmsci-v3.2" namespace="http://www.cidoc-crm.org/extensions/crmsci/" versionIRI="http://www.cidoc-crm.org/extensions/crmsci/3.2/"/>
-    <model modelName="CRMinf v1.2.1" modelSpecificationLink="https://cidoc-crm.org/crminf/ModelVersion/crminf-1.2.1" namespace="http://www.cidoc-crm.org/extensions/crminf/" versionIRI="http://www.cidoc-crm.org/extensions/crminf/1.2.1/"/>
+    <model modelName="Cidoc-CRM v7.1.3" modelSpecificationLink="https://cidoc-crm.org/Version/version-7.1.3" namespace="http://www.cidoc-crm.org/cidoc-crm/"/>
+    <model modelName="CRMdig v5.0" modelSpecificationLink="https://cidoc-crm.org/crmdig/fm_releases" namespace="http://www.cidoc-crm.org/extensions/crmdig/"/>
+    <model modelName="CRMsci v3.2" modelSpecificationLink="https://cidoc-crm.org/crmsci/ModelVersion/crmsci-v3.2" namespace="http://www.cidoc-crm.org/extensions/crmsci/"/>
+    <model modelName="CRMinf v1.2.1" modelSpecificationLink="https://cidoc-crm.org/crminf/ModelVersion/crminf-1.2.1" namespace="http://www.cidoc-crm.org/extensions/crminf/"/>
     <model modelName="Narrative Ontology v2.0" modelSpecificationLink="https://dlnarratives.eu/ontology/" namespace="https://dlnarratives.eu/ontology#"/>
   </modelDependencies>
   <classes>
@@ -591,42 +591,42 @@ CC BY 4.0 https://creativecommons.org/licenses/by/4.0/legalcode
     </property>
   </properties>
   <externalReferences>
-    <extRef id="D1" uri="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object" label="Digital Object" modelName="CRMdig v5.0" fullName="D1 Digital Object"/>
-    <extRef id="D9" uri="http://www.cidoc-crm.org/extensions/crmdig/5.0/D9_Data_Object" label="Data Object" modelName="CRMdig v5.0" fullName="D9 Data Object"/>
-    <extRef id="E1" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity" label="CRM Entity" modelName="Cidoc-CRM v7.1.3" fullName="E1 CRM Entity"/>
-    <extRef id="E2" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E2_Temporal_Entity" label="Temporal Entity" modelName="Cidoc-CRM v7.1.3" fullName="E2 Temporal Entity"/>
-    <extRef id="E4" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period" label="Period" modelName="Cidoc-CRM v7.1.3" fullName="E4 Period"/>
-    <extRef id="E5" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event" label="Event" modelName="Cidoc-CRM v7.1.3" fullName="E5 Event"/>
-    <extRef id="E7" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity" label="Activity" modelName="Cidoc-CRM v7.1.3" fullName="E7 Activity"/>
-    <extRef id="E10" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody" label="Transfer of Custody" modelName="Cidoc-CRM v7.1.3" fullName="E10 Transfer of Custody"/>
-    <extRef id="E13" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment" label="Attribute Assignment" modelName="Cidoc-CRM v7.1.3" fullName="E13 Attribute Assignment"/>
-    <extRef id="E18" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E18_Physical_Thing" label="Physical Thing" modelName="Cidoc-CRM v7.1.3" fullName="E18 Physical Thing"/>
-    <extRef id="E28" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E28_Conceptual_Object" label="Conceptual Object" modelName="Cidoc-CRM v7.1.3" fullName="E28 Conceptual Object"/>
-    <extRef id="E31" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document" label="Document" modelName="Cidoc-CRM v7.1.3" fullName="E31 Document"/>
-    <extRef id="E36" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E36_Visual_Item" label="Visual Item" modelName="Cidoc-CRM v7.1.3" fullName="E36 Visual Item"/>
-    <extRef id="E55" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type" label="Type" modelName="Cidoc-CRM v7.1.3" fullName="E55 Type"/>
-    <extRef id="E65" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation" label="Creation" modelName="Cidoc-CRM v7.1.3" fullName="E65 Creation"/>
-    <extRef id="E70" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing" label="Thing" modelName="Cidoc-CRM v7.1.3" fullName="E70 Thing"/>
-    <extRef id="E74" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group" label="Group" modelName="Cidoc-CRM v7.1.3" fullName="E74 Group"/>
-    <extRef id="E89" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object" label="Propositional Object" modelName="Cidoc-CRM v7.1.3" fullName="E89 Propositional Object"/>
-    <extRef id="E90" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E90_Symbolic_Object" label="Symbolic Object" modelName="Cidoc-CRM v7.1.3" fullName="E90 Symbolic Object"/>
-    <extRef id="I1" uri="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I1_Argumentation" label="Argumentation" modelName="CRMinf v1.2.1" fullName="I1 Argumentation"/>
-    <extRef id="I4" uri="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I4_Proposition_Set" label="Proposition Set" modelName="CRMinf v1.2.1" fullName="I4 Proposition Set"/>
-    <extRef id="I5" uri="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I5_Inference_Making" label="Inference Making" modelName="CRMinf v1.2.1" fullName="I5 Inference Making"/>
+    <extRef id="D1" uri="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object" label="Digital Object" modelName="CRMdig v5.0" fullName="D1 Digital Object"/>
+    <extRef id="D9" uri="http://www.cidoc-crm.org/extensions/crmdig/D9_Data_Object" label="Data Object" modelName="CRMdig v5.0" fullName="D9 Data Object"/>
+    <extRef id="E1" uri="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity" label="CRM Entity" modelName="Cidoc-CRM v7.1.3" fullName="E1 CRM Entity"/>
+    <extRef id="E2" uri="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity" label="Temporal Entity" modelName="Cidoc-CRM v7.1.3" fullName="E2 Temporal Entity"/>
+    <extRef id="E4" uri="http://www.cidoc-crm.org/cidoc-crm/E4_Period" label="Period" modelName="Cidoc-CRM v7.1.3" fullName="E4 Period"/>
+    <extRef id="E5" uri="http://www.cidoc-crm.org/cidoc-crm/E5_Event" label="Event" modelName="Cidoc-CRM v7.1.3" fullName="E5 Event"/>
+    <extRef id="E7" uri="http://www.cidoc-crm.org/cidoc-crm/E7_Activity" label="Activity" modelName="Cidoc-CRM v7.1.3" fullName="E7 Activity"/>
+    <extRef id="E10" uri="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody" label="Transfer of Custody" modelName="Cidoc-CRM v7.1.3" fullName="E10 Transfer of Custody"/>
+    <extRef id="E13" uri="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment" label="Attribute Assignment" modelName="Cidoc-CRM v7.1.3" fullName="E13 Attribute Assignment"/>
+    <extRef id="E18" uri="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing" label="Physical Thing" modelName="Cidoc-CRM v7.1.3" fullName="E18 Physical Thing"/>
+    <extRef id="E28" uri="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object" label="Conceptual Object" modelName="Cidoc-CRM v7.1.3" fullName="E28 Conceptual Object"/>
+    <extRef id="E31" uri="http://www.cidoc-crm.org/cidoc-crm/E31_Document" label="Document" modelName="Cidoc-CRM v7.1.3" fullName="E31 Document"/>
+    <extRef id="E36" uri="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item" label="Visual Item" modelName="Cidoc-CRM v7.1.3" fullName="E36 Visual Item"/>
+    <extRef id="E55" uri="http://www.cidoc-crm.org/cidoc-crm/E55_Type" label="Type" modelName="Cidoc-CRM v7.1.3" fullName="E55 Type"/>
+    <extRef id="E65" uri="http://www.cidoc-crm.org/cidoc-crm/E65_Creation" label="Creation" modelName="Cidoc-CRM v7.1.3" fullName="E65 Creation"/>
+    <extRef id="E70" uri="http://www.cidoc-crm.org/cidoc-crm/E70_Thing" label="Thing" modelName="Cidoc-CRM v7.1.3" fullName="E70 Thing"/>
+    <extRef id="E74" uri="http://www.cidoc-crm.org/cidoc-crm/E74_Group" label="Group" modelName="Cidoc-CRM v7.1.3" fullName="E74 Group"/>
+    <extRef id="E89" uri="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object" label="Propositional Object" modelName="Cidoc-CRM v7.1.3" fullName="E89 Propositional Object"/>
+    <extRef id="E90" uri="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object" label="Symbolic Object" modelName="Cidoc-CRM v7.1.3" fullName="E90 Symbolic Object"/>
+    <extRef id="I1" uri="http://www.cidoc-crm.org/extensions/crminf/I1_Argumentation" label="Argumentation" modelName="CRMinf v1.2.1" fullName="I1 Argumentation"/>
+    <extRef id="I4" uri="http://www.cidoc-crm.org/extensions/crminf/I4_Proposition_Set" label="Proposition Set" modelName="CRMinf v1.2.1" fullName="I4 Proposition Set"/>
+    <extRef id="I5" uri="http://www.cidoc-crm.org/extensions/crminf/I5_Inference_Making" label="Inference Making" modelName="CRMinf v1.2.1" fullName="I5 Inference Making"/>
     <extRef id="Narrative" uri="https://dlnarratives.eu/ontology#Narrative" label="Narrative" modelName="Narrative Ontology v2.0" fullName="Narrative"/>
     <extRef id="Narration" uri="https://dlnarratives.eu/ontology#Narration" label="Narration" modelName="Narrative Ontology v2.0" fullName="Narration"/>
-    <extRef id="O36" domainID="S27" rangeID="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/3.2/O36_expressed_the_observed_as" label="expressed the observed as" modelName="CRMsci v3.2" fullName="O36 expressed the observed as (was the expression of)"/>
-    <extRef id="P2" domainID="E1" rangeID="E55" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type" label="has type" modelName="Cidoc-CRM v7.1.3" fullName="P2 has type (is type of)"/>
-    <extRef id="P9i" domainID="E4" rangeID="E4" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9i_forms_part_of" label="forms part of" modelName="Cidoc-CRM v7.1.3" fullName="P9i forms part of (consists of)"/>
-    <extRef id="P16" domainID="E7" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object" label="used specific object" modelName="Cidoc-CRM v7.1.3" fullName="P16 used specific object (was used for)"/>
-    <extRef id="P94" domainID="E65" rangeID="E28" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created" label="has created" modelName="Cidoc-CRM v7.1.3" fullName="P94 has created (was created by)"/>
-    <extRef id="P106" domainID="E90" rangeID="E90" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P106_is_composed_of" label="is composed of" modelName="Cidoc-CRM v7.1.3" fullName="P106 is composed of (forms part of)"/>
-    <extRef id="P129" domainID="E89" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129_is_about" label="is about" modelName="Cidoc-CRM v7.1.3" fullName="P129 is about (is subject of)"/>
-    <extRef id="P130" domainID="E70" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P130_shows_features_of" label="shows features of" modelName="Cidoc-CRM v7.1.3" fullName="P130 shows features of (features are also found on)"/>
-    <extRef id="P138" domainID="E36" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P138_represents" label="represents" modelName="Cidoc-CRM v7.1.3" fullName="P138 represents (has representation)"/>
-    <extRef id="P148" domainID="E89" rangeID="E89" uri="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P148_has_component" label="has component" modelName="Cidoc-CRM v7.1.3" fullName="P148 has component (is component of)"/>
-    <extRef id="S15" uri="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity" label="Observable Entity" modelName="CRMsci v3.2" fullName="S15 Observable Entity"/>
-    <extRef id="S27" uri="http://www.cidoc-crm.org/extensions/crmsci/3.2/S27_Observation" label="Observation" modelName="CRMsci v3.2" fullName="S27 Observation"/>
-    <extRef id="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/3.2/S28_Observable_Situation" label="Observable Situation" modelName="CRMsci v3.2" fullName="S28 Observable Situation"/>
+    <extRef id="O36" domainID="S27" rangeID="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/O36_expressed_the_observed_as" label="expressed the observed as" modelName="CRMsci v3.2" fullName="O36 expressed the observed as (was the expression of)"/>
+    <extRef id="P2" domainID="E1" rangeID="E55" uri="http://www.cidoc-crm.org/cidoc-crm/P2_has_type" label="has type" modelName="Cidoc-CRM v7.1.3" fullName="P2 has type (is type of)"/>
+    <extRef id="P9i" domainID="E4" rangeID="E4" uri="http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of" label="forms part of" modelName="Cidoc-CRM v7.1.3" fullName="P9i forms part of (consists of)"/>
+    <extRef id="P16" domainID="E7" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object" label="used specific object" modelName="Cidoc-CRM v7.1.3" fullName="P16 used specific object (was used for)"/>
+    <extRef id="P94" domainID="E65" rangeID="E28" uri="http://www.cidoc-crm.org/cidoc-crm/P94_has_created" label="has created" modelName="Cidoc-CRM v7.1.3" fullName="P94 has created (was created by)"/>
+    <extRef id="P106" domainID="E90" rangeID="E90" uri="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of" label="is composed of" modelName="Cidoc-CRM v7.1.3" fullName="P106 is composed of (forms part of)"/>
+    <extRef id="P129" domainID="E89" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/P129_is_about" label="is about" modelName="Cidoc-CRM v7.1.3" fullName="P129 is about (is subject of)"/>
+    <extRef id="P130" domainID="E70" rangeID="E70" uri="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of" label="shows features of" modelName="Cidoc-CRM v7.1.3" fullName="P130 shows features of (features are also found on)"/>
+    <extRef id="P138" domainID="E36" rangeID="E1" uri="http://www.cidoc-crm.org/cidoc-crm/P138_represents" label="represents" modelName="Cidoc-CRM v7.1.3" fullName="P138 represents (has representation)"/>
+    <extRef id="P148" domainID="E89" rangeID="E89" uri="http://www.cidoc-crm.org/cidoc-crm/P148_has_component" label="has component" modelName="Cidoc-CRM v7.1.3" fullName="P148 has component (is component of)"/>
+    <extRef id="S15" uri="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity" label="Observable Entity" modelName="CRMsci v3.2" fullName="S15 Observable Entity"/>
+    <extRef id="S27" uri="http://www.cidoc-crm.org/extensions/crmsci/S27_Observation" label="Observation" modelName="CRMsci v3.2" fullName="S27 Observation"/>
+    <extRef id="S28" uri="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation" label="Observable Situation" modelName="CRMsci v3.2" fullName="S28 Observable Situation"/>
   </externalReferences>
 </root>
