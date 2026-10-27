@@ -6,16 +6,16 @@
   <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
   <title>Classes &amp; Properties Declarations of HDT version: 1.1</title>
 
-  <link href="./common/select2/4.1.0-rc0/select2.min.css?v=20260724" rel="stylesheet" />
+  <link href="./common/select2/4.1.0-rc0/select2.min.css?v=20261027" rel="stylesheet" />
 
 
 
-  <script src="./common/fontawesome/d933bfdcd9.js?v=20260724"></script>
-  <script src="./common/jquery/3.6.0/jquery-3.6.0.min.js?v=20260724"></script>
-  <script src="./common/select2/4.1.0-rc0/select2.min.js?v=20260724"></script>
-  <script src="./common/cytoscape/3.19.0/cytoscape.min.js?v=20260724"></script>
-  <link href="./common/cidoc_styles.css?v=20260724" rel="stylesheet" />
-  <script src="./common/cidoc_scripts.js?v=20260724"></script>
+  <script src="./common/fontawesome/d933bfdcd9.js?v=20261027"></script>
+  <script src="./common/jquery/3.6.0/jquery-3.6.0.min.js?v=20261027"></script>
+  <script src="./common/select2/4.1.0-rc0/select2.min.js?v=20261027"></script>
+  <script src="./common/cytoscape/3.19.0/cytoscape.min.js?v=20261027"></script>
+  <link href="./common/cidoc_styles.css?v=20261027" rel="stylesheet" />
+  <script src="./common/cidoc_scripts.js?v=20261027"></script>
 
 </head>
 
@@ -23,7 +23,7 @@
   <!--
 HDT XML/HTML representation.
 
-Created by FORTH - ICS on Thursday July 24, 2026
+Created by FORTH - ICS Tuesday, October 27, 2026
 -->
   <div id="modalbackground" class="modal">
     <div id="graphcontainer">
@@ -118,84 +118,99 @@ Created by FORTH - ICS on Thursday July 24, 2026
   </div>
   <h1>Classes &amp; Properties Declarations of HDT version: <span id="currentVersion">1.1</span></h1>
   <p class="pageIntro">Namespace: <a
-      href="http://isl.ics.forth.gr/ontology/echoes/">http://isl.ics.forth.gr/ontology/echoes/</a></p>
+      href="http://culturalheritagecloud.eu/ontology/hdto/">http://culturalheritagecloud.eu/ontology/hdto/</a></p>
   <p class="pageIntro">RDFs implementation: <a href="../rdfs/HDT_v1.1.rdf">
       RDF file
     </a></p>
   <p class="pageIntro">HDT version: 1.1 was released on May, 2026 and is available at DOI: <a
       href="https://zenodo.org/records/20445938">10.5281/zenodo.20445938</a>.</p>
+  <p class="pageIntro">Github repository: <a
+      href="https://github.com/ECHOES-ECCCH/HDTO-Heritage-Digital-Twin-Ontology">https://github.com/ECHOES-ECCCH/HDTO-Heritage-Digital-Twin-Ontology</a>
+  </p>
   <p class="pageIntro">It includes references to the following external models:
   <ul class="pageIntro" style="list-style-type: none;">
     <li>
       <details>
-        <summary><a href="http://www.cidoc-crm.org/cidoc-crm/">Cidoc-CRM v7.1.3</a><em> (show/hide model
+        <summary><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/">Cidoc-CRM v7.1.3</a><em> (show/hide model
             dependencies)</em></summary>
         <ul>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1 CRM Entity</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity">E2 Temporal Entity</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E4_Period">E4 Period</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E5_Event">E5 Event</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7 Activity</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody">E10 Transfer of Custody</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">E13 Attribute Assignment</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">E18 Physical Thing</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">E28 Conceptual Object</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E31_Document">E31 Document</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item">E36 Visual Item</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E55_Type">E55 Type</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E65_Creation">E65 Creation</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70 Thing</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74 Group</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89 Propositional Object</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object">E90 Symbolic Object</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">P2 has type (is type of)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of">P9i forms part of (consists of)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16 used specific object (was used
-              for)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P94_has_created">P94 has created (was created by)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of">P106 is composed of (forms part of)</a>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1 CRM Entity</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E2_Temporal_Entity">E2 Temporal Entity</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period">E4 Period</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event">E5 Event</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7 Activity</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody">E10 Transfer of Custody</a>
           </li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P129_is_about">P129 is about (is subject of)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of">P130 shows features of (features are
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment">E13 Attribute Assignment</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E18_Physical_Thing">E18 Physical Thing</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E28_Conceptual_Object">E28 Conceptual Object</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document">E31 Document</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E36_Visual_Item">E36 Visual Item</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type">E55 Type</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation">E65 Creation</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70 Thing</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74 Group</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89 Propositional Object</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E90_Symbolic_Object">E90 Symbolic Object</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type">P2 has type (is type of)</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9i_forms_part_of">P9i forms part of (consists of)</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16 used specific object (was
+              used for)</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created">P94 has created (was created by)</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P106_is_composed_of">P106 is composed of (forms part
+              of)</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129_is_about">P129 is about (is subject of)</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P130_shows_features_of">P130 shows features of (features
+              are
               also found on)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P138_represents">P138 represents (has representation)</a></li>
-          <li><a href="http://www.cidoc-crm.org/cidoc-crm/P148_has_component">P148 has component (is component of)</a>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P138_represents">P138 represents (has
+              representation)</a></li>
+          <li><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P148_has_component">P148 has component (is component
+              of)</a>
           </li>
         </ul>
       </details>
     </li>
     <li>
       <details>
-        <summary><a href="http://www.cidoc-crm.org/extensions/crmdig/">CRMdig v5.0</a><em> (show/hide model
+        <summary><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/">CRMdig v5.0</a><em> (show/hide model
             dependencies)</em></summary>
         <ul>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object">D1 Digital Object</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmdig/D9_Data_Object">D9 Data Object</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object">D1 Digital Object</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D9_Data_Object">D9 Data Object</a></li>
         </ul>
       </details>
     </li>
     <li>
       <details>
-        <summary><a href="http://www.cidoc-crm.org/extensions/crmsci/">CRMsci v3.2</a><em> (show/hide model
+        <summary><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/">CRMsci v3.2</a><em> (show/hide model
             dependencies)</em></summary>
         <ul>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/O36_expressed_the_observed_as">O36 expressed the
+          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/O36_expressed_the_observed_as">O36 expressed the
               observed as (was the expression of)</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15 Observable Entity</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/S27_Observation">S27 Observation</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation">S28 Observable Situation</a>
+          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15 Observable Entity</a>
+          </li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S27_Observation">S27 Observation</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S28_Observable_Situation">S28 Observable
+              Situation</a>
           </li>
         </ul>
       </details>
     </li>
     <li>
       <details>
-        <summary><a href="http://www.cidoc-crm.org/extensions/crminf/">CRMinf v1.2.1</a><em> (show/hide model
+        <summary><a href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/">CRMinf v1.2.1</a><em> (show/hide model
             dependencies)</em></summary>
         <ul>
-          <li><a href="http://www.cidoc-crm.org/extensions/crminf/I1_Argumentation">I1 Argumentation</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crminf/I4_Proposition_Set">I4 Proposition Set</a></li>
-          <li><a href="http://www.cidoc-crm.org/extensions/crminf/I5_Inference_Making">I5 Inference Making</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I1_Argumentation">I1 Argumentation</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I4_Proposition_Set">I4 Proposition Set</a></li>
+          <li><a href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I5_Inference_Making">I5 Inference Making</a>
+          </li>
         </ul>
       </details>
     </li>
@@ -415,9 +430,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC1_Heritage_Entity">http://isl.ics.forth.gr/ontology/echoes/HC1_Heritage_Entity</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC1_Heritage_Entity">http://culturalheritagecloud.eu/ontology/hdto/HC1_Heritage_Entity</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC1_Heritage_Entity', 'HC1');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC1_Heritage_Entity', 'HC1');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC1">
                             <div style="margin:5px" id="refURITooltipTxtForHC1"> </div>
@@ -432,7 +447,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a> Thing</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a> Thing</span>
+              </td>
               <td class="col3"><a href="#E70">E70</a> </td>
             </tr>
             <tr>
@@ -494,7 +510,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
                     href="#HC2">HC2</a> Heritage Digital Twin</span><br><a href="#HP2">HP2</a> has story (is story
                 about): <span><a href="https://dlnarratives.eu/ontology#Narrative">Narrative</a> </span><br><a
                   href="#HP15">HP15</a> is heritage of (has original heritage): <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span></td>
             </tr>
           </tbody>
         </table>
@@ -520,9 +536,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC2_Heritage_Digital_Twin">http://isl.ics.forth.gr/ontology/echoes/HC2_Heritage_Digital_Twin</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC2_Heritage_Digital_Twin">http://culturalheritagecloud.eu/ontology/hdto/HC2_Heritage_Digital_Twin</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC2_Heritage_Digital_Twin', 'HC2');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC2_Heritage_Digital_Twin', 'HC2');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC2">
                             <div style="margin:5px" id="refURITooltipTxtForHC2"> </div>
@@ -648,9 +664,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC3_Tangible_Heritage_Entity">http://isl.ics.forth.gr/ontology/echoes/HC3_Tangible_Heritage_Entity</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC3_Tangible_Heritage_Entity">http://culturalheritagecloud.eu/ontology/hdto/HC3_Tangible_Heritage_Entity</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC3_Tangible_Heritage_Entity', 'HC3');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC3_Tangible_Heritage_Entity', 'HC3');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC3">
                             <div style="margin:5px" id="refURITooltipTxtForHC3"> </div>
@@ -666,7 +682,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2"><span><a href="#HC1">HC1</a> Heritage Entity</span><br><span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">E18</a> Physical Thing</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E18_Physical_Thing">E18</a> Physical Thing</span>
+              </td>
               <td class="col3"><a href="#HC1">HC1</a> <br><a href="#E18">E18</a> </td>
             </tr>
             <tr>
@@ -745,9 +762,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC4_Intangible_Heritage_Entity">http://isl.ics.forth.gr/ontology/echoes/HC4_Intangible_Heritage_Entity</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC4_Intangible_Heritage_Entity">http://culturalheritagecloud.eu/ontology/hdto/HC4_Intangible_Heritage_Entity</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC4_Intangible_Heritage_Entity', 'HC4');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC4_Intangible_Heritage_Entity', 'HC4');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC4">
                             <div style="margin:5px" id="refURITooltipTxtForHC4"> </div>
@@ -763,7 +780,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2"><span><a href="#HC1">HC1</a> Heritage Entity</span><br><span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89</a> Propositional
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89</a> Propositional
                   Object</span></td>
               <td class="col3"><a href="#HC1">HC1</a> <br><a href="#E89">E89</a> </td>
             </tr>
@@ -815,7 +832,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP6">HP6</a> has manifestation event (event is manifestation of):
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/E5_Event">E5</a> Event</span>
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event">E5</a> Event</span>
               </td>
             </tr>
           </tbody>
@@ -842,9 +859,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC5_Digital_Representation">http://isl.ics.forth.gr/ontology/echoes/HC5_Digital_Representation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC5_Digital_Representation">http://culturalheritagecloud.eu/ontology/hdto/HC5_Digital_Representation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC5_Digital_Representation', 'HC5');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC5_Digital_Representation', 'HC5');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC5">
                             <div style="margin:5px" id="refURITooltipTxtForHC5"> </div>
@@ -859,7 +876,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/D9_Data_Object">D9</a> Data
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D9_Data_Object">D9</a> Data
                   Object</span></td>
               <td class="col3"><a href="#D9">D9</a> </td>
             </tr>
@@ -918,7 +935,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP22">HP22</a> represents (has digital representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span></td>
             </tr>
           </tbody>
@@ -945,9 +962,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC6_Sensor_Data">http://isl.ics.forth.gr/ontology/echoes/HC6_Sensor_Data</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC6_Sensor_Data">http://culturalheritagecloud.eu/ontology/hdto/HC6_Sensor_Data</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC6_Sensor_Data', 'HC6');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC6_Sensor_Data', 'HC6');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC6">
                             <div style="margin:5px" id="refURITooltipTxtForHC6"> </div>
@@ -1016,7 +1033,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP38">HP38</a> is sensor representation of (has sensor
                 representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span></td>
             </tr>
           </tbody>
@@ -1043,9 +1060,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC7_Digital_Audiovisual_Object">http://isl.ics.forth.gr/ontology/echoes/HC7_Digital_Audiovisual_Object</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC7_Digital_Audiovisual_Object">http://culturalheritagecloud.eu/ontology/hdto/HC7_Digital_Audiovisual_Object</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC7_Digital_Audiovisual_Object', 'HC7');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC7_Digital_Audiovisual_Object', 'HC7');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC7">
                             <div style="margin:5px" id="refURITooltipTxtForHC7"> </div>
@@ -1114,7 +1131,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP9">HP9</a> is visual representation of (has visual
                 representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span></td>
             </tr>
           </tbody>
@@ -1141,9 +1158,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC8_3D_Model">http://isl.ics.forth.gr/ontology/echoes/HC8_3D_Model</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC8_3D_Model">http://culturalheritagecloud.eu/ontology/hdto/HC8_3D_Model</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC8_3D_Model', 'HC8');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC8_3D_Model', 'HC8');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC8">
                             <div style="margin:5px" id="refURITooltipTxtForHC8"> </div>
@@ -1242,9 +1259,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC9_Study">http://isl.ics.forth.gr/ontology/echoes/HC9_Study</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC9_Study">http://culturalheritagecloud.eu/ontology/hdto/HC9_Study</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC9_Study', 'HC9');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC9_Study', 'HC9');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC9">
                             <div style="margin:5px" id="refURITooltipTxtForHC9"> </div>
@@ -1259,7 +1276,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E65_Creation">E65</a> Creation</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation">E65</a>
+                  Creation</span>
               </td>
               <td class="col3"><a href="#E65">E65</a> </td>
             </tr>
@@ -1341,11 +1359,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP23">HP23</a> was about (was subject of): <span><a
                     href="#HC1">HC1</a> Heritage Entity</span><br><a href="#HP24">HP24</a> has disciplinary focus (is
-                aspect of): <span><a href="http://www.cidoc-crm.org/cidoc-crm/E55_Type">E55</a> Type</span><br><a
+                aspect of): <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type">E55</a> Type</span><br><a
                   href="#HP25">HP25</a> has created (was created by): <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E31_Document">E31</a> Document</span><br><a
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document">E31</a> Document</span><br><a
                   href="#HP26">HP26</a> studied specifically (was studied by): <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a> CRM Entity</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a> CRM Entity</span></td>
             </tr>
           </tbody>
         </table>
@@ -1371,9 +1389,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC10_Heritage_Valuation">http://isl.ics.forth.gr/ontology/echoes/HC10_Heritage_Valuation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC10_Heritage_Valuation">http://culturalheritagecloud.eu/ontology/hdto/HC10_Heritage_Valuation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC10_Heritage_Valuation', 'HC10');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC10_Heritage_Valuation', 'HC10');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC10">
                             <div style="margin:5px" id="refURITooltipTxtForHC10"> </div>
@@ -1388,7 +1406,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity">E2</a> Temporal
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E2_Temporal_Entity">E2</a>
+                  Temporal
                   Entity</span></td>
               <td class="col3"><a href="#E2">E2</a> </td>
             </tr>
@@ -1440,9 +1459,10 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP12">HP12</a> regards as origin (is regarded as origin by):
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span><br><a
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span><br><a
                   href="#HP13">HP13</a> had target (was community for): <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span><br><a href="#HP14">HP14</a>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span><br><a
+                  href="#HP14">HP14</a>
                 values (is valued by): <span><a href="#HC1">HC1</a> Heritage Entity</span>
               </td>
             </tr>
@@ -1470,9 +1490,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC11_Digital_Twin_Maintenance">http://isl.ics.forth.gr/ontology/echoes/HC11_Digital_Twin_Maintenance</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC11_Digital_Twin_Maintenance">http://culturalheritagecloud.eu/ontology/hdto/HC11_Digital_Twin_Maintenance</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC11_Digital_Twin_Maintenance', 'HC11');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC11_Digital_Twin_Maintenance', 'HC11');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC11">
                             <div style="margin:5px" id="refURITooltipTxtForHC11"> </div>
@@ -1487,7 +1507,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E65_Creation">E65</a> Creation</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation">E65</a>
+                  Creation</span>
               </td>
               <td class="col3"><a href="#E65">E65</a> </td>
             </tr>
@@ -1549,7 +1570,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
                 by): <span><a href="#HC2">HC2</a> Heritage Digital Twin</span><br><a href="#HP20">HP20</a> was carried
                 out under (had contribution): <span><a href="#HC13">HC13</a> Project</span><br><a href="#HP27">HP27</a>
                 used content of (content was used by): <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E31_Document">E31</a> Document</span><br><a
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document">E31</a> Document</span><br><a
                   href="#HP30">HP30</a> added content (content was added by): <span><a href="#HC16">HC16</a> Heritage
                   Proposition Set</span><br><a href="#HP31">HP31</a> deleted content (content was deleted by): <span><a
                     href="#HC16">HC16</a> Heritage Proposition Set</span></td>
@@ -1578,9 +1599,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC12_Heritage_Declaration_Event">http://isl.ics.forth.gr/ontology/echoes/HC12_Heritage_Declaration_Event</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC12_Heritage_Declaration_Event">http://culturalheritagecloud.eu/ontology/hdto/HC12_Heritage_Declaration_Event</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC12_Heritage_Declaration_Event', 'HC12');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC12_Heritage_Declaration_Event', 'HC12');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC12">
                             <div style="margin:5px" id="refURITooltipTxtForHC12"> </div>
@@ -1595,7 +1616,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">E13</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment">E13</a>
                   Attribute Assignment</span></td>
               <td class="col3"><a href="#E13">E13</a> </td>
             </tr>
@@ -1676,9 +1697,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC13_Project">http://isl.ics.forth.gr/ontology/echoes/HC13_Project</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC13_Project">http://culturalheritagecloud.eu/ontology/hdto/HC13_Project</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC13_Project', 'HC13');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC13_Project', 'HC13');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC13">
                             <div style="margin:5px" id="refURITooltipTxtForHC13"> </div>
@@ -1693,7 +1714,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>
               </td>
               <td class="col3"><a href="#E7">E7</a> </td>
             </tr>
@@ -1775,9 +1797,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC14_Volatile_Digital_Object">http://isl.ics.forth.gr/ontology/echoes/HC14_Volatile_Digital_Object</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC14_Volatile_Digital_Object">http://culturalheritagecloud.eu/ontology/hdto/HC14_Volatile_Digital_Object</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC14_Volatile_Digital_Object', 'HC14');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC14_Volatile_Digital_Object', 'HC14');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC14">
                             <div style="margin:5px" id="refURITooltipTxtForHC14"> </div>
@@ -1802,7 +1824,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object">D1</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object">D1</a>
                   Digital Object</span></td>
               <td class="col3"><a href="#D1">D1</a> </td>
             </tr>
@@ -1861,7 +1883,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP28">HP28</a> has snapshot (is snapshot of): <span><a
                     href="#HC15">HC15</a> Persistent Digital Object</span><br><a href="#HP29">HP29</a> has digital
-                object part: <span><a href="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object">D1</a> Digital
+                object part: <span><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object">D1</a>
+                  Digital
                   Object</span></td>
             </tr>
           </tbody>
@@ -1888,9 +1911,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC15_Persistent_Digital_Object">http://isl.ics.forth.gr/ontology/echoes/HC15_Persistent_Digital_Object</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC15_Persistent_Digital_Object">http://culturalheritagecloud.eu/ontology/hdto/HC15_Persistent_Digital_Object</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC15_Persistent_Digital_Object', 'HC15');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC15_Persistent_Digital_Object', 'HC15');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC15">
                             <div style="margin:5px" id="refURITooltipTxtForHC15"> </div>
@@ -1914,7 +1937,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object">D1</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object">D1</a>
                   Digital Object</span></td>
               <td class="col3"><a href="#D1">D1</a> </td>
             </tr>
@@ -1991,9 +2014,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC16_Heritage_Proposition_Set">http://isl.ics.forth.gr/ontology/echoes/HC16_Heritage_Proposition_Set</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC16_Heritage_Proposition_Set">http://culturalheritagecloud.eu/ontology/hdto/HC16_Heritage_Proposition_Set</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC16_Heritage_Proposition_Set', 'HC16');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC16_Heritage_Proposition_Set', 'HC16');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC16">
                             <div style="margin:5px" id="refURITooltipTxtForHC16"> </div>
@@ -2008,7 +2031,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crminf/I4_Proposition_Set">I4</a>
+              <td class="col2"><span><a
+                    href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I4_Proposition_Set">I4</a>
                   Proposition Set</span><br><span><a href="#HC15">HC15</a> Persistent Digital Object</span></td>
               <td class="col3"><a href="#I4">I4</a> <br><a href="#HC15">HC15</a> </td>
             </tr>
@@ -2087,9 +2111,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC17_Observation_with_Inference">http://isl.ics.forth.gr/ontology/echoes/HC17_Observation_with_Inference</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC17_Observation_with_Inference">http://culturalheritagecloud.eu/ontology/hdto/HC17_Observation_with_Inference</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC17_Observation_with_Inference', 'HC17');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC17_Observation_with_Inference', 'HC17');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC17">
                             <div style="margin:5px" id="refURITooltipTxtForHC17"> </div>
@@ -2104,9 +2128,10 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/S27_Observation">S27</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S27_Observation">S27</a>
                   Observation</span><br><span><a
-                    href="http://www.cidoc-crm.org/extensions/crminf/I5_Inference_Making">I5</a> Inference Making</span>
+                    href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I5_Inference_Making">I5</a> Inference
+                  Making</span>
               </td>
               <td class="col3"><a href="#S27">S27</a> <br><a href="#I5">I5</a> </td>
             </tr>
@@ -2162,7 +2187,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP35">HP35</a> made primary observation (was observation of):
-                <span><a href="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation">S28</a> Observable
+                <span><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S28_Observable_Situation">S28</a>
+                  Observable
                   Situation</span>
               </td>
             </tr>
@@ -2190,9 +2216,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC18_Provenance_Statement">http://isl.ics.forth.gr/ontology/echoes/HC18_Provenance_Statement</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC18_Provenance_Statement">http://culturalheritagecloud.eu/ontology/hdto/HC18_Provenance_Statement</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC18_Provenance_Statement', 'HC18');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC18_Provenance_Statement', 'HC18');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC18">
                             <div style="margin:5px" id="refURITooltipTxtForHC18"> </div>
@@ -2280,7 +2306,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2" colspan="2"><a href="#HP36">HP36</a> is about the provenance of (has provenance claim):
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a> Thing</span>
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a> Thing</span>
               </td>
             </tr>
           </tbody>
@@ -2307,9 +2333,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC19_Provenance_Assessment">http://isl.ics.forth.gr/ontology/echoes/HC19_Provenance_Assessment</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC19_Provenance_Assessment">http://culturalheritagecloud.eu/ontology/hdto/HC19_Provenance_Assessment</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC19_Provenance_Assessment', 'HC19');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC19_Provenance_Assessment', 'HC19');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC19">
                             <div style="margin:5px" id="refURITooltipTxtForHC19"> </div>
@@ -2334,7 +2360,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crminf/I1_Argumentation">I1</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crminf/1.2.1/I1_Argumentation">I1</a>
                   Argumentation</span></td>
               <td class="col3"><a href="#I1">I1</a> </td>
             </tr>
@@ -2409,9 +2435,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI:</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HC20_Illicit_Removal">http://isl.ics.forth.gr/ontology/echoes/HC20_Illicit_Removal</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HC20_Illicit_Removal">http://culturalheritagecloud.eu/ontology/hdto/HC20_Illicit_Removal</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Class URI', 'http://isl.ics.forth.gr/ontology/echoes/HC20_Illicit_Removal', 'HC20');"><i
+                          onclick="copyURIToClipboard('Class URI', 'http://culturalheritagecloud.eu/ontology/hdto/HC20_Illicit_Removal', 'HC20');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHC20">
                             <div style="margin:5px" id="refURITooltipTxtForHC20"> </div>
@@ -2426,7 +2452,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody">E10</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody">E10</a>
                   Transfer of Custody</span></td>
               <td class="col3"><a href="#E10">E10</a> </td>
             </tr>
@@ -2507,9 +2533,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP1_has_digital_twin">http://isl.ics.forth.gr/ontology/echoes/HP1_has_digital_twin</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP1_has_digital_twin">http://culturalheritagecloud.eu/ontology/hdto/HP1_has_digital_twin</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP1_has_digital_twin', 'HP1');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP1_has_digital_twin', 'HP1');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP1">
                             <div style="margin:5px" id="refURITooltipTxtForHP1"> </div>
@@ -2519,9 +2545,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP1i_is_digital_twin_of">http://isl.ics.forth.gr/ontology/echoes/HP1i_is_digital_twin_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP1i_is_digital_twin_of">http://culturalheritagecloud.eu/ontology/hdto/HP1i_is_digital_twin_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP1i_is_digital_twin_of', 'HP1i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP1i_is_digital_twin_of', 'HP1i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP1i">
                             <div style="margin:5px" id="refURITooltipTxtForHP1i"> </div>
@@ -2643,9 +2669,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP2_has_story">http://isl.ics.forth.gr/ontology/echoes/HP2_has_story</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP2_has_story">http://culturalheritagecloud.eu/ontology/hdto/HP2_has_story</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP2_has_story', 'HP2');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP2_has_story', 'HP2');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP2">
                             <div style="margin:5px" id="refURITooltipTxtForHP2"> </div>
@@ -2655,9 +2681,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP2i_is_story_about">http://isl.ics.forth.gr/ontology/echoes/HP2i_is_story_about</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP2i_is_story_about">http://culturalheritagecloud.eu/ontology/hdto/HP2i_is_story_about</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP2i_is_story_about', 'HP2i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP2i_is_story_about', 'HP2i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP2i">
                             <div style="margin:5px" id="refURITooltipTxtForHP2i"> </div>
@@ -2767,9 +2793,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP3_is_digital_twin_component_of">http://isl.ics.forth.gr/ontology/echoes/HP3_is_digital_twin_component_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP3_is_digital_twin_component_of">http://culturalheritagecloud.eu/ontology/hdto/HP3_is_digital_twin_component_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP3_is_digital_twin_component_of', 'HP3');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP3_is_digital_twin_component_of', 'HP3');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP3">
                             <div style="margin:5px" id="refURITooltipTxtForHP3"> </div>
@@ -2779,9 +2805,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP3i_has_digital_twin_component">http://isl.ics.forth.gr/ontology/echoes/HP3i_has_digital_twin_component</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP3i_has_digital_twin_component">http://culturalheritagecloud.eu/ontology/hdto/HP3i_has_digital_twin_component</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP3i_has_digital_twin_component', 'HP3i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP3i_has_digital_twin_component', 'HP3i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP3i">
                             <div style="margin:5px" id="refURITooltipTxtForHP3i"> </div>
@@ -2898,9 +2924,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP4_narrates">http://isl.ics.forth.gr/ontology/echoes/HP4_narrates</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP4_narrates">http://culturalheritagecloud.eu/ontology/hdto/HP4_narrates</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP4_narrates', 'HP4');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP4_narrates', 'HP4');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP4">
                             <div style="margin:5px" id="refURITooltipTxtForHP4"> </div>
@@ -2910,9 +2936,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP4i_is_narrated_through">http://isl.ics.forth.gr/ontology/echoes/HP4i_is_narrated_through</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP4i_is_narrated_through">http://culturalheritagecloud.eu/ontology/hdto/HP4i_is_narrated_through</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP4i_is_narrated_through', 'HP4i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP4i_is_narrated_through', 'HP4i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP4i">
                             <div style="margin:5px" id="refURITooltipTxtForHP4i"> </div>
@@ -2953,10 +2979,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89</a>
                   Propositional Object</span>. <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/P148_has_component">P148</a> has component (is component
-                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89</a>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P148_has_component">P148</a> has component (is
+                  component
+                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89</a>
                   Propositional Object</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P148</span></td>
@@ -3040,9 +3067,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP5_has_intangible_heritage_entity">http://isl.ics.forth.gr/ontology/echoes/HP5_has_intangible_heritage_entity</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP5_has_intangible_heritage_entity">http://culturalheritagecloud.eu/ontology/hdto/HP5_has_intangible_heritage_entity</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP5_has_intangible_heritage_entity', 'HP5');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP5_has_intangible_heritage_entity', 'HP5');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP5">
                             <div style="margin:5px" id="refURITooltipTxtForHP5"> </div>
@@ -3052,9 +3079,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP5i_is_intangible_heritage_entity_of">http://isl.ics.forth.gr/ontology/echoes/HP5i_is_intangible_heritage_entity_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP5i_is_intangible_heritage_entity_of">http://culturalheritagecloud.eu/ontology/hdto/HP5i_is_intangible_heritage_entity_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP5i_is_intangible_heritage_entity_of', 'HP5i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP5i_is_intangible_heritage_entity_of', 'HP5i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP5i">
                             <div style="margin:5px" id="refURITooltipTxtForHP5i"> </div>
@@ -3167,9 +3194,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP6_has_manifestation_event">http://isl.ics.forth.gr/ontology/echoes/HP6_has_manifestation_event</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP6_has_manifestation_event">http://culturalheritagecloud.eu/ontology/hdto/HP6_has_manifestation_event</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP6_has_manifestation_event', 'HP6');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP6_has_manifestation_event', 'HP6');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP6">
                             <div style="margin:5px" id="refURITooltipTxtForHP6"> </div>
@@ -3179,9 +3206,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP6i_event_is_manifestation_of">http://isl.ics.forth.gr/ontology/echoes/HP6i_event_is_manifestation_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP6i_event_is_manifestation_of">http://culturalheritagecloud.eu/ontology/hdto/HP6i_event_is_manifestation_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP6i_event_is_manifestation_of', 'HP6i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP6i_event_is_manifestation_of', 'HP6i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP6i">
                             <div style="margin:5px" id="refURITooltipTxtForHP6i"> </div>
@@ -3204,7 +3231,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E5_Event">E5</a> Event</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event">E5</a> Event</span>
+              </td>
               <td class="col3"><a href="#E5">E5</a> </td>
             </tr>
             <tr>
@@ -3212,10 +3240,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89</a>
-                  Propositional Object</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/P129_is_about">P129</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89</a>
+                  Propositional Object</span>. <span><a
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129_is_about">P129</a>
                   is about (is subject of)</span>: <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a> CRM Entity</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a> CRM Entity</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P129</span></td>
             </tr>
@@ -3297,9 +3326,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP7_is_manifestation_of">http://isl.ics.forth.gr/ontology/echoes/HP7_is_manifestation_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP7_is_manifestation_of">http://culturalheritagecloud.eu/ontology/hdto/HP7_is_manifestation_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP7_is_manifestation_of', 'HP7');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP7_is_manifestation_of', 'HP7');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP7">
                             <div style="margin:5px" id="refURITooltipTxtForHP7"> </div>
@@ -3309,9 +3338,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP7i_is_manifested_by">http://isl.ics.forth.gr/ontology/echoes/HP7i_is_manifested_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP7i_is_manifested_by">http://culturalheritagecloud.eu/ontology/hdto/HP7i_is_manifested_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP7i_is_manifested_by', 'HP7i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP7i_is_manifested_by', 'HP7i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP7i">
                             <div style="margin:5px" id="refURITooltipTxtForHP7i"> </div>
@@ -3423,9 +3452,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP8_is_narrated_in_document">http://isl.ics.forth.gr/ontology/echoes/HP8_is_narrated_in_document</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP8_is_narrated_in_document">http://culturalheritagecloud.eu/ontology/hdto/HP8_is_narrated_in_document</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP8_is_narrated_in_document', 'HP8');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP8_is_narrated_in_document', 'HP8');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP8">
                             <div style="margin:5px" id="refURITooltipTxtForHP8"> </div>
@@ -3435,9 +3464,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP8i_document_used_for_narration">http://isl.ics.forth.gr/ontology/echoes/HP8i_document_used_for_narration</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP8i_document_used_for_narration">http://culturalheritagecloud.eu/ontology/hdto/HP8i_document_used_for_narration</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP8i_document_used_for_narration', 'HP8i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP8i_document_used_for_narration', 'HP8i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP8i">
                             <div style="margin:5px" id="refURITooltipTxtForHP8i"> </div>
@@ -3469,7 +3498,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object">E90</a> Symbolic
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E90_Symbolic_Object">E90</a>
+                  Symbolic
                   Object</span></td>
               <td class="col3"><a href="#E90">E90</a> </td>
             </tr>
@@ -3560,9 +3590,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP9_is_visual_representation_of">http://isl.ics.forth.gr/ontology/echoes/HP9_is_visual_representation_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP9_is_visual_representation_of">http://culturalheritagecloud.eu/ontology/hdto/HP9_is_visual_representation_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP9_is_visual_representation_of', 'HP9');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP9_is_visual_representation_of', 'HP9');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP9">
                             <div style="margin:5px" id="refURITooltipTxtForHP9"> </div>
@@ -3572,9 +3602,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP9i_has_visual_representation">http://isl.ics.forth.gr/ontology/echoes/HP9i_has_visual_representation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP9i_has_visual_representation">http://culturalheritagecloud.eu/ontology/hdto/HP9i_has_visual_representation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP9i_has_visual_representation', 'HP9i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP9i_has_visual_representation', 'HP9i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP9i">
                             <div style="margin:5px" id="refURITooltipTxtForHP9i"> </div>
@@ -3597,7 +3627,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a>
+              <td class="col2"><span><a
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a>
                   Observable Entity</span></td>
               <td class="col3"><a href="#S15">S15</a> </td>
             </tr>
@@ -3608,7 +3639,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2"><span><a href="#HC5">HC5</a> Digital Representation</span>. <a href="#HP22">HP22</a>
                 represents (has digital representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span></td>
               <td class="col3"><a href="#HP22">HP22</a> </td>
             </tr>
@@ -3694,9 +3725,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP10_tells_about">http://isl.ics.forth.gr/ontology/echoes/HP10_tells_about</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP10_tells_about">http://culturalheritagecloud.eu/ontology/hdto/HP10_tells_about</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP10_tells_about', 'HP10');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP10_tells_about', 'HP10');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP10">
                             <div style="margin:5px" id="refURITooltipTxtForHP10"> </div>
@@ -3706,9 +3737,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP10i_is_told_by">http://isl.ics.forth.gr/ontology/echoes/HP10i_is_told_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP10i_is_told_by">http://culturalheritagecloud.eu/ontology/hdto/HP10i_is_told_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP10i_is_told_by', 'HP10i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP10i_is_told_by', 'HP10i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP10i">
                             <div style="margin:5px" id="refURITooltipTxtForHP10i"> </div>
@@ -3741,7 +3772,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E5_Event">E5</a> Event</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event">E5</a> Event</span>
+              </td>
               <td class="col3"><a href="#E5">E5</a> </td>
             </tr>
             <tr>
@@ -3749,10 +3781,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">E89</a>
-                  Propositional Object</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/P129_is_about">P129</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E89_Propositional_Object">E89</a>
+                  Propositional Object</span>. <span><a
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129_is_about">P129</a>
                   is about (is subject of)</span>: <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a> CRM Entity</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a> CRM Entity</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P129</span></td>
             </tr>
@@ -3835,9 +3868,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP12_regards_as_origin">http://isl.ics.forth.gr/ontology/echoes/HP12_regards_as_origin</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP12_regards_as_origin">http://culturalheritagecloud.eu/ontology/hdto/HP12_regards_as_origin</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP12_regards_as_origin', 'HP12');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP12_regards_as_origin', 'HP12');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP12">
                             <div style="margin:5px" id="refURITooltipTxtForHP12"> </div>
@@ -3847,9 +3880,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP12i_is_regarded_as_origin_by">http://isl.ics.forth.gr/ontology/echoes/HP12i_is_regarded_as_origin_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP12i_is_regarded_as_origin_by">http://culturalheritagecloud.eu/ontology/hdto/HP12i_is_regarded_as_origin_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP12i_is_regarded_as_origin_by', 'HP12i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP12i_is_regarded_as_origin_by', 'HP12i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP12i">
                             <div style="margin:5px" id="refURITooltipTxtForHP12i"> </div>
@@ -3872,7 +3905,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span>
+              </td>
               <td class="col3"><a href="#E74">E74</a> </td>
             </tr>
             <tr>
@@ -3961,9 +3995,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP13_had_target">http://isl.ics.forth.gr/ontology/echoes/HP13_had_target</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP13_had_target">http://culturalheritagecloud.eu/ontology/hdto/HP13_had_target</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP13_had_target', 'HP13');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP13_had_target', 'HP13');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP13">
                             <div style="margin:5px" id="refURITooltipTxtForHP13"> </div>
@@ -3973,9 +4007,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP13i_was_community_for">http://isl.ics.forth.gr/ontology/echoes/HP13i_was_community_for</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP13i_was_community_for">http://culturalheritagecloud.eu/ontology/hdto/HP13i_was_community_for</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP13i_was_community_for', 'HP13i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP13i_was_community_for', 'HP13i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP13i">
                             <div style="margin:5px" id="refURITooltipTxtForHP13i"> </div>
@@ -3998,7 +4032,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span>
+              </td>
               <td class="col3"><a href="#E74">E74</a> </td>
             </tr>
             <tr>
@@ -4087,9 +4122,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP14_values">http://isl.ics.forth.gr/ontology/echoes/HP14_values</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP14_values">http://culturalheritagecloud.eu/ontology/hdto/HP14_values</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP14_values', 'HP14');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP14_values', 'HP14');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP14">
                             <div style="margin:5px" id="refURITooltipTxtForHP14"> </div>
@@ -4099,9 +4134,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP14i_is_valued_by">http://isl.ics.forth.gr/ontology/echoes/HP14i_is_valued_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP14i_is_valued_by">http://culturalheritagecloud.eu/ontology/hdto/HP14i_is_valued_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP14i_is_valued_by', 'HP14i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP14i_is_valued_by', 'HP14i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP14i">
                             <div style="margin:5px" id="refURITooltipTxtForHP14i"> </div>
@@ -4212,9 +4247,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP15_is_heritage_of">http://isl.ics.forth.gr/ontology/echoes/HP15_is_heritage_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP15_is_heritage_of">http://culturalheritagecloud.eu/ontology/hdto/HP15_is_heritage_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP15_is_heritage_of', 'HP15');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP15_is_heritage_of', 'HP15');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP15">
                             <div style="margin:5px" id="refURITooltipTxtForHP15"> </div>
@@ -4224,9 +4259,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP15i_has_original_heritage">http://isl.ics.forth.gr/ontology/echoes/HP15i_has_original_heritage</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP15i_has_original_heritage">http://culturalheritagecloud.eu/ontology/hdto/HP15i_has_original_heritage</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP15i_has_original_heritage', 'HP15i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP15i_has_original_heritage', 'HP15i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP15i">
                             <div style="margin:5px" id="refURITooltipTxtForHP15i"> </div>
@@ -4249,7 +4284,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E74_Group">E74</a> Group</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group">E74</a> Group</span>
+              </td>
               <td class="col3"><a href="#E74">E74</a> </td>
             </tr>
             <tr>
@@ -4341,9 +4377,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP16_initiated">http://isl.ics.forth.gr/ontology/echoes/HP16_initiated</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP16_initiated">http://culturalheritagecloud.eu/ontology/hdto/HP16_initiated</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP16_initiated', 'HP16');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP16_initiated', 'HP16');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP16">
                             <div style="margin:5px" id="refURITooltipTxtForHP16"> </div>
@@ -4353,9 +4389,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP16i_was_initiated_by">http://isl.ics.forth.gr/ontology/echoes/HP16i_was_initiated_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP16i_was_initiated_by">http://culturalheritagecloud.eu/ontology/hdto/HP16i_was_initiated_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP16i_was_initiated_by', 'HP16i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP16i_was_initiated_by', 'HP16i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP16i">
                             <div style="margin:5px" id="refURITooltipTxtForHP16i"> </div>
@@ -4467,9 +4503,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP17_terminated">http://isl.ics.forth.gr/ontology/echoes/HP17_terminated</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP17_terminated">http://culturalheritagecloud.eu/ontology/hdto/HP17_terminated</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP17_terminated', 'HP17');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP17_terminated', 'HP17');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP17">
                             <div style="margin:5px" id="refURITooltipTxtForHP17"> </div>
@@ -4479,9 +4515,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP17i_was_terminated_by">http://isl.ics.forth.gr/ontology/echoes/HP17i_was_terminated_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP17i_was_terminated_by">http://culturalheritagecloud.eu/ontology/hdto/HP17i_was_terminated_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP17i_was_terminated_by', 'HP17i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP17i_was_terminated_by', 'HP17i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP17i">
                             <div style="margin:5px" id="refURITooltipTxtForHP17i"> </div>
@@ -4560,7 +4596,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   the Dresden Elbe Valley in 2004 (HC10) (<a
                     href="https://whc.unesco.org/en/list/1156">https://whc.unesco.org/en/list/1156</a>, UNESCO World
                   Heritage News 2009).
-				</p>
+                </p>
               </td>
               <td class="col3" />
             </tr>
@@ -4595,9 +4631,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP18_has_documented">http://isl.ics.forth.gr/ontology/echoes/HP18_has_documented</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP18_has_documented">http://culturalheritagecloud.eu/ontology/hdto/HP18_has_documented</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP18_has_documented', 'HP18');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP18_has_documented', 'HP18');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP18">
                             <div style="margin:5px" id="refURITooltipTxtForHP18"> </div>
@@ -4607,9 +4643,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP18i_was_documented_by">http://isl.ics.forth.gr/ontology/echoes/HP18i_was_documented_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP18i_was_documented_by">http://culturalheritagecloud.eu/ontology/hdto/HP18i_was_documented_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP18i_was_documented_by', 'HP18i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP18i_was_documented_by', 'HP18i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP18i">
                             <div style="margin:5px" id="refURITooltipTxtForHP18i"> </div>
@@ -4640,9 +4676,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16</a> used specific object
-                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16</a> used specific
+                  object
+                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a>
                   Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -4725,9 +4763,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP19_has_composed">http://isl.ics.forth.gr/ontology/echoes/HP19_has_composed</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP19_has_composed">http://culturalheritagecloud.eu/ontology/hdto/HP19_has_composed</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP19_has_composed', 'HP19');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP19_has_composed', 'HP19');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP19">
                             <div style="margin:5px" id="refURITooltipTxtForHP19"> </div>
@@ -4737,9 +4775,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP19i_was_composed_by">http://isl.ics.forth.gr/ontology/echoes/HP19i_was_composed_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP19i_was_composed_by">http://culturalheritagecloud.eu/ontology/hdto/HP19i_was_composed_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP19i_was_composed_by', 'HP19i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP19i_was_composed_by', 'HP19i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP19i">
                             <div style="margin:5px" id="refURITooltipTxtForHP19i"> </div>
@@ -4770,9 +4808,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E65_Creation">E65</a> Creation</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P94_has_created">P94</a> has created (was created
-                  by)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">E28</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation">E65</a>
+                  Creation</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created">P94</a> has created (was
+                  created
+                  by)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E28_Conceptual_Object">E28</a>
                   Conceptual Object</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -4855,9 +4895,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP20_was_carried_out_under">http://isl.ics.forth.gr/ontology/echoes/HP20_was_carried_out_under</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP20_was_carried_out_under">http://culturalheritagecloud.eu/ontology/hdto/HP20_was_carried_out_under</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP20_was_carried_out_under', 'HP20');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP20_was_carried_out_under', 'HP20');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP20">
                             <div style="margin:5px" id="refURITooltipTxtForHP20"> </div>
@@ -4867,9 +4907,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP20i_had_contribution">http://isl.ics.forth.gr/ontology/echoes/HP20i_had_contribution</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP20i_had_contribution">http://culturalheritagecloud.eu/ontology/hdto/HP20i_had_contribution</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP20i_had_contribution', 'HP20i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP20i_had_contribution', 'HP20i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP20i">
                             <div style="margin:5px" id="refURITooltipTxtForHP20i"> </div>
@@ -4900,9 +4940,10 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E4_Period">E4</a> Period</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of">P9i</a> forms part of (consists
-                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E4_Period">E4</a> Period</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period">E4</a> Period</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9i_forms_part_of">P9i</a> forms part of
+                  (consists
+                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period">E4</a> Period</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found Inverse property
                   reference P9</span></td>
@@ -4984,9 +5025,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP21_is_3D_representation_output_of">http://isl.ics.forth.gr/ontology/echoes/HP21_is_3D_representation_output_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP21_is_3D_representation_output_of">http://culturalheritagecloud.eu/ontology/hdto/HP21_is_3D_representation_output_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP21_is_3D_representation_output_of', 'HP21');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP21_is_3D_representation_output_of', 'HP21');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP21">
                             <div style="margin:5px" id="refURITooltipTxtForHP21"> </div>
@@ -4996,9 +5037,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP21i_has_3D_representation">http://isl.ics.forth.gr/ontology/echoes/HP21i_has_3D_representation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP21i_has_3D_representation">http://culturalheritagecloud.eu/ontology/hdto/HP21i_has_3D_representation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP21i_has_3D_representation', 'HP21i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP21i_has_3D_representation', 'HP21i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP21i">
                             <div style="margin:5px" id="refURITooltipTxtForHP21i"> </div>
@@ -5031,7 +5072,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2"><span><a href="#HC5">HC5</a> Digital Representation</span>. <a href="#HP22">HP22</a>
                 represents (has digital representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span></td>
               <td class="col3"><a href="#HP22">HP22</a> </td>
             </tr>
@@ -5112,9 +5153,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP22_represents">http://isl.ics.forth.gr/ontology/echoes/HP22_represents</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP22_represents">http://culturalheritagecloud.eu/ontology/hdto/HP22_represents</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP22_represents', 'HP22');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP22_represents', 'HP22');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP22">
                             <div style="margin:5px" id="refURITooltipTxtForHP22"> </div>
@@ -5124,9 +5165,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP22i_has_digital_representation">http://isl.ics.forth.gr/ontology/echoes/HP22i_has_digital_representation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP22i_has_digital_representation">http://culturalheritagecloud.eu/ontology/hdto/HP22i_has_digital_representation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP22i_has_digital_representation', 'HP22i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP22i_has_digital_representation', 'HP22i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP22i">
                             <div style="margin:5px" id="refURITooltipTxtForHP22i"> </div>
@@ -5149,7 +5190,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a>
+              <td class="col2"><span><a
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a>
                   Observable Entity</span></td>
               <td class="col3"><a href="#S15">S15</a> </td>
             </tr>
@@ -5158,9 +5200,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item">E36</a> Visual
-                  Item</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/P138_represents">P138</a> represents
-                  (has representation)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E36_Visual_Item">E36</a> Visual
+                  Item</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P138_represents">P138</a>
+                  represents
+                  (has representation)</span>: <span><a
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a>
                   CRM Entity</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P138</span></td>
@@ -5172,7 +5216,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
               <td class="col1" />
               <td class="col2"><span><a href="#HC7">HC7</a> Digital Audiovisual Object</span>. <a href="#HP9">HP9</a> is
                 visual representation of (has visual representation): <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a> Observable
                   Entity</span><br><span><a href="#HC8">HC8</a> 3D Model</span>. <a href="#HP21">HP21</a> is 3D
                 representation output of (has 3D representation): <span><a href="#HC1">HC1</a> Heritage Entity</span>
               </td>
@@ -5247,9 +5291,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP23_was_about">http://isl.ics.forth.gr/ontology/echoes/HP23_was_about</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP23_was_about">http://culturalheritagecloud.eu/ontology/hdto/HP23_was_about</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP23_was_about', 'HP23');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP23_was_about', 'HP23');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP23">
                             <div style="margin:5px" id="refURITooltipTxtForHP23"> </div>
@@ -5259,9 +5303,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP23i_was_subject_of">http://isl.ics.forth.gr/ontology/echoes/HP23i_was_subject_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP23i_was_subject_of">http://culturalheritagecloud.eu/ontology/hdto/HP23i_was_subject_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP23i_was_subject_of', 'HP23i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP23i_was_subject_of', 'HP23i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP23i">
                             <div style="margin:5px" id="refURITooltipTxtForHP23i"> </div>
@@ -5292,9 +5336,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16</a> used specific object
-                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16</a> used specific
+                  object
+                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a>
                   Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -5378,9 +5424,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP24_has_disciplinary_focus">http://isl.ics.forth.gr/ontology/echoes/HP24_has_disciplinary_focus</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP24_has_disciplinary_focus">http://culturalheritagecloud.eu/ontology/hdto/HP24_has_disciplinary_focus</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP24_has_disciplinary_focus', 'HP24');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP24_has_disciplinary_focus', 'HP24');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP24">
                             <div style="margin:5px" id="refURITooltipTxtForHP24"> </div>
@@ -5390,9 +5436,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP24i_is_aspect_of">http://isl.ics.forth.gr/ontology/echoes/HP24i_is_aspect_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP24i_is_aspect_of">http://culturalheritagecloud.eu/ontology/hdto/HP24i_is_aspect_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP24i_is_aspect_of', 'HP24i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP24i_is_aspect_of', 'HP24i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP24i">
                             <div style="margin:5px" id="refURITooltipTxtForHP24i"> </div>
@@ -5415,7 +5461,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E55_Type">E55</a> Type</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type">E55</a> Type</span>
+              </td>
               <td class="col3"><a href="#E55">E55</a> </td>
             </tr>
             <tr>
@@ -5423,9 +5470,10 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a> CRM
-                  Entity</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">P2</a> has type (is type
-                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E55_Type">E55</a> Type</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a> CRM
+                  Entity</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type">P2</a> has type
+                  (is type
+                  of)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type">E55</a> Type</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P2</span></td>
             </tr>
@@ -5507,9 +5555,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP25_has_created">http://isl.ics.forth.gr/ontology/echoes/HP25_has_created</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP25_has_created">http://culturalheritagecloud.eu/ontology/hdto/HP25_has_created</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP25_has_created', 'HP25');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP25_has_created', 'HP25');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP25">
                             <div style="margin:5px" id="refURITooltipTxtForHP25"> </div>
@@ -5519,9 +5567,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP25i_was_created_by">http://isl.ics.forth.gr/ontology/echoes/HP25i_was_created_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP25i_was_created_by">http://culturalheritagecloud.eu/ontology/hdto/HP25i_was_created_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP25i_was_created_by', 'HP25i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP25i_was_created_by', 'HP25i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP25i">
                             <div style="margin:5px" id="refURITooltipTxtForHP25i"> </div>
@@ -5544,7 +5592,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E31_Document">E31</a> Document</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document">E31</a>
+                  Document</span>
               </td>
               <td class="col3"><a href="#E31">E31</a> </td>
             </tr>
@@ -5553,9 +5602,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E65_Creation">E65</a> Creation</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P94_has_created">P94</a> has created (was created
-                  by)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">E28</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation">E65</a>
+                  Creation</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created">P94</a> has created (was
+                  created
+                  by)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E28_Conceptual_Object">E28</a>
                   Conceptual Object</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -5644,9 +5695,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP26_studied_specifically">http://isl.ics.forth.gr/ontology/echoes/HP26_studied_specifically</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP26_studied_specifically">http://culturalheritagecloud.eu/ontology/hdto/HP26_studied_specifically</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP26_studied_specifically', 'HP26');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP26_studied_specifically', 'HP26');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP26">
                             <div style="margin:5px" id="refURITooltipTxtForHP26"> </div>
@@ -5656,9 +5707,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP26i_was_studied_by">http://isl.ics.forth.gr/ontology/echoes/HP26i_was_studied_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP26i_was_studied_by">http://culturalheritagecloud.eu/ontology/hdto/HP26i_was_studied_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP26i_was_studied_by', 'HP26i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP26i_was_studied_by', 'HP26i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP26i">
                             <div style="margin:5px" id="refURITooltipTxtForHP26i"> </div>
@@ -5681,7 +5732,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">E1</a> CRM Entity</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E1_CRM_Entity">E1</a> CRM
+                  Entity</span>
               </td>
               <td class="col3"><a href="#E1">E1</a> </td>
             </tr>
@@ -5775,9 +5827,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP27_used_content_of">http://isl.ics.forth.gr/ontology/echoes/HP27_used_content_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP27_used_content_of">http://culturalheritagecloud.eu/ontology/hdto/HP27_used_content_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP27_used_content_of', 'HP27');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP27_used_content_of', 'HP27');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP27">
                             <div style="margin:5px" id="refURITooltipTxtForHP27"> </div>
@@ -5787,9 +5839,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP27i_content_was_used_by">http://isl.ics.forth.gr/ontology/echoes/HP27i_content_was_used_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP27i_content_was_used_by">http://culturalheritagecloud.eu/ontology/hdto/HP27i_content_was_used_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP27i_content_was_used_by', 'HP27i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP27i_content_was_used_by', 'HP27i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP27i">
                             <div style="margin:5px" id="refURITooltipTxtForHP27i"> </div>
@@ -5812,7 +5864,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E31_Document">E31</a> Document</span>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document">E31</a>
+                  Document</span>
               </td>
               <td class="col3"><a href="#E31">E31</a> </td>
             </tr>
@@ -5821,9 +5874,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16</a> used specific object
-                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16</a> used specific
+                  object
+                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a>
                   Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -5877,7 +5932,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   (E31).</p>
                 <p>The Deryneia icon Digital Twin Creation by CyI (HC11) <em>used content of </em>the scientific report
                   <a href="https://dx.doi.org/10.2139/ssrn.5247574">http://dx.doi.org/10.2139/ssrn.5247574</a>
-                  (crm:E31).</p>
+                  (crm:E31).
+                </p>
               </td>
               <td class="col3" />
             </tr>
@@ -5912,9 +5968,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP28_has_snapshot">http://isl.ics.forth.gr/ontology/echoes/HP28_has_snapshot</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP28_has_snapshot">http://culturalheritagecloud.eu/ontology/hdto/HP28_has_snapshot</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP28_has_snapshot', 'HP28');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP28_has_snapshot', 'HP28');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP28">
                             <div style="margin:5px" id="refURITooltipTxtForHP28"> </div>
@@ -5924,9 +5980,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP28i_is_snapshot_of">http://isl.ics.forth.gr/ontology/echoes/HP28i_is_snapshot_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP28i_is_snapshot_of">http://culturalheritagecloud.eu/ontology/hdto/HP28i_is_snapshot_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP28i_is_snapshot_of', 'HP28i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP28i_is_snapshot_of', 'HP28i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP28i">
                             <div style="margin:5px" id="refURITooltipTxtForHP28i"> </div>
@@ -5966,10 +6022,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a> Thing</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of">P130</a> shows features of
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a> Thing</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P130_shows_features_of">P130</a> shows features
+                  of
                   (features are also found on)</span>: <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a> Thing</span>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a> Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P130</span></td>
@@ -6053,9 +6110,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP29_has_digital_object_part">http://isl.ics.forth.gr/ontology/echoes/HP29_has_digital_object_part</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP29_has_digital_object_part">http://culturalheritagecloud.eu/ontology/hdto/HP29_has_digital_object_part</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP29_has_digital_object_part', 'HP29');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP29_has_digital_object_part', 'HP29');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP29">
                             <div style="margin:5px" id="refURITooltipTxtForHP29"> </div>
@@ -6091,7 +6148,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object">D1</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmdig/5.0/D1_Digital_Object">D1</a>
                   Digital Object</span></td>
               <td class="col3"><a href="#D1">D1</a> </td>
             </tr>
@@ -6100,10 +6157,13 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object">E90</a> Symbolic
-                  Object</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of">P106</a> is
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E90_Symbolic_Object">E90</a>
+                  Symbolic
+                  Object</span>. <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P106_is_composed_of">P106</a>
+                  is
                   composed of (forms part of)</span>: <span><a
-                    href="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object">E90</a> Symbolic Object</span></td>
+                    href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E90_Symbolic_Object">E90</a> Symbolic Object</span>
+              </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   P106</span></td>
             </tr>
@@ -6185,9 +6245,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP30_added_content">http://isl.ics.forth.gr/ontology/echoes/HP30_added_content</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP30_added_content">http://culturalheritagecloud.eu/ontology/hdto/HP30_added_content</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP30_added_content', 'HP30');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP30_added_content', 'HP30');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP30">
                             <div style="margin:5px" id="refURITooltipTxtForHP30"> </div>
@@ -6197,9 +6257,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP30i_content_was_added_by">http://isl.ics.forth.gr/ontology/echoes/HP30i_content_was_added_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP30i_content_was_added_by">http://culturalheritagecloud.eu/ontology/hdto/HP30i_content_was_added_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP30i_content_was_added_by', 'HP30i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP30i_content_was_added_by', 'HP30i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP30i">
                             <div style="margin:5px" id="refURITooltipTxtForHP30i"> </div>
@@ -6230,9 +6290,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16</a> used specific object
-                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16</a> used specific
+                  object
+                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a>
                   Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -6319,9 +6381,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP31_deleted_content">http://isl.ics.forth.gr/ontology/echoes/HP31_deleted_content</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP31_deleted_content">http://culturalheritagecloud.eu/ontology/hdto/HP31_deleted_content</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP31_deleted_content', 'HP31');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP31_deleted_content', 'HP31');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP31">
                             <div style="margin:5px" id="refURITooltipTxtForHP31"> </div>
@@ -6331,9 +6393,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP31i_content_was_deleted_by">http://isl.ics.forth.gr/ontology/echoes/HP31i_content_was_deleted_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP31i_content_was_deleted_by">http://culturalheritagecloud.eu/ontology/hdto/HP31i_content_was_deleted_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP31i_content_was_deleted_by', 'HP31i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP31i_content_was_deleted_by', 'HP31i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP31i">
                             <div style="margin:5px" id="refURITooltipTxtForHP31i"> </div>
@@ -6364,9 +6426,11 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">E7</a> Activity</span>.
-                <span><a href="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">P16</a> used specific object
-                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity">E7</a>
+                  Activity</span>.
+                <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object">P16</a> used specific
+                  object
+                  (was used for)</span>: <span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a>
                   Thing</span>
               </td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
@@ -6458,9 +6522,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP32_replaced">http://isl.ics.forth.gr/ontology/echoes/HP32_replaced</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP32_replaced">http://culturalheritagecloud.eu/ontology/hdto/HP32_replaced</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP32_replaced', 'HP32');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP32_replaced', 'HP32');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP32">
                             <div style="margin:5px" id="refURITooltipTxtForHP32"> </div>
@@ -6470,9 +6534,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP32i_was_replaced_by">http://isl.ics.forth.gr/ontology/echoes/HP32i_was_replaced_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP32i_was_replaced_by">http://culturalheritagecloud.eu/ontology/hdto/HP32i_was_replaced_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP32i_was_replaced_by', 'HP32i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP32i_was_replaced_by', 'HP32i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP32i">
                             <div style="margin:5px" id="refURITooltipTxtForHP32i"> </div>
@@ -6598,9 +6662,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP33_contains">http://isl.ics.forth.gr/ontology/echoes/HP33_contains</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP33_contains">http://culturalheritagecloud.eu/ontology/hdto/HP33_contains</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP33_contains', 'HP33');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP33_contains', 'HP33');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP33">
                             <div style="margin:5px" id="refURITooltipTxtForHP33"> </div>
@@ -6610,9 +6674,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP33i_is_proposition_set_of">http://isl.ics.forth.gr/ontology/echoes/HP33i_is_proposition_set_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP33i_is_proposition_set_of">http://culturalheritagecloud.eu/ontology/hdto/HP33i_is_proposition_set_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP33i_is_proposition_set_of', 'HP33i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP33i_is_proposition_set_of', 'HP33i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP33i">
                             <div style="margin:5px" id="refURITooltipTxtForHP33i"> </div>
@@ -6725,9 +6789,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP34_contained">http://isl.ics.forth.gr/ontology/echoes/HP34_contained</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP34_contained">http://culturalheritagecloud.eu/ontology/hdto/HP34_contained</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP34_contained', 'HP34');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP34_contained', 'HP34');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP34">
                             <div style="margin:5px" id="refURITooltipTxtForHP34"> </div>
@@ -6737,9 +6801,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP34i_is_former_proposition_set_of">http://isl.ics.forth.gr/ontology/echoes/HP34i_is_former_proposition_set_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP34i_is_former_proposition_set_of">http://culturalheritagecloud.eu/ontology/hdto/HP34i_is_former_proposition_set_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP34i_is_former_proposition_set_of', 'HP34i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP34i_is_former_proposition_set_of', 'HP34i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP34i">
                             <div style="margin:5px" id="refURITooltipTxtForHP34i"> </div>
@@ -6853,9 +6917,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP35_made_primary_observation">http://isl.ics.forth.gr/ontology/echoes/HP35_made_primary_observation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP35_made_primary_observation">http://culturalheritagecloud.eu/ontology/hdto/HP35_made_primary_observation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP35_made_primary_observation', 'HP35');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP35_made_primary_observation', 'HP35');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP35">
                             <div style="margin:5px" id="refURITooltipTxtForHP35"> </div>
@@ -6865,9 +6929,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP35i_was_observation_of">http://isl.ics.forth.gr/ontology/echoes/HP35i_was_observation_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP35i_was_observation_of">http://culturalheritagecloud.eu/ontology/hdto/HP35i_was_observation_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP35i_was_observation_of', 'HP35i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP35i_was_observation_of', 'HP35i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP35i">
                             <div style="margin:5px" id="refURITooltipTxtForHP35i"> </div>
@@ -6891,7 +6955,7 @@ Created by FORTH - ICS on Thursday July 24, 2026
             <tr>
               <td class="col1" />
               <td class="col2"><span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation">S28</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S28_Observable_Situation">S28</a> Observable
                   Situation</span></td>
               <td class="col3"><a href="#S28">S28</a> </td>
             </tr>
@@ -6900,11 +6964,12 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/S27_Observation">S27</a>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S27_Observation">S27</a>
                   Observation</span>. <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/O36_expressed_the_observed_as">O36</a> expressed
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/O36_expressed_the_observed_as">O36</a>
+                  expressed
                   the observed as (was the expression of)</span>: <span><a
-                    href="http://www.cidoc-crm.org/extensions/crmsci/S28_Observable_Situation">S28</a> Observable
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S28_Observable_Situation">S28</a> Observable
                   Situation</span></td>
               <td class="col3"><span class="error">Error: </span><span class="errorText"> not found property reference
                   O36</span></td>
@@ -7003,9 +7068,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP36_is_about_the_provenance_of">http://isl.ics.forth.gr/ontology/echoes/HP36_is_about_the_provenance_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP36_is_about_the_provenance_of">http://culturalheritagecloud.eu/ontology/hdto/HP36_is_about_the_provenance_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP36_is_about_the_provenance_of', 'HP36');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP36_is_about_the_provenance_of', 'HP36');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP36">
                             <div style="margin:5px" id="refURITooltipTxtForHP36"> </div>
@@ -7015,9 +7080,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP36i_has_provenance_claim">http://isl.ics.forth.gr/ontology/echoes/HP36i_has_provenance_claim</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP36i_has_provenance_claim">http://culturalheritagecloud.eu/ontology/hdto/HP36i_has_provenance_claim</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP36i_has_provenance_claim', 'HP36i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP36i_has_provenance_claim', 'HP36i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP36i">
                             <div style="margin:5px" id="refURITooltipTxtForHP36i"> </div>
@@ -7049,7 +7114,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/E70_Thing">E70</a> Thing</span></td>
+              <td class="col2"><span><a href="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E70_Thing">E70</a> Thing</span>
+              </td>
               <td class="col3"><a href="#E70">E70</a> </td>
             </tr>
             <tr>
@@ -7141,9 +7207,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP37_concluded_provenance">http://isl.ics.forth.gr/ontology/echoes/HP37_concluded_provenance</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP37_concluded_provenance">http://culturalheritagecloud.eu/ontology/hdto/HP37_concluded_provenance</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP37_concluded_provenance', 'HP37');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP37_concluded_provenance', 'HP37');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP37">
                             <div style="margin:5px" id="refURITooltipTxtForHP37"> </div>
@@ -7153,9 +7219,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP37i_was_assessed_by">http://isl.ics.forth.gr/ontology/echoes/HP37i_was_assessed_by</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP37i_was_assessed_by">http://culturalheritagecloud.eu/ontology/hdto/HP37i_was_assessed_by</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP37i_was_assessed_by', 'HP37i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP37i_was_assessed_by', 'HP37i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP37i">
                             <div style="margin:5px" id="refURITooltipTxtForHP37i"> </div>
@@ -7277,9 +7343,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (forward direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP38_is_sensor_representation_of">http://isl.ics.forth.gr/ontology/echoes/HP38_is_sensor_representation_of</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP38_is_sensor_representation_of">http://culturalheritagecloud.eu/ontology/hdto/HP38_is_sensor_representation_of</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Forward Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP38_is_sensor_representation_of', 'HP38');"><i
+                          onclick="copyURIToClipboard('Forward Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP38_is_sensor_representation_of', 'HP38');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP38">
                             <div style="margin:5px" id="refURITooltipTxtForHP38"> </div>
@@ -7289,9 +7355,9 @@ Created by FORTH - ICS on Thursday July 24, 2026
                   <tr>
                     <td style="text-align:right;"><span class="cardLabel">URI (inverse direction):</span></td>
                     <td><span class="cardLabel"><a
-                          href="http://isl.ics.forth.gr/ontology/echoes/HP38i_has_sensor_representation">http://isl.ics.forth.gr/ontology/echoes/HP38i_has_sensor_representation</a><a
+                          href="http://culturalheritagecloud.eu/ontology/hdto/HP38i_has_sensor_representation">http://culturalheritagecloud.eu/ontology/hdto/HP38i_has_sensor_representation</a><a
                           href="javascript:void(0)" class="refLink" title="Copy URI to clipboard"
-                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://isl.ics.forth.gr/ontology/echoes/HP38i_has_sensor_representation', 'HP38i');"><i
+                          onclick="copyURIToClipboard('Inverse Direction URI', 'http://culturalheritagecloud.eu/ontology/hdto/HP38i_has_sensor_representation', 'HP38i');"><i
                             class="fas fa-link"> </i>
                           <div class="referenceUriTooltip" id="refURITooltipLinkForHP38i">
                             <div style="margin:5px" id="refURITooltipTxtForHP38i"> </div>
@@ -7314,7 +7380,8 @@ Created by FORTH - ICS on Thursday July 24, 2026
             </tr>
             <tr>
               <td class="col1" />
-              <td class="col2"><span><a href="http://www.cidoc-crm.org/extensions/crmsci/S15_Observable_Entity">S15</a>
+              <td class="col2"><span><a
+                    href="http://www.cidoc-crm.org/extensions/crmsci/3.2/S15_Observable_Entity">S15</a>
                   Observable Entity</span></td>
               <td class="col3"><a href="#S15">S15</a> </td>
             </tr>
